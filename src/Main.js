@@ -11,19 +11,23 @@ import Aboutme from "./Aboutme";
 class Main extends Component {
   render() {
     return (
+      <HashRouter>
         <div>
           <h1>Simple SPA</h1>
           <ul className="header">
-            <li><a href="/">Home</a></li>
-            <li><a href="/stuff">Stuff</a></li>
-            <li><a href="/contact">Contact</a></li>
+            <li><NavLink to="/">Home</NavLink></li>
+            <li><NavLink to="/aboutme">About Me</NavLink></li>
+            <li><NavLink to="/login">Login</NavLink></li>
           </ul>
           <div className="content">
-             
+            <Route path="/" component={Home}/>
+            <Route path="/aboutme" component={Aboutme}/>
+            <Route path="/login" component={Login}/>
           </div>
         </div>
+      </HashRouter>
     );
   }
 }
- 
+
 export default Main;
