@@ -1,4 +1,12 @@
 import React, { Component } from "react";
+import {
+  Route,
+  NavLink,
+  HashRouter
+} from "react-router-dom";
+import Home from "./Home";
+import Login from "./Login";
+import Aboutme from "./Aboutme";
  
 class Main extends Component {
   render() {
