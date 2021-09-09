@@ -1,13 +1,14 @@
 body {
     background-color: #e7d3e6;
     padding: 20px;
-    margin: 0;
+    margin-left: 250px;
+    margin-right: 250px;
   }
   h1, h2, p, ul, li {
     font-family: sans-serif;
   }
   h1 {
-    color:rgb(102, 67, 86);
+    color:rgb(70, 49, 60);
   }
   ul.header li {
     display: inline;
@@ -15,8 +16,9 @@ body {
     margin: 0;
   }
   ul.header {
-    background-color: rgb(134, 78, 136);
+    background-color: rgb(151, 89, 153);
     padding: 0;
+    border-radius: 25px;
   }
   ul.header li a {
     color: #FFF;
@@ -38,4 +40,5 @@ body {
   }
   .active {
     background-color: #b294b9;
+    border-radius: 25px;
   }
