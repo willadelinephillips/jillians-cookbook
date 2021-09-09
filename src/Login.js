@@ -1,6 +1,9 @@
 import React, { Component } from "react";
  
 class Login extends Component {
+  componentDidMount() {
+    document.title = "Login";
+  }
   render() {
     return (
       <div>

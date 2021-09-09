@@ -1,6 +1,11 @@
 import React, { Component } from "react";
  
 class Home extends Component {
+
+  componentDidMount() {
+    document.title = "Jillian's Cookbook";
+  }
+
   render() {
     return (
       <div>
