@@ -9,6 +9,7 @@ import Login from "./Login";
 import Aboutme from "./Aboutme";
 import "./index.css";
 import Recipe1 from "./Recipes/Recipe1";
+import Recipe2 from "./Recipes/Recipe2";
  
 class Main extends Component {
   render() {
@@ -26,7 +27,7 @@ class Main extends Component {
             <Route exact path="/" component={Home}/>
             <Route path="/aboutme" component={Aboutme}/>
             <Route path="/login" component={Login}/>
-            <Route path="/recipes" component={Recipe1}/>
+            <Route path="/recipes" component={Recipe2}/>
           </div>
         </div>
       </HashRouter>

@@ -1,3 +1,4 @@
+@import url("https://use.typekit.net/gvm0ikq.css");
 body {
     background-color: #e7d3e6;
     padding: 20px;
@@ -5,10 +6,15 @@ body {
     margin-right: 250px;
   }
   h1, h2, p, ul, li {
-    font-family: sans-serif;
+    font-family: masqualero, sans-serif;
   }
   h1 {
     color:rgb(70, 49, 60);
+  }
+  p {
+    line-height: 1.5;
+    font-size: large;
+    text-align: center;
   }
   ul.header li {
     display: inline;
