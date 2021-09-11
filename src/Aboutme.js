@@ -7,8 +7,10 @@ class Aboutme extends Component {
   render() {
     return (
       <div>
-        <h2>STUFF</h2>
-        <p>Welcome</p>
+        <h2>About</h2>
+        <p>Welcome, my name is Jillian! It's been my dream my entire life to have a food website.</p>
+        <br></br>
+        <p>Yeet</p>
       </div>
     );
   }

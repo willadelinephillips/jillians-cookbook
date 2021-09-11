@@ -8,13 +8,17 @@ body {
   h1, h2, p, ul, li {
     font-family: masqualero, sans-serif;
   }
-  h1 {
+  h2 {
     color:rgb(70, 49, 60);
+    font-size:xx-large;
   }
   p {
     line-height: 1.5;
     font-size: large;
     text-align: center;
+  }
+  h3 {
+    font-size:medium;
   }
   ul.header li {
     display: inline;
