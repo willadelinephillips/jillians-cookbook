@@ -1,4 +1,8 @@
+/* Fonts */
 @import url("https://use.typekit.net/gvm0ikq.css");
+
+
+/* General CSS */
 
 body {
     background-color: #e7d3e6;
@@ -54,7 +58,14 @@ body {
     border-radius: 25px;
   }
 
+/* Recipe CSS */
+
  #recipe img {
   margin: 0 auto;
   display: block;
   }
+
+#recipe p {
+  line-height:200%;
+  font-weight: bold;
+}
