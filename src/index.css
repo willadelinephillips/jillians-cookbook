@@ -69,3 +69,15 @@ body {
   line-height:200%;
   font-weight: bold;
 }
+
+#recipe h2 {
+  font-size:300%;
+}
+#recipe ul {
+  list-style: none;
+}
+#recipe li::before {
+  content: "♥ ";
+  color: rgb(175, 131, 139);
+  font-size: 150%; 
+}
