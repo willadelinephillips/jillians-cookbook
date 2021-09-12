@@ -1,8 +1,6 @@
 import React, { Component } from "react";
 import {
-  Route,
   NavLink,
-  HashRouter
 } from "react-router-dom";
  
 class Recipe1 extends Component {

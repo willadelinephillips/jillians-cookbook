@@ -1,10 +1,9 @@
 import React, { Component } from "react";
 import {
-  Route,
   NavLink,
-  HashRouter
 } from "react-router-dom";
 import lemon1 from "../img/lemonylemoncake1.jpg"
+import "../index.css";
  
 class Recipe2 extends Component {
   componentDidMount() {
