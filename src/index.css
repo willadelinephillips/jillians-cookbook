@@ -54,9 +54,9 @@ body {
     border-radius: 25px;
   }
 
-  img.recipe {
+  img #recipe {
     text-align: center;
   }
-  p.recipe {
+  p #recipe {
     color:green;
   }
