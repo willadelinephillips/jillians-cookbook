@@ -53,3 +53,10 @@ body {
     background-color: #b294b9;
     border-radius: 25px;
   }
+
+  img.recipe {
+    text-align: center;
+  }
+  p.recipe {
+    color:green;
+  }

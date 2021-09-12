@@ -8,7 +8,6 @@ import Home from "./Home";
 import Login from "./Login";
 import Aboutme from "./Aboutme";
 import "./index.css";
-import Recipe1 from "./Recipes/Recipe1";
 import Recipe2 from "./Recipes/Recipe2";
  
 class Main extends Component {

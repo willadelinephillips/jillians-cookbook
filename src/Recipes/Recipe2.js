@@ -4,6 +4,7 @@ import {
   NavLink,
   HashRouter
 } from "react-router-dom";
+import lemon1 from "../img/lemonylemoncake1.jpg"
  
 class Recipe2 extends Component {
   componentDidMount() {
@@ -11,7 +12,7 @@ class Recipe2 extends Component {
   }
   render() {
     return (
-      <div>
+      <div class="recipe">
         <h2>Lemony Lemon Cake</h2>
         <h3>September X, 2021 By <NavLink to="/aboutme">Jillian</NavLink> X Comments</h3>
         <p>I am just absolutely enthralled by this darling, delicious lemon cake! From the
@@ -19,6 +20,7 @@ class Recipe2 extends Component {
           just shout "fall delight". I added some little decorative lemons on the top there, but you
            can decorate it however you like. 
         </p>
+        <img src={lemon1} width="60%" alt="lemon cake 1"></img>
       </div>
     );
   }

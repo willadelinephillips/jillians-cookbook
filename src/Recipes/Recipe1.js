@@ -11,7 +11,7 @@ class Recipe1 extends Component {
   }
   render() {
     return (
-      <div>
+      <div class="recipe">
         <h2>Recipe One</h2>
         <h3>September X, 2021 By <NavLink to="/aboutme">Jillian</NavLink> X Comments</h3>
         <p>Welcome</p>
