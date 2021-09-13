@@ -2,10 +2,15 @@ import React, { Component } from "react";
 import {
   NavLink,
 } from "react-router-dom";
+
+//Image Imports 
 import lemon1 from "../img/lemonylemoncake1.jpg"
 import lemon2 from "../img/lemonylemoncake2.jpg"
 import lemon3 from '../img/lemonylemoncake3.jpg'
 import lemon4 from "../img/lemonylemoncake4.jpg"
+import randomavatar from "../img/randomavatar.png"
+
+//Style import
 import "../index.css";
  
 class Recipe2 extends Component {
@@ -49,10 +54,58 @@ class Recipe2 extends Component {
           show, Downton Abbey. 
         </p>
         <h3>Ingredients</h3>
+        <p>Lemon Cake</p>
         <ul>
-          <li>2 cups Flour</li>
-          <li>1 cup Sugar</li>
+          <li>3 cups Flour</li>
+          <li>2 cup Sugar</li>
+          <li>3 tablespoons Baking Soda</li>
+          <li>Pinch Salt</li>
+          <li>1 cup Butter</li>
+          <li>3 Eggs</li>
+          <li>3 Tablespoons Vanilla Extract</li>
+          <li>1 cup Buttermilk</li>
+          <li>1/2 cup Lemon Juice from Three Lemons</li>
+          <li>Zest from Lemons</li>
+          <li>Whipped Cream for Decoration</li>
         </ul>
+        <p>Frosting</p>
+        <ul>
+          <li>1/2 cup Butter</li>
+          <li>3 cups Powdered Sugar</li>
+          <li>1/4 cup Whole Milk</li>
+          <li>1 teaspoon Vanilla Extract</li>
+        </ul>
+        <p>Instructions</p>
+        <p>First, preheat your oven to 350 degrees. Get three bowls, one for the frosting, one for 
+          the dry cake ingredients, and one for the wet ingredients. Start with the cake batter, as 
+          you can make the frosting while you're waiting for the cake to bake. 
+        </p>
+        <p>Then, take the flour, sugar, baking soda, and salt and mix them together in one bowl. 
+          Make sure that you get the baking soda incorperated in the entire mix, as even the 
+          slightest disproportion can mess with how the cake rises. 
+        </p>
+        <p>Mix the rest of the ingredients (except the whipped cream, which will go in between the 
+          layers of the cake) in another bowl. Very slowly incorperate the dry mixture into the wet, 
+          making sure to pour it evenly across the entire bowl. Once it's been added, you can gently 
+          pour the entire mixture into a round baking pan and bake for 25-30 minutes.
+        </p>
+        <p>Comments</p>
+        <div className="commentSection">
+        <div className="comment">
+          <img src={randomavatar}alt="random avatar"></img>
+          <span>What if I typed a bunch of text.</span>
+       </div>
+          <br></br>
+          <div className="comment">
+          <img src={randomavatar}alt="random avatar"></img>
+          <span>Works.</span>
+       </div>
+          <br></br>
+          <div className="comment">
+          <img src={randomavatar}alt="random avatar"></img>
+          <span>Works.</span>
+       </div>
+       </div>
       </div>
     );
   }

@@ -81,3 +81,11 @@ body {
   color: rgb(175, 131, 139);
   font-size: 150%; 
 }
+.comment {
+  display: flex; 
+  justify-content: flex-end
+}
+.commentSection {
+  display: flex;
+  justify-content: flex-end
+}
