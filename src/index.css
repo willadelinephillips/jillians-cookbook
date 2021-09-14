@@ -83,12 +83,14 @@ body {
 }
 .commentSection {
   float:left;
-  
 }
 .commentSection img {
   float:left;
 }
 .commentSection p {
   float: right;
-  font-size: 90%;
+  font-size: 100%;
+}
+.commentSection .username {
+  font-weight: bold;
 }

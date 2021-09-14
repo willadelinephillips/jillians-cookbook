@@ -91,20 +91,23 @@ class Recipe2 extends Component {
           making sure to pour it evenly across the entire bowl. Once it's been added, you can gently 
           pour the entire mixture into a round baking pan and bake for 25-30 minutes.
         </p>
-        </div>
         <p>Comments</p>
+        </div>
         <div className="commentSection">
-          <div className="comment">
+        <div className="comment">
             <img src={randomavatar}alt="random avatar"></img>
-            <p>Works.</p>
+            <p>Love this recipe!</p>
+            <p className="username">Sarah Jean - September X, 2021 :</p>
           </div>
           <div className="comment">
             <img src={randomavatar}alt="random avatar"></img>
-            <p>Works.</p>
+            <p>Love this recipe!</p>
+            <p className="username">Sarah Jean - September X, 2021 :</p>
           </div>
           <div className="comment">
             <img src={randomavatar}alt="random avatar"></img>
-            <p>Works.</p>
+            <p>Love this recipe!</p>
+            <p className="username">Sarah Jean - September X, 2021 :</p>
           </div>
        </div>
 
