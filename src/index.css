@@ -6,7 +6,7 @@
 
 body {
     background-color: #e7d3e6;
-
+    display:flex;
     margin-left: 15%;
     margin-right: 15%;
   }
@@ -20,7 +20,6 @@ body {
   p {
     line-height: 1.5;
     font-size: large;
-    text-align: center;
   }
   h3 {
     font-size:medium;
@@ -68,6 +67,7 @@ body {
 #recipe p {
   line-height:200%;
   font-weight: bold;
+  text-align: center;
 }
 
 #recipe h2 {
@@ -81,11 +81,14 @@ body {
   color: rgb(175, 131, 139);
   font-size: 150%; 
 }
-.comment {
-  display: flex; 
-  justify-content: flex-end
-}
 .commentSection {
-  display: flex;
-  justify-content: flex-end
+  float:left;
+  
+}
+.commentSection img {
+  float:left;
+}
+.commentSection p {
+  float: right;
+  font-size: 90%;
 }

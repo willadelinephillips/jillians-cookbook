@@ -3,6 +3,7 @@ import {
   NavLink,
 } from "react-router-dom";
 
+
 //Image Imports 
 import lemon1 from "../img/lemonylemoncake1.jpg"
 import lemon2 from "../img/lemonylemoncake2.jpg"
@@ -19,7 +20,8 @@ class Recipe2 extends Component {
   }
   render() {
     return (
-      <div id="recipe">
+      <div>
+        <div id="recipe">
         <h2>Lemony Lemon Cake</h2>
         <h3>September X, 2021 By <NavLink to="/aboutme">Jillian</NavLink> X Comments</h3>
         <p>I am just absolutely enthralled by this darling, delicious lemon cake! From the
@@ -89,23 +91,23 @@ class Recipe2 extends Component {
           making sure to pour it evenly across the entire bowl. Once it's been added, you can gently 
           pour the entire mixture into a round baking pan and bake for 25-30 minutes.
         </p>
+        </div>
         <p>Comments</p>
         <div className="commentSection">
-        <div className="comment">
-          <img src={randomavatar}alt="random avatar"></img>
-          <span>What if I typed a bunch of text.</span>
-       </div>
-          <br></br>
           <div className="comment">
-          <img src={randomavatar}alt="random avatar"></img>
-          <span>Works.</span>
-       </div>
-          <br></br>
+            <img src={randomavatar}alt="random avatar"></img>
+            <p>Works.</p>
+          </div>
           <div className="comment">
-          <img src={randomavatar}alt="random avatar"></img>
-          <span>Works.</span>
+            <img src={randomavatar}alt="random avatar"></img>
+            <p>Works.</p>
+          </div>
+          <div className="comment">
+            <img src={randomavatar}alt="random avatar"></img>
+            <p>Works.</p>
+          </div>
        </div>
-       </div>
+
       </div>
     );
   }
