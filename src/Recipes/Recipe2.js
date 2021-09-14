@@ -23,7 +23,7 @@ class Recipe2 extends Component {
       <div>
         <div id="recipe">
         <h2>Lemony Lemon Cake</h2>
-        <h3>September X, 2021 By <NavLink to="/aboutme">Jillian</NavLink> X Comments</h3>
+        <h3>September X, 2021 By <NavLink to="/aboutme">Jillian</NavLink>. 3 Comments ↓</h3>
         <p>I am just absolutely enthralled by this darling, delicious lemon cake! From the
           frosting, to the lemon zest in the batter, there's nothing about this recipe that doesn't
           just shout "fall delight". I added some little decorative lemons on the top there, but you
@@ -91,7 +91,7 @@ class Recipe2 extends Component {
           making sure to pour it evenly across the entire bowl. Once it's been added, you can gently 
           pour the entire mixture into a round baking pan and bake for 25-30 minutes.
         </p>
-        <p>Comments</p>
+        <p id="commentSection">Comments</p>
         </div>
 
           <ul className="commentSection">
