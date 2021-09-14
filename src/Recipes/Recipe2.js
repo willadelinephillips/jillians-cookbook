@@ -96,18 +96,18 @@ class Recipe2 extends Component {
         <div className="commentSection">
         <div className="comment">
             <img src={randomavatar}alt="random avatar"></img>
-            <p>Love this recipe!</p>
             <p className="username">Sarah Jean - September X, 2021 :</p>
+            <p>Love this recipe!</p>
           </div>
           <div className="comment">
             <img src={randomavatar}alt="random avatar"></img>
-            <p>Love this recipe!</p>
             <p className="username">Sarah Jean - September X, 2021 :</p>
+            <p>Love this recipe!</p>
           </div>
           <div className="comment">
             <img src={randomavatar}alt="random avatar"></img>
-            <p>Love this recipe!</p>
             <p className="username">Sarah Jean - September X, 2021 :</p>
+            <p>Love this recipe! So glad to see you achieving your dreams, love!</p>
           </div>
        </div>
 
