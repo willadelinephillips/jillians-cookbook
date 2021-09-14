@@ -82,15 +82,8 @@ body {
   font-size: 150%; 
 }
 .commentSection {
-  float:left;
+  list-style-type: none;
 }
-.commentSection img {
-  float:left;
-}
-.commentSection p {
-  float: left;
-  font-size: 100%;
-}
-.commentSection .username {
+.username {
   font-weight: bold;
 }
