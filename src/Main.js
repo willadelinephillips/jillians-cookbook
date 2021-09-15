@@ -5,14 +5,15 @@ import {
   HashRouter
 } from "react-router-dom";
 
+// Main Paths
 import Home from "./Home";
 import Login from "./Login";
 import Aboutme from "./Aboutme";
-
-import "./index.css";
-
+// Alternate Paths 
 import Post1 from "./Posts/Post1";
 import Recipe2 from "./Recipes/Recipe2";
+//CSS
+import "./index.css";
  
 class Main extends Component {
   render() {
