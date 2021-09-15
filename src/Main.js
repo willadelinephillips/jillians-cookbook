@@ -22,11 +22,11 @@ class Main extends Component {
         <div>
           <h1>Jillian's Cookbook</h1>
           <ul className="header">
-            <li><NavLink exact to="/">Home</NavLink></li>
-            <li><NavLink to="/aboutme">About Me</NavLink></li>
-            <li><NavLink to="/login">Login</NavLink></li>
-            <li><NavLink to="/recipes">Recipes</NavLink></li>
-            <li><NavLink to="/posts">Posts??</NavLink></li>
+            <li id="homelink"><NavLink exact to="/">Home</NavLink></li>
+            <li id="aboutlink"><NavLink to="/aboutme">About Me</NavLink></li>
+            <li id="loginlink"><NavLink to="/login">Login</NavLink></li>
+            <li id="recipelink"><NavLink to="/recipes">Recipes</NavLink></li>
+            <li id="postslink"><NavLink to="/posts">Posts??</NavLink></li>
           </ul>
           <div className="content">
             <Route exact path="/" component={Home}/>
