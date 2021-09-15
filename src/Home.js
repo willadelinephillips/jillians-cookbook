@@ -1,4 +1,12 @@
 import React, { Component } from "react";
+import { RecoilRoot } from "recoil";
+
+import { Corruption } from "./atoms";
+
+//Test
+import { fontSizeState} from "./atoms";
+import { FontButton} from "./fontbutton";
+
  
 class Home extends Component {
 
@@ -8,6 +16,7 @@ class Home extends Component {
 
   render() {
     return (
+      <RecoilRoot>
       <div>
         <h2>HELLO</h2>
         <p>Cras facilisis urna ornare ex volutpat, et
@@ -18,7 +27,11 @@ class Home extends Component {
         dis parturient montes, nascetur ridiculus mus.</p>
  
         <p>Duis a turpis sed lacus dapibus elementum sed eu lectus.</p>
+
+        <FontButton></FontButton>
+
       </div>
+      </RecoilRoot>
     );
   }
 }
