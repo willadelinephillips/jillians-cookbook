@@ -1,12 +1,12 @@
 import {
-    RecoilRoot,
-    atom,
-    selector,
-    useRecoilState,
-    useRecoilValue,
-  } from 'recoil';
+  RecoilRoot,
+  atom,
+  selector,
+  useRecoilState,
+  useRecoilValue,
+} from 'recoil';
 
-import { fontSizeState } from "./atoms"; 
+import { fontSizeState } from './atoms';
 
 export function FontButton() {
     const [fontSize, setFontSize] = useRecoilState(fontSizeState);
