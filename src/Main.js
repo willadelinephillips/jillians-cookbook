@@ -4,10 +4,14 @@ import {
   NavLink,
   HashRouter
 } from "react-router-dom";
+
 import Home from "./Home";
 import Login from "./Login";
 import Aboutme from "./Aboutme";
+
 import "./index.css";
+
+import Post1 from "./Posts/Post1";
 import Recipe2 from "./Recipes/Recipe2";
  
 class Main extends Component {
@@ -21,12 +25,14 @@ class Main extends Component {
             <li><NavLink to="/aboutme">About Me</NavLink></li>
             <li><NavLink to="/login">Login</NavLink></li>
             <li><NavLink to="/recipes">Recipes</NavLink></li>
+            <li><NavLink to="/posts">Posts??</NavLink></li>
           </ul>
           <div className="content">
             <Route exact path="/" component={Home}/>
             <Route path="/aboutme" component={Aboutme}/>
             <Route path="/login" component={Login}/>
             <Route path="/recipes" component={Recipe2}/>
+            <Route path="/posts" component={Post1}/>
           </div>
         </div>
       </HashRouter>
