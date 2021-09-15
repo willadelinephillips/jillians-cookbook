@@ -1,11 +1,9 @@
 import React, { Component } from "react";
 import { RecoilRoot } from "recoil";
 
-import { Corruption } from "./atoms";
+import { FontButton} from "./test/fontbutton";
 
-//Test
-import { fontSizeState} from "./atoms";
-import { FontButton} from "./fontbutton";
+import { CorruptionButton } from "./recoil/corruptionButton";
 
  
 class Home extends Component {
@@ -29,6 +27,10 @@ class Home extends Component {
         <p>Duis a turpis sed lacus dapibus elementum sed eu lectus.</p>
 
         <FontButton></FontButton>
+        <br></br><br></br>
+        <CorruptionButton></CorruptionButton>
+
+        
 
       </div>
       </RecoilRoot>

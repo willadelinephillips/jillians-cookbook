@@ -2,9 +2,7 @@
 
   export const Corruption = atom({
     key: "Corruption",
-    default: {
-      percent: 0,
-    },
+    default: 0,
   });
 
   export const fontSizeState = atom({
