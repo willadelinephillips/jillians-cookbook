@@ -4,8 +4,3 @@
     key: "Corruption",
     default: 0,
   });
-
-  export const fontSizeState = atom({
-    key: 'fontSizeState',
-    default: 14,
-  });
