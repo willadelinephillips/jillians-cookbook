@@ -3,8 +3,19 @@ import { RecoilRoot } from "recoil";
 
 import { CorruptionButton } from "./Recoil/corruptionButton";
 
+import hello from "./Audio/Hello.mp3";
+import AnyoneThere from "./Audio/IsAnyoneThere.mp3"
  
 class Home extends Component {
+  
+  playHello = () => {
+    new Audio(hello).play();
+  }
+
+  playAnyoneThere = () => {
+
+    new Audio(AnyoneThere).play();
+  }
 
   componentDidMount() {
     document.title = "Jillian's Cookbook";
@@ -24,10 +35,12 @@ class Home extends Component {
  
         <p>Duis a turpis sed lacus dapibus elementum sed eu lectus.</p>
 
-        <br></br><br></br>
+        <br></br>
         <CorruptionButton></CorruptionButton>
-
-
+        <br></br>
+        <button onClick={this.playHello}>HELLO?</button>
+        <br></br>
+        <button onClick={this.playAnyoneThere}>IS ANYONE THERE?</button>
 
       </div>
       </RecoilRoot>
