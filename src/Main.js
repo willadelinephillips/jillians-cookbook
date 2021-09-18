@@ -4,6 +4,7 @@ import {
   NavLink,
   HashRouter
 } from "react-router-dom";
+import {Helmet} from "react-helmet";
 
 // Main Paths
 import Home from "./Home";
@@ -20,6 +21,12 @@ class Main extends Component {
     return (
       <HashRouter>
         <div>
+        <Helmet>
+                <meta charSet="utf-8" />
+                <title>Jillian's Cookbook</title>
+                <meta content="Embed Title" property="og:title"></meta>
+                <meta content="A homespun cooking website made from scratch!" property="og:description"></meta>
+            </Helmet>
           <h1>Jillian's Cookbook</h1>
           <ul className="header">
             <li id="homelink"><NavLink exact to="/">Home</NavLink></li>
