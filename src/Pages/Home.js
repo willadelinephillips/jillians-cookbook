@@ -1,7 +1,7 @@
 import React, { Component } from "react";
 import { RecoilRoot } from "recoil";
 
-import { CorruptionButton } from "./Recoil/corruptionButton";
+import { CorruptionButton } from "../Recoil/corruptionButton";
 
 import hello from "./Audio/Hello.mp3";
 import AnyoneThere from "./Audio/IsAnyoneThere.mp3";
