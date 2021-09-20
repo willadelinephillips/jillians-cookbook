@@ -15,6 +15,10 @@ import Post1 from "./Posts/Post1";
 import Recipe2 from "./Recipes/Recipe2";
 //CSS
 import "./index.css";
+
+//test
+import { TestDisplay } from "./test";
+import { RecoilRoot } from "recoil";
  
 class Main extends Component {
   render() {
@@ -34,6 +38,7 @@ class Main extends Component {
             <li id="recipelink"><NavLink to="/recipes">Recipes</NavLink></li>
             <li id="loginlink"><NavLink to="/login">Login</NavLink></li>
             <li id="postslink"><NavLink to="/posts">Posts??</NavLink></li>
+            <RecoilRoot><TestDisplay></TestDisplay></RecoilRoot>
           </ul>
           <div className="content">
             <Route exact path="/" component={Home}/>
