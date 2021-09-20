@@ -7,9 +7,9 @@ import {
 import {Helmet} from "react-helmet";
 
 // Main Paths
-import Home from "./Home";
-import Login from "./Login";
-import Aboutme from "./Aboutme";
+import Home from "./Pages/Home";
+import Login from "./Pages/Login";
+import Aboutme from "./Pages/Aboutme";
 // Alternate Paths 
 import Post1 from "./Posts/Post1";
 import Recipe2 from "./Recipes/Recipe2";
