@@ -90,5 +90,8 @@ body {
 
 /* Hidden transistor */
 .hiddenItem {
-  display:none;
+  color:pink;
+}
+.revealedItem {
+  color:blue;
 }
