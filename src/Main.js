@@ -31,8 +31,8 @@ class Main extends Component {
           <ul className="header">
             <li id="homelink"><NavLink exact to="/">Home</NavLink></li>
             <li id="aboutlink"><NavLink to="/aboutme">About Me</NavLink></li>
-            <li id="loginlink"><NavLink to="/login">Login</NavLink></li>
             <li id="recipelink"><NavLink to="/recipes">Recipes</NavLink></li>
+            <li id="loginlink"><NavLink to="/login">Login</NavLink></li>
             <li id="postslink"><NavLink to="/posts">Posts??</NavLink></li>
           </ul>
           <div className="content">

@@ -87,3 +87,8 @@ body {
 .username {
   font-weight: bold;
 }
+
+/* Hidden transistor */
+.hiddenItem {
+  display:none;
+}
