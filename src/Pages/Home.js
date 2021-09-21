@@ -3,8 +3,8 @@ import { RecoilRoot } from "recoil";
 
 import { CorruptionButton } from "../Recoil/corruptionButton";
 
-import hello from "./Audio/Hello.mp3";
-import AnyoneThere from "./Audio/IsAnyoneThere.mp3";
+import hello from "../Audio/Hello.mp3";
+import AnyoneThere from "../Audio/IsAnyoneThere.mp3";
  
 class Home extends Component {
   
