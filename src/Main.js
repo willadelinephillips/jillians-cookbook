@@ -15,7 +15,13 @@ import Home from "./Pages/Home";
 import Login from "./Pages/Login";
 import Aboutme from "./Pages/Aboutme";
 // Alternate Paths: Posts
-import Post1 from "./Posts/Post1";
+import {
+  Post1,
+  Post2,
+  Post3,
+  Post4,
+  Post5
+} from "./Posts/index"
 
 // Alternative Paths: Recipes
 import {
@@ -77,6 +83,7 @@ export function Main() {
       default:
       whichRecipe = Recipe1;
     }
+
     return (
       
       <HashRouter>
