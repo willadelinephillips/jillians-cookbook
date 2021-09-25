@@ -1,5 +1,4 @@
 import React, { Component } from "react";
-import { RecoilRoot } from "recoil";
 
 import { CorruptionButton } from "../Recoil/corruptionButton";
 
@@ -23,7 +22,6 @@ class Home extends Component {
 
   render() {
     return (
-      <RecoilRoot>
       <div>
         <h2>HELLO</h2>
         <p>Cras facilisis urna ornare ex volutpat, et
@@ -43,7 +41,6 @@ class Home extends Component {
         <button onClick={this.playAnyoneThere}>IS ANYONE THERE?</button>
 
       </div>
-      </RecoilRoot>
     );
   }
 }
