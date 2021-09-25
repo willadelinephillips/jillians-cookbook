@@ -51,7 +51,8 @@ export function Main() {
     const darkness = useRecoilValue(Corruption);
   //Recipe Tracker
     var whichRecipe = null;
-  //Recipe Changer
+    var whichPost = null;
+  //Recipe and Post Changer
     switch(darkness) {
       case 5: 
       whichRecipe = Recipe2;
@@ -64,6 +65,7 @@ export function Main() {
       break;
       case 20:
         whichRecipe = Recipe5;
+        whichPost = Post1;
       break;
       case 25:
         whichRecipe = Recipe6;
@@ -76,6 +78,7 @@ export function Main() {
       break;
       case 40:
         whichRecipe = Recipe9;
+        whichPost = Post2;
       break;
       case 45:
         whichRecipe = Recipe10;
@@ -83,6 +86,8 @@ export function Main() {
       default:
       whichRecipe = Recipe1;
     }
+
+
 
     return (
       
@@ -100,7 +105,7 @@ export function Main() {
             <li id="aboutlink"><NavLink to="/aboutme">About Me</NavLink></li>
             <li id="recipelink"><NavLink to="/recipes">Recipes</NavLink></li>
             <li id="postslink" className={
-        darkness < 10 ? 'hidden' : 'revealed'
+        darkness < 20 ? 'hidden' : 'revealed'
       }><NavLink to="/posts">Posts??</NavLink></li>
             <li id="loginlink" className={
         darkness >= 100 ? 'revealed' : 'hidden'
@@ -112,7 +117,7 @@ export function Main() {
             <Route path="/aboutme" component={Aboutme}/>
             <Route path="/login" component={Login}/>
             <Route path="/recipes" component={whichRecipe}/>
-            <Route path="/posts" component={Post1}/>
+            <Route path="/posts" component={whichPost}/>
           </div>
         </div>
       </HashRouter>

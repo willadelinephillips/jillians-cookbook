@@ -11,7 +11,7 @@ class Post3 extends Component {
   render() {
     return (
       <div id="post">
-        <h2>Post 2</h2>
+        <h2>Post 3</h2>
         <h3>September X, 2021 By <NavLink to="/aboutme">Jillian</NavLink> 0 Comments</h3>
         <p>
             Lorum Ipsum 3
