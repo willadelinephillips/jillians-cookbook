@@ -89,9 +89,9 @@ body {
 }
 
 /* Hidden transistor */
-.hiddenItem {
-  color:pink;
+.hidden {
+  visibility: hidden;
 }
-.revealedItem {
-  color:blue;
+.revealed {
+  visibility: visible;
 }

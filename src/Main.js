@@ -1,10 +1,14 @@
-import React, { Component } from "react";
+// Utilities 
+import React from "react";
 import {
   Route,
   NavLink,
   HashRouter
 } from "react-router-dom";
 import {Helmet} from "react-helmet";
+import {
+  useRecoilValue,
+} from 'recoil';
 
 // Main Paths
 import Home from "./Pages/Home";
@@ -18,10 +22,14 @@ import "./index.css";
 
 //test
 import { TestDisplay } from "./test";
+
+//Recoil Paths
+import { Corruption } from './Recoil/atoms';
  
-class Main extends Component {
-  render() {
+export function Main() {
+    const darkness = useRecoilValue(Corruption);
     return (
+      
       <HashRouter>
         <div>
         <Helmet>
@@ -35,8 +43,12 @@ class Main extends Component {
             <li id="homelink"><NavLink exact to="/">Home</NavLink></li>
             <li id="aboutlink"><NavLink to="/aboutme">About Me</NavLink></li>
             <li id="recipelink"><NavLink to="/recipes">Recipes</NavLink></li>
-            <li id="loginlink"><NavLink to="/login">Login</NavLink></li>
-            <li id="postslink"><NavLink to="/posts">Posts??</NavLink></li>
+            <li id="postslink" className={
+        darkness < 10 ? 'hidden' : 'revealed'
+      }><NavLink to="/posts">Posts??</NavLink></li>
+            <li id="loginlink" className={
+        darkness >= 100 ? 'revealed' : 'hidden'
+      }><NavLink to="/login">Login</NavLink></li>
             <TestDisplay></TestDisplay>
           </ul>
           <div className="content">
@@ -50,6 +62,5 @@ class Main extends Component {
       </HashRouter>
     );
   }
-}
 
 export default Main;
