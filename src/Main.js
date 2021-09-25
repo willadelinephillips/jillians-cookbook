@@ -14,11 +14,14 @@ import {
 import Home from "./Pages/Home";
 import Login from "./Pages/Login";
 import Aboutme from "./Pages/Aboutme";
-// Alternate Paths 
+// Alternate Paths: Posts
 import Post1 from "./Posts/Post1";
+
+// Alternative Paths: Recipes
 import Recipe1  from "./Recipes/Recipe1";
 import Recipe2 from "./Recipes/Recipe2";
 import Recipe3 from "./Recipes/Recipe3";
+
 //CSS
 import "./index.css";
 
