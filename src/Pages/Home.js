@@ -2,18 +2,18 @@ import React, { Component } from "react";
 
 import { CorruptionButton } from "../Recoil/corruptionButton";
 
-import hello from "../Audio/Hello.mp3";
-import AnyoneThere from "../Audio/IsAnyoneThere.mp3";
+import hmmm from "../Audio/hmmm.mp3";
+import laugh from "../Audio/laugh.mp3";
  
 class Home extends Component {
   
-  playHello = () => {
-    new Audio(hello).play();
+  playhmmm = () => {
+    new Audio(hmmm).play();
   }
 
-  playAnyoneThere = () => {
+  playlaugh = () => {
 
-    new Audio(AnyoneThere).play();
+    new Audio(laugh).play();
   }
 
   componentDidMount() {
@@ -36,9 +36,9 @@ class Home extends Component {
         <br></br>
         <CorruptionButton></CorruptionButton>
         <br></br>
-        <button onClick={this.playHello}>HELLO?</button>
+        <button onClick={this.playhmmm}>Hmmm?</button>
         <br></br>
-        <button onClick={this.playAnyoneThere}>IS ANYONE THERE?</button>
+        <button onClick={this.playlaugh}>Amusing....</button>
 
       </div>
     );
