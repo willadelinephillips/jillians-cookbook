@@ -18,9 +18,18 @@ import Aboutme from "./Pages/Aboutme";
 import Post1 from "./Posts/Post1";
 
 // Alternative Paths: Recipes
-import Recipe1  from "./Recipes/Recipe1";
-import Recipe2 from "./Recipes/Recipe2";
-import Recipe3 from "./Recipes/Recipe3";
+import {
+  Recipe1,
+  Recipe2,
+  Recipe3,
+  Recipe4,
+  Recipe5,
+  Recipe6,
+  Recipe7,
+  Recipe8,
+  Recipe9,
+  Recipe10
+} from "./Recipes/index"
 
 //CSS
 import "./index.css";
@@ -32,14 +41,38 @@ import { TestDisplay } from "./test";
 import { Corruption } from './Recoil/atoms';
  
 export function Main() {
+  //Darkness Tracker
     const darkness = useRecoilValue(Corruption);
+  //Recipe Tracker
     var whichRecipe = null;
+  //Recipe Changer
     switch(darkness) {
       case 5: 
       whichRecipe = Recipe2;
       break;
       case 10:
         whichRecipe = Recipe3;
+      break;
+      case 15:
+        whichRecipe = Recipe4;
+      break;
+      case 20:
+        whichRecipe = Recipe5;
+      break;
+      case 25:
+        whichRecipe = Recipe6;
+      break;
+      case 30:
+        whichRecipe = Recipe7;
+      break;
+      case 35:
+        whichRecipe = Recipe8;
+      break;
+      case 40:
+        whichRecipe = Recipe9;
+      break;
+      case 45:
+        whichRecipe = Recipe10;
       break;
       default:
       whichRecipe = Recipe1;

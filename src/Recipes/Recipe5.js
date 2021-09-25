@@ -5,16 +5,16 @@ import {
 import lemon1 from "../img/lemonylemoncake1.jpg"
 import "../index.css";
  
-class Recipe3 extends Component {
+class Recipe5 extends Component {
   componentDidMount() {
-    document.title = "Recipe 2";
+    document.title = "Recipe 5";
   }
   render() {
     return (
       <div id="recipe">
         <h2>Lemony Lemon Cake</h2>
         <h3>September X, 2021 By <NavLink to="/aboutme">Jillian</NavLink> X Comments</h3>
-        <p>RECIPE 3
+        <p>RECIPE 5
         </p>
         <img src={lemon1} width="60%" alt="lemon cake 1"></img>
 
@@ -23,4 +23,4 @@ class Recipe3 extends Component {
   }
 }
  
-export default Recipe3;
+export default Recipe5;
