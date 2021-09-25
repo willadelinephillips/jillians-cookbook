@@ -18,7 +18,6 @@ import "./index.css";
 
 //test
 import { TestDisplay } from "./test";
-import { RecoilRoot } from "recoil";
  
 class Main extends Component {
   render() {
@@ -38,7 +37,7 @@ class Main extends Component {
             <li id="recipelink"><NavLink to="/recipes">Recipes</NavLink></li>
             <li id="loginlink"><NavLink to="/login">Login</NavLink></li>
             <li id="postslink"><NavLink to="/posts">Posts??</NavLink></li>
-            <RecoilRoot><TestDisplay></TestDisplay></RecoilRoot>
+            <TestDisplay></TestDisplay>
           </ul>
           <div className="content">
             <Route exact path="/" component={Home}/>
