@@ -16,7 +16,9 @@ import Login from "./Pages/Login";
 import Aboutme from "./Pages/Aboutme";
 // Alternate Paths 
 import Post1 from "./Posts/Post1";
+import Recipe1  from "./Recipes/Recipe1";
 import Recipe2 from "./Recipes/Recipe2";
+import Recipe3 from "./Recipes/Recipe3";
 //CSS
 import "./index.css";
 
@@ -28,6 +30,17 @@ import { Corruption } from './Recoil/atoms';
  
 export function Main() {
     const darkness = useRecoilValue(Corruption);
+    var whichRecipe = null;
+    switch(darkness) {
+      case 5: 
+      whichRecipe = Recipe2;
+      break;
+      case 10:
+        whichRecipe = Recipe3;
+      break;
+      default:
+      whichRecipe = Recipe1;
+    }
     return (
       
       <HashRouter>
@@ -55,7 +68,7 @@ export function Main() {
             <Route exact path="/" component={Home}/>
             <Route path="/aboutme" component={Aboutme}/>
             <Route path="/login" component={Login}/>
-            <Route path="/recipes" component={Recipe2}/>
+            <Route path="/recipes" component={whichRecipe}/>
             <Route path="/posts" component={Post1}/>
           </div>
         </div>
