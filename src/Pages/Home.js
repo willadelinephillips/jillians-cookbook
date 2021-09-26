@@ -23,7 +23,7 @@ function Home() {
         <p>Content used in this build:</p>
 
         <ul>
-          <li><a href="https://www.joshwcomeau.com/react/announcing-use-sound-react-hook/" target="_blank">useSound</a> by Josh Comeau</li>
+          <li><a href="https://www.joshwcomeau.com/react/announcing-use-sound-react-hook/" target="_blank" rel="noreferrer">useSound</a> by Josh Comeau</li>
           <li>Recoil by Facebook</li>
           <li>React by React</li>
         </ul>
