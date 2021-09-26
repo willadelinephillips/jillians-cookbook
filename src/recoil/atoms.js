@@ -5,13 +5,13 @@
     default: 0,
   });
 
-  export const whichRecipe = atom({
-    key:"whichRecipe",
+  export const Recipe = atom({
+    key:"Recipe",
     default:null,
   })
 
-  export const whichPost = atom({
-    key:"whichPost",
+  export const Post = atom({
+    key:"Post",
     default:null,
   })
 

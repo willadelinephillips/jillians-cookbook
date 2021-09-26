@@ -1,7 +1,7 @@
 import React from "react";
 import useSound from "use-sound";
 
-import { CorruptionButton } from "../Recoil/corruptionButton";
+import { DarknessManager } from "../Recoil/darknessManager.js";
 
 import hmmm from "../Audio/hmmm.mp3";
 import laugh from "../Audio/laugh.mp3";
@@ -28,7 +28,7 @@ function Home() {
           <li>React by React</li>
         </ul>
         <br></br>
-        <CorruptionButton></CorruptionButton>
+        <DarknessManager></DarknessManager>
         <br></br>
         <button onClick={playhmmm}>Hmmm?</button>
         <br></br>
