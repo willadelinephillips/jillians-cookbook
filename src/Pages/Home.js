@@ -20,8 +20,13 @@ function Home() {
           
         </p>
  
-        <p>Duis a turpis sed lacus dapibus elementum sed eu lectus.</p>
+        <p>Content used in this build:</p>
 
+        <ul>
+          <li>useSound by Josh Comeau</li>
+          <li>Recoil by Facebook</li>
+          <li>React by React</li>
+        </ul>
         <br></br>
         <CorruptionButton></CorruptionButton>
         <br></br>
