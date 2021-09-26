@@ -1,26 +1,17 @@
-import React, { Component } from "react";
+import React from "react";
+import useSound from "use-sound";
 
 import { CorruptionButton } from "../Recoil/corruptionButton";
 
 import hmmm from "../Audio/hmmm.mp3";
 import laugh from "../Audio/laugh.mp3";
  
-class Home extends Component {
+function Home() {
   
-  playhmmm = () => {
-    new Audio(hmmm).play();
-  }
-
-  playlaugh = () => {
-
-    new Audio(laugh).play();
-  }
-
-  componentDidMount() {
+  const [playhmmm] = useSound(hmmm);
+  const [playlaugh] = useSound(laugh);
     document.title = "Jillian's Cookbook";
-  }
 
-  render() {
     return (
       <div>
         <h2>HELLO</h2>
@@ -34,13 +25,12 @@ class Home extends Component {
         <br></br>
         <CorruptionButton></CorruptionButton>
         <br></br>
-        <button onClick={this.playhmmm}>Hmmm?</button>
+        <button onClick={playhmmm}>Hmmm?</button>
         <br></br>
-        <button onClick={this.playlaugh}>Amusing....</button>
+        <button onClick={playlaugh}>Amusing....</button>
 
       </div>
     );
-  }
 }
  
 export default Home;
