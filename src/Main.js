@@ -132,8 +132,6 @@ export function Main() {
       whichRecipe = Recipe1;
     }
 
-
-
     return (
       
       <HashRouter>
