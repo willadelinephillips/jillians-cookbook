@@ -34,7 +34,17 @@ import {
   Recipe7,
   Recipe8,
   Recipe9,
-  Recipe10
+  Recipe10,
+  Recipe11,
+  Recipe12,
+  Recipe13,
+  Recipe14,
+  Recipe15,
+  Recipe16,
+  Recipe17,
+  Recipe18,
+  Recipe19,
+  Recipe20
 } from "./Recipes/index"
 
 //CSS
@@ -82,6 +92,41 @@ export function Main() {
       break;
       case 45:
         whichRecipe = Recipe10;
+      break;
+      case 50:
+        whichRecipe = Recipe11;
+      break;
+      case 55:
+        whichRecipe = Recipe12;
+      break;
+      case 60:
+        whichRecipe = Recipe13;
+        whichPost = Post3;
+      break;
+      case 65:
+        whichRecipe = Recipe14;
+      break;
+      case 70:
+        whichRecipe = Recipe15;
+      break;
+      case 75:
+        whichRecipe = Recipe16;
+      break;
+      case 80:
+        whichRecipe = Recipe17;
+        whichPost = Post4;
+      break;
+      case 85:
+        whichRecipe = Recipe18;
+      break;
+      case 90:
+        whichRecipe = Recipe19;
+      break;
+      case 95:
+        whichRecipe = Recipe20;
+      break;
+      case 100:
+        whichPost = Post5;
       break;
       default:
       whichRecipe = Recipe1;
