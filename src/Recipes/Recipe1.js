@@ -7,7 +7,7 @@ import "../index.css";
  
 class Recipe1 extends Component {
   componentDidMount() {
-    document.title = "Recipe 2";
+    document.title = "Recipe 1";
   }
   render() {
     return (
