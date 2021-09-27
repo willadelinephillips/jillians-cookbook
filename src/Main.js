@@ -24,6 +24,49 @@ import { TestDisplay } from "./test";
 //Recoil Paths
 import { Corruption, Recipe, Post } from './Recoil/atoms';
 
+import {
+  // eslint-disable-next-line
+  Recipe1,
+  // eslint-disable-next-line
+  Recipe2,
+  // eslint-disable-next-line
+  Recipe3,
+  // eslint-disable-next-line
+  Recipe4,
+  // eslint-disable-next-line
+  Recipe5,
+  // eslint-disable-next-line
+  Recipe6,
+  // eslint-disable-next-line
+  Recipe7,
+  // eslint-disable-next-line
+  Recipe8,
+  // eslint-disable-next-line
+  Recipe9,
+  // eslint-disable-next-line
+  Recipe10,
+  // eslint-disable-next-line
+  Recipe11,
+  // eslint-disable-next-line
+  Recipe12,
+  // eslint-disable-next-line
+  Recipe13,
+  // eslint-disable-next-line
+  Recipe14,
+  // eslint-disable-next-line
+  Recipe15,
+  // eslint-disable-next-line
+  Recipe16,
+  // eslint-disable-next-line
+  Recipe17,
+  // eslint-disable-next-line
+  Recipe18,
+  // eslint-disable-next-line
+  Recipe19,
+  // eslint-disable-next-line
+  Recipe20
+} from "./Recipes/index"
+
  
 export function Main() {
   //Darkness Tracker
@@ -46,7 +89,7 @@ export function Main() {
           <ul className="header">
             <li id="homelink"><NavLink exact to="/">Home</NavLink></li>
             <li id="aboutlink"><NavLink to="/aboutme">About Me</NavLink></li>
-            <li id="recipelink"><NavLink to="/recipes">Recipes</NavLink></li>
+            <li id="recipelink"><NavLink to={`${recipe}`}>Recipes</NavLink></li>
             <li id="postslink" className={
         darkness < 20 ? 'hidden' : 'revealed'
       }><NavLink to="/posts">Posts??</NavLink></li>
