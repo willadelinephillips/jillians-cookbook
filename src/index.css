@@ -99,3 +99,17 @@ body {
   opacity: 1;
   transition: opacity 2s linear;
 }
+
+/* Newspaper Decoration */
+
+.newsArticle p {
+  font-family:Arial, Helvetica, sans-serif; 
+  font-size: medium;
+  margin-left: 10%;
+  margin-right:20%;
+}
+
+.newsArticle h2 {
+  font-family:Arial, Helvetica, sans-serif; 
+  color:black;
+}
