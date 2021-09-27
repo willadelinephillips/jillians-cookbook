@@ -7,7 +7,7 @@
 
   export const Recipe = atom({
     key:"Recipe",
-    default:null,
+    default:"Recipe1",
   })
 
   export const Post = atom({

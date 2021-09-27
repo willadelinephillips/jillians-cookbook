@@ -16,69 +16,71 @@ export function DarknessManager() {
     setDarkness((dark) => dark + 5)
 
     switch(darkness) {
-        case 5: 
-        setWhichRecipe("Recipe2");
+        case 0: 
+            setWhichRecipe("Recipe2");
         break;
-        case 10:
+        case 5: 
             setWhichRecipe("Recipe3");
         break;
-        case 15:
+        case 10:
             setWhichRecipe("Recipe4");
         break;
-        case 20:
+        case 15:
             setWhichRecipe("Recipe5");
             setWhichPost("Post1");
         break;
-        case 25:
+        case 20:
             setWhichRecipe("Recipe6");
         break;
-        case 30:
+        case 25:
             setWhichRecipe("Recipe7");
         break;
-        case 35:
+        case 30:
             setWhichRecipe("Recipe8");
         break;
-        case 40:
+        case 35:
             setWhichRecipe("Recipe9");
             setWhichPost("Post2");
         break;
-        case 45:
+        case 40:
             setWhichRecipe("Recipe10");
         break;
-        case 50:
+        case 45:
             setWhichRecipe("Recipe11");
         break;
-        case 55:
+        case 50:
             setWhichRecipe("Recipe12");
         break;
-        case 60:
+        case 55:
             setWhichRecipe("Recipe13");
             setWhichPost("Post3");
         break;
-        case 65:
+        case 60:
             setWhichRecipe("Recipe14");
         break;
-        case 70:
+        case 65:
             setWhichRecipe("Recipe15");
         break;
-        case 75:
+        case 70:
             setWhichRecipe("Recipe16");
         break;
-        case 80:
+        case 75:
             setWhichRecipe("Recipe17");
             setWhichPost("Post4");
         break;
-        case 85:
+        case 80:
             setWhichRecipe("Recipe18");
         break;
-        case 90:
+        case 85:
             setWhichRecipe("Recipe19");
         break;
-        case 95:
+        case 90:
             setWhichRecipe("Recipe20");
         break;
-        case 100:
+        case 95:
             setWhichPost("Post5");
+        break;
+        case 100:
         break;
         default:
             setWhichRecipe("Recipe1");

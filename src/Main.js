@@ -25,47 +25,35 @@ import { TestDisplay } from "./test";
 import { Corruption, Recipe, Post } from './Recoil/atoms';
 
 import {
-  // eslint-disable-next-line
   Recipe1,
-  // eslint-disable-next-line
   Recipe2,
-  // eslint-disable-next-line
   Recipe3,
-  // eslint-disable-next-line
   Recipe4,
-  // eslint-disable-next-line
   Recipe5,
-  // eslint-disable-next-line
   Recipe6,
-  // eslint-disable-next-line
   Recipe7,
-  // eslint-disable-next-line
   Recipe8,
-  // eslint-disable-next-line
   Recipe9,
-  // eslint-disable-next-line
   Recipe10,
-  // eslint-disable-next-line
   Recipe11,
-  // eslint-disable-next-line
   Recipe12,
-  // eslint-disable-next-line
   Recipe13,
-  // eslint-disable-next-line
   Recipe14,
-  // eslint-disable-next-line
   Recipe15,
-  // eslint-disable-next-line
   Recipe16,
-  // eslint-disable-next-line
   Recipe17,
-  // eslint-disable-next-line
   Recipe18,
-  // eslint-disable-next-line
   Recipe19,
-  // eslint-disable-next-line
   Recipe20
 } from "./Recipes/index"
+
+import {
+  Post1,
+  Post2,
+  Post3,
+  Post4,
+  Post5
+} from "./Posts/index"
 
  
 export function Main() {
@@ -92,7 +80,7 @@ export function Main() {
             <li id="recipelink"><NavLink to={`${recipe}`}>Recipes</NavLink></li>
             <li id="postslink" className={
         darkness < 20 ? 'hidden' : 'revealed'
-      }><NavLink to="/posts">Posts??</NavLink></li>
+      }><NavLink to={`${post}`}>Posts??</NavLink></li>
             <li id="loginlink" className={
         darkness >= 100 ? 'revealed' : 'hidden'
       }><NavLink to="/login">Login</NavLink></li>
@@ -102,8 +90,31 @@ export function Main() {
             <Switch>
             <Route path="/aboutme" component={Aboutme}/>
             <Route path="/login" component={Login}/>
-            <Route path="/recipes" component={`${recipe}`}/>
-            <Route path="/posts" component={`${post}`}/>
+            <Route path="/Recipe1" component={Recipe1}/>
+            <Route path="/Recipe2" component={Recipe2}/>
+            <Route path="/Recipe3" component={Recipe3}/>
+            <Route path="/Recipe4" component={Recipe4}/>
+            <Route path="/Recipe5" component={Recipe5}/>
+            <Route path="/Recipe6" component={Recipe6}/>
+            <Route path="/Recipe7" component={Recipe7}/>
+            <Route path="/Recipe8" component={Recipe8}/>
+            <Route path="/Recipe9" component={Recipe9}/>
+            <Route path="/Recipe10" component={Recipe10}/>
+            <Route path="/Recipe11" component={Recipe11}/>
+            <Route path="/Recipe12" component={Recipe12}/>
+            <Route path="/Recipe13" component={Recipe13}/>
+            <Route path="/Recipe14" component={Recipe14}/>
+            <Route path="/Recipe15" component={Recipe15}/>
+            <Route path="/Recipe16" component={Recipe16}/>
+            <Route path="/Recipe17" component={Recipe17}/>
+            <Route path="/Recipe18" component={Recipe18}/>
+            <Route path="/Recipe19" component={Recipe19}/>
+            <Route path="/Recipe20" component={Recipe20}/>
+            <Route path="/Post1" component={Post1}/>
+            <Route path="/Post2" component={Post2}/>
+            <Route path="/Post3" component={Post3}/>
+            <Route path="/Post4" component={Post4}/>
+            <Route path="/Post5" component={Post5}/>
             <Route exact path="/" component={Home}/>
             </Switch>
           </div>
