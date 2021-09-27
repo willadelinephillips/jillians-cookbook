@@ -109,6 +109,27 @@ body {
   margin-right:20%;
 }
 
+.newsArticle button {
+  background: none;
+  border: none;
+  padding: 0;
+	font: inherit;
+	cursor: pointer;
+	outline: inherit;
+  text-decoration: underline;
+  color:rgb(54, 54, 207);
+}
+
+.newsArticle h4 button {
+  color:black;
+  text-decoration: none;
+}
+
+.newsArticle h4 button:hover {
+  text-decoration: underline;
+  color:rgb(54, 54, 207);
+}
+
 .newsArticle h2 {
   font-family:Arial, Helvetica, sans-serif; 
   color:black;

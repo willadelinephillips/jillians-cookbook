@@ -7,9 +7,9 @@ class ValewindDaily extends Component {
   render() {
     return (
       <div className="newsArticle">
-        <h4>NEWS {">"} CRIME AND SAFETY • News</h4>
+        <h4><button>NEWS</button> {">"} <button>CRIME AND SAFETY</button> • News</h4>
         <h2>24-year-old woman found dead in kitchen, pieces of body missing</h2>
-        <h3>By <a href="??????">STEVEN KANE</a> | Western California News Association</h3>
+        <h3>By <button>STEVEN KANE</button> | Western California News Association</h3>
         <h3>PUBLISHED: November 10, 2021 at 11:46 a.m. | UPDATED: November 10, 2021 at 1:26 p.m.</h3>
         <hr></hr>
         <br></br>
@@ -38,9 +38,7 @@ class ValewindDaily extends Component {
           bloated and full, although it's as of yet unknown what she had eaten prior to being 
           murdered.
         </p>
-        <p>
-          
-        </p>
+        <p></p>
       </div>
     );
   }
