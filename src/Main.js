@@ -3,7 +3,7 @@ import React from "react";
 import {
   Route,
   NavLink,
-  HashRouter
+  Switch,
 } from "react-router-dom";
 import {Helmet} from "react-helmet";
 import {
@@ -15,8 +15,6 @@ import Home from "./Pages/Home";
 import Login from "./Pages/Login";
 import Aboutme from "./Pages/Aboutme";
 
-//imports 
-
 //CSS
 import "./index.css";
 
@@ -25,6 +23,7 @@ import { TestDisplay } from "./test";
 
 //Recoil Paths
 import { Corruption, Recipe, Post } from './Recoil/atoms';
+
  
 export function Main() {
   //Darkness Tracker
@@ -36,7 +35,6 @@ export function Main() {
 
     return (
       
-      <HashRouter>
         <div>
         <Helmet>
                 <meta charSet="utf-8" />
@@ -58,14 +56,15 @@ export function Main() {
             <TestDisplay></TestDisplay>
           </ul>
           <div className="content">
-            <Route exact path="/" component={Home}/>
+            <Switch>
             <Route path="/aboutme" component={Aboutme}/>
             <Route path="/login" component={Login}/>
-            <Route path="/recipes" component={recipe}/>
-            <Route path="/posts" component={post}/>
+            <Route path="/recipes" component={`${recipe}`}/>
+            <Route path="/posts" component={`${post}`}/>
+            <Route exact path="/" component={Home}/>
+            </Switch>
           </div>
         </div>
-      </HashRouter>
     );
   }
 
