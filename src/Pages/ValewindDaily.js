@@ -42,7 +42,11 @@ class ValewindDaily extends Component {
           bloated and full, although it's as of yet unknown what she had eaten prior to being 
           murdered. 
         </p>
-        <p></p>
+        <p>The Valewind police force is out in full looking for a potential perpetrator, but as 
+          of yet there are no leads. Miss Evens had no known enemies, and outside of her discovery 
+          there have been no unusual deaths reported. If you or someone you know has seen any 
+          information that could help, please dial the local police station immediately. 
+        </p>
       </div>
     );
   }
