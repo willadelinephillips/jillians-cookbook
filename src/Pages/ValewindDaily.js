@@ -1,4 +1,5 @@
 import React, { Component } from "react";
+import shewasdelicious from "../img/shewasdelicious.JPG"
  
 class ValewindDaily extends Component {
   componentDidMount() {
@@ -23,6 +24,9 @@ class ValewindDaily extends Component {
           local food blogger. Mr. Evans had lost his wife to cancer a little over a year ago, and 
           the loss of his daughter so soon is a harsh blow. He cannot be reached for comment.
         </p>
+        <br></br>
+        <img src={shewasdelicious} width="50%" alt="she was delicious"></img>
+        <br></br>
         <p>
           When officers entered the house, a horrorshow enfolded in front of them. The rest of the 
           rooms were untouched and organized, but the kitchen was bathed in swaths of blood from 
@@ -33,10 +37,10 @@ class ValewindDaily extends Component {
         </p>
         <p>
           Although much of the information concerning the autopsy is still unknown to the public, 
-          it appears that someone attempted to stem the bleeding as it took place with kitchen 
-          supplies, but continued to remove pieces of her as they did. Her stomach was also 
+          it appears that a potential suspect attempted to stem the bleeding as it took place with
+           kitchen supplies, but continued to remove pieces of her as they did. Her stomach was also 
           bloated and full, although it's as of yet unknown what she had eaten prior to being 
-          murdered.
+          murdered. 
         </p>
         <p></p>
       </div>

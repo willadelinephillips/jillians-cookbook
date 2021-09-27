@@ -109,6 +109,10 @@ body {
   margin-right:20%;
 }
 
+.newsArticle img {
+  margin-left: 15%;
+}
+
 .newsArticle button {
   background: none;
   border: none;
