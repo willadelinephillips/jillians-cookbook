@@ -13,7 +13,9 @@ export function DarknessManager() {
 
  function manageDarkness() { 
      
-    setDarkness((dark) => dark + 5)
+    if(darkness < 100) {
+        setDarkness((dark) => dark + 5)
+    } 
 
     switch(darkness) {
         case 0: 
