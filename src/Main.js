@@ -54,6 +54,7 @@ import {
   Post4,
   Post5
 } from "./Posts/index"
+import ValewindDaily from "./Pages/ValewindDaily";
 
  
 export function Main() {
@@ -115,6 +116,7 @@ export function Main() {
             <Route path="/Post3" component={Post3}/>
             <Route path="/Post4" component={Post4}/>
             <Route path="/Post5" component={Post5}/>
+            <Route path="/shewasdelicious" component={ValewindDaily}/>
             <Route exact path="/" component={Home}/>
             </Switch>
           </div>

@@ -3,6 +3,9 @@ import useSound from "use-sound";
 import {
   useRecoilValue,
 } from 'recoil';
+import {
+  NavLink,
+} from "react-router-dom";
 
 import { DarknessManager } from "../Recoil/darknessManager.js";
 import { Recipe, Post } from '../Recoil/atoms';
@@ -39,6 +42,8 @@ function Home() {
         <p>Current Recipe: {recipe}</p>
         <p>Current Post: {post}</p>
         <br></br>
+        <NavLink to="/shewasdelicious">She was Delicious</NavLink>
+        <br></br><br></br>
         <DarknessManager></DarknessManager>
         <br></br>
         <button onClick={playhmmm}>Hmmm?</button>
