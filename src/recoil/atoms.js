@@ -34,3 +34,13 @@
     key:"password",
     default:"imissyoumom"
   })
+
+  export const potentialuser = atom({
+    key:"potentialuser",
+    default:"",
+  })
+
+  export const potentialpass = atom({
+    key:"potentialpass",
+    default:"",
+  })
