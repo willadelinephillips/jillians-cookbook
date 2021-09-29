@@ -141,6 +141,15 @@ body {
 
 /* Login Page Decoration */
 
+.loginPage {
+  line-height: 300%;
+}
+
+.loginPage h2 {
+  margin-bottom: 5%;
+  text-align: center;
+}
+
 .loginPage button {
   background: none;
   border: none;
@@ -159,6 +168,9 @@ body {
   padding-right: 1%;
   padding-top: 1%;
   padding-bottom: 1%;
+  color:#4c2a53;
+  margin-left: 1%;
+  margin-right: 1%;
 }
 
 .loginPage #usertitle{
