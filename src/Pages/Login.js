@@ -28,7 +28,7 @@ export function Login() {
         <input type="checkbox" id="rememberme" name="rememberme" value="Yes"></input>
 <label for="rememberme"> Remember Me</label>
         <button onClick={() => setHideQs('revealed')}>Forgot Password?</button>
-        Tester: {userattempt}, {passattempt}
+        Tester: {userattempt} = {user}, {passattempt} = {pass}, 
         <div className="securityQuestions">
         <p id="hintsection" className={`${hideQs}`}>
           In order to sign in once your password is forgotten, you must answer your pre-written 
