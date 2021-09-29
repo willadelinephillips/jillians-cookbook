@@ -22,5 +22,5 @@
 
   export const hideQuestions = atom({
     key:"hideQuestions",
-    default:true,
+    default:"hidden",
   })

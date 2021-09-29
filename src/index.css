@@ -180,7 +180,3 @@ body {
 .loginPage #userpass {
   background-color: #b294b9;
 }
-
-.loginPage #hintsection {
-  visibility: hidden;
-}

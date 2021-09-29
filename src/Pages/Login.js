@@ -1,10 +1,14 @@
-import React, { Component } from "react";
+import React from "react";
+import {
+  useRecoilState,
+} from 'recoil';
+import { hideQuestions } from '../Recoil/atoms';
  
-class Login extends Component {
-  componentDidMount() {
+export function Login() {
     document.title = "Login";
-  }
-  render() {
+
+    const [hideQs, setHideQs] = useRecoilState(hideQuestions);
+
     return (
       <div className="loginPage">
         <h2>LOGIN</h2>
@@ -17,9 +21,9 @@ class Login extends Component {
         <input type="submit" value="Submit"></input>
         <input type="checkbox" id="rememberme" name="rememberme" value="Yes"></input>
 <label for="rememberme"> Remember Me</label>
-        <button onClick="">Forgot Password?</button>
+        <button onClick={() => setHideQs('revealed')}>Forgot Password?</button>
         <div className="securityQuestions">
-        <p id="hintsection">
+        <p id="hintsection" className={`${hideQs}`}>
           In order to sign in once your password is forgotten, you must answer your pre-written 
           security questions. These should be easy to remember, but something that an ordinary 
           person would not know about you.
@@ -28,6 +32,5 @@ class Login extends Component {
       </div>
     );
   }
-}
  
 export default Login;
