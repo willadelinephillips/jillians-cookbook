@@ -19,3 +19,8 @@
     key:"whichVideo",
     default:null,
   })
+
+  export const hideQuestions = atom({
+    key:"hideQuestions",
+    default:true,
+  })
