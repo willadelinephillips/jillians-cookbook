@@ -24,3 +24,13 @@
     key:"hideQuestions",
     default:"hidden",
   })
+
+  export const username = atom({
+    key:"username",
+    default:"JillianEvans"
+  })
+
+  export const password = atom({
+    key:"password",
+    default:"imissyoumom"
+  })
