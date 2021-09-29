@@ -7,10 +7,19 @@ class Login extends Component {
   render() {
     return (
       <div>
-        <h2>GOT QUESTIONS?</h2>
-        <p>The easiest thing to do is post on
-        our <a href="http://forum.kirupa.com">forums</a>.
+        <h2>LOGIN</h2>
+        <p>
         </p>
+        <form action="/action_page.php">
+          <label for="username">USERNAME: </label>
+          <input type="text" id="username" name="username"></input>
+          <label for="password">PASSWORD: </label>
+          <input type="text" id="password" name="password"></input>
+          <input type="submit" value="Submit"></input>
+        </form>
+        <input type="checkbox" id="rememberme" name="rememberme" value="Yes"></input>
+<label for="rememberme"> Remember Me</label>
+        <button>Forgot Password?</button>
       </div>
     );
   }
