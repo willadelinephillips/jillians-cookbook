@@ -14,6 +14,16 @@ export function Login() {
     const pass = useRecoilValue(password);
     const [hideQs, setHideQs] = useRecoilState(hideQuestions);
 
+    function CheckCorrectness() {
+      if (user === userattempt && pass === passattempt) {
+          console.log("Yeet!")
+      } else if (user !== userattempt || pass !== passattempt) {
+          console.log("Yeet :/")
+      } else {
+        console.log("How. How even")
+      }
+    }
+
     return (
       <div className="loginPage">
         <h2>LOGIN</h2>
@@ -24,7 +34,9 @@ export function Login() {
           <label for="password" id="userpass">PASSWORD: </label>
           <input type="text" id="password" name="password" onChange={(event) => setPassAttempt(event.target.value)}></input>
         </form>
-        <input type="submit" value="Submit"></input>
+
+        <input type="submit" value="Submit" onClick={() => CheckCorrectness()}></input>
+
         <input type="checkbox" id="rememberme" name="rememberme" value="Yes"></input>
 <label for="rememberme"> Remember Me</label>
         <button onClick={() => setHideQs('revealed')}>Forgot Password?</button>
