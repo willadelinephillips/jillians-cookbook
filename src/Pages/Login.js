@@ -6,7 +6,7 @@ class Login extends Component {
   }
   render() {
     return (
-      <div id="loginPage">
+      <div className="loginPage">
         <h2>LOGIN</h2>
         <p>
         </p>
