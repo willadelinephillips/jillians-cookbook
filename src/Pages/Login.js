@@ -19,7 +19,7 @@ class Login extends Component {
 <label for="rememberme"> Remember Me</label>
         <button>Forgot Password?</button>
         <div className="securityQuestions">
-        <p>
+        <p id="hintsection">
           In order to sign in once your password is forgotten, you must answer your pre-written 
           security questions. These should be easy to remember, but something that an ordinary 
           person would not know about you.
