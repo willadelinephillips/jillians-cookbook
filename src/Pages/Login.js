@@ -17,7 +17,7 @@ class Login extends Component {
         <input type="submit" value="Submit"></input>
         <input type="checkbox" id="rememberme" name="rememberme" value="Yes"></input>
 <label for="rememberme"> Remember Me</label>
-        <button>Forgot Password?</button>
+        <button onClick="">Forgot Password?</button>
         <div className="securityQuestions">
         <p id="hintsection">
           In order to sign in once your password is forgotten, you must answer your pre-written 
