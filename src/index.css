@@ -138,3 +138,33 @@ body {
   font-family:Arial, Helvetica, sans-serif; 
   color:black;
 }
+
+/* Login Page Decoration */
+
+.loginPage button {
+  background: none;
+  border: none;
+  padding: 0;
+	font: inherit;
+	cursor: pointer;
+	outline: inherit;
+  text-decoration: underline;
+  color:rgb(54, 54, 207);
+}
+
+.loginPage label {
+  border-radius: 10px;
+  font-weight: bold;
+  padding-left: 1%;
+  padding-right: 1%;
+  padding-top: 1%;
+  padding-bottom: 1%;
+}
+
+.loginPage #usertitle{
+  background-color: #b294b9;
+}
+
+.loginPage #userpass {
+  background-color: #b294b9;
+}
