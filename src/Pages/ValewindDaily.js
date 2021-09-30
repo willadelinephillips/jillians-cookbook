@@ -44,6 +44,7 @@ function ValewindDaily() {
           bloated and full, although it's as of yet unknown what she had eaten prior to being 
           murdered. 
         </p>
+        {!isShown && (
         <p 
         onMouseEnter={() => setIsShown(true)}>
           The Valewind police force is out in full looking for a potential perpetrator, but as 
@@ -51,19 +52,13 @@ function ValewindDaily() {
           there have been no unusual deaths reported. If you or someone you know has seen any 
           information that could help, please dial the local police station immediately. 
         </p>
+        )}
         {isShown && (
         <p>
           SHEWASDELICIOUSSHEWASDELICIOUSSHEWASDELICIOUSSHEWASDELICIOUSSHEWASDELICIOUS
           SHEWASDELICIOUSSHEWASDELICIOUSSHEWASDELICIOUSSHEWASDELICIOUSSHEWASDELICIOUS
           SHEWASDELICIOUSSHEWASDELICIOUSSHEWASDELICIOUSSHEWASDELICIOUSSHEWASDELICIOUS
           SHEWASDELICIOUSSHEWASDELICIOUSSHEWASDELICIOUSSHEWASDELICIOUSSHEWASDELICIOUS
-          SHEWASDELICIOUSSHEWASDELICIOUSSHEWASDELICIOUSSHEWASDELICIOUSSHEWASDELICIOUS
-          SHEWASDELICIOUSSHEWASDELICIOUSSHEWASDELICIOUSSHEWASDELICIOUSSHEWASDELICIOUS
-          SHEWASDELICIOUSSHEWASDELICIOUSSHEWASDELICIOUSSHEWASDELICIOUSSHEWASDELICIOUS
-          SHEWASDELICIOUSSHEWASDELICIOUSSHEWASDELICIOUSSHEWASDELICIOUSSHEWASDELICIOUS
-          SHEWASDELICIOUSSHEWASDELICIOUSSHEWASDELICIOUSSHEWASDELICIOUSSHEWASDELICIOUS
-          SHEWASDELICIOUSSHEWASDELICIOUSSHEWASDELICIOUSSHEWASDELICIOUSSHEWASDELICIOUS
-
         </p>
       )}
       </div>
