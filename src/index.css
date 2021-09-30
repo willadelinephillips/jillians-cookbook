@@ -180,3 +180,7 @@ body {
 .loginPage #userpass {
   background-color: #b294b9;
 }
+
+.loginPage input {
+  font-weight: bold;
+}
