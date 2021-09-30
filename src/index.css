@@ -112,6 +112,11 @@ body {
   color:rgb(54, 54, 207);
 }
 
+/* Correct Checkmark Flavor */
+.correctCheck {
+  color:green;
+}
+
 /* Newspaper Decoration */
 
 .newsArticle p {
