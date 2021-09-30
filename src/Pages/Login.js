@@ -3,7 +3,7 @@ import {
   useRecoilState,
   useRecoilValue
 } from 'recoil';
-import { hideQuestions, potentialpass, potentialuser, username, password } from '../Recoil/atoms';
+import { hideQuestions, potentialpass, potentialuser, username, password, } from '../Recoil/atoms';
  
 export function Login() {
     document.title = "Login";
@@ -21,7 +21,6 @@ export function Login() {
 
       if (user === userattempt) {
         setColor('green')
-
      } if (pass === passattempt) {
        setOtherColor('green')
      }
@@ -41,7 +40,7 @@ export function Login() {
 
         <div className="signIn">
           <label for="username" id="usertitle">USERNAME: </label>
-          <input type="text" style={{backgroundColor: color}} id="username" name="username" onChange={(event) => setUserAttempt(event.target.value)}></input>
+          <input type="text"  style={{backgroundColor: color}} id="username" name="username" onChange={(event) => setUserAttempt(event.target.value)}></input>
 
           <label for="password" id="userpass">PASSWORD: </label>
           <input type="text" style={{backgroundColor: otherColor}} id="password" name="password" onChange={(event) => setPassAttempt(event.target.value)}></input>

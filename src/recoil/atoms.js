@@ -44,8 +44,3 @@
     key:"potentialpass",
     default:"",
   })
-
-  export const correctincorrect = atom({
-    key:"correctorno",
-    default:""
-  })
