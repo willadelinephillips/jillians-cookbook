@@ -15,12 +15,14 @@ export function Login() {
     const [hideQs, setHideQs] = useRecoilState(hideQuestions);
     const [otherColor,setOtherColor] = useState();
     const [disableInput,setDisableInput] = useState();
+    const [showCheck,setShowCheck] = useState();
 
 
     function CheckCorrectness() {
 
      if (user === userattempt) {
         setDisableInput("true")
+        setShowCheck("visible")
      } 
      
      if (pass === passattempt) {
@@ -43,7 +45,7 @@ export function Login() {
         <div className="signIn">
           <label for="username" id="usertitle">USERNAME: </label>
           <input type="text" readOnly={disableInput} id="username" name="username" onChange={(event) => setUserAttempt(event.target.value)}></input>
-          <b className="correctCheck">✔</b>
+          <b className="correctCheck" style={{ visibility:showCheck, }}>✔</b>
 
           <label for="password" id="userpass">PASSWORD: </label>
           <input type="text" style={{backgroundColor: otherColor}} id="password" name="password" onChange={(event) => setPassAttempt(event.target.value)}></input>

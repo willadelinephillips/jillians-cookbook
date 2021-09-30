@@ -115,6 +115,7 @@ body {
 /* Correct Checkmark Flavor */
 .correctCheck {
   color:green;
+  visibility: hidden;
 }
 
 /* Newspaper Decoration */
