@@ -8,7 +8,7 @@ class ValewindDaily extends Component {
   render() {
     return (
       <div className="newsArticle">
-        <h4><button>NEWS</button> {">"} <button>CRIME AND SAFETY</button> • News</h4>
+        <h4><button className="fakeLink">NEWS</button> {">"} <button className="fakeLink">CRIME AND SAFETY</button> • News</h4>
         <h2>24-year-old woman found dead in kitchen, pieces of body missing</h2>
         <h3>By <button className="fakeLink">STEVEN KANE</button> | Western California News Association</h3>
         <h3>PUBLISHED: November 10, 2021 at 11:46 a.m. | UPDATED: November 10, 2021 at 1:26 p.m.</h3>
