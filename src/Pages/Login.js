@@ -21,6 +21,7 @@ export function Login() {
 
       if (user === userattempt) {
         setColor('green')
+        
      } if (pass === passattempt) {
        setOtherColor('green')
      }
@@ -37,15 +38,14 @@ export function Login() {
     return (
       <div className="loginPage">
         <h2>LOGIN</h2>
-        <form action="/action_page.php">
+        <form>
           <label for="username" id="usertitle">USERNAME: </label>
           <input type="text" style={{backgroundColor: color}} id="username" name="username" onChange={(event) => setUserAttempt(event.target.value)}></input>
 
           <label for="password" id="userpass">PASSWORD: </label>
           <input type="text" style={{backgroundColor: otherColor}} id="password" name="password" onChange={(event) => setPassAttempt(event.target.value)}></input>
+          <input type="submit" value="Submit" onClick={() => CheckCorrectness()}></input>
         </form>
-
-        <input type="submit" value="Submit" onClick={() => CheckCorrectness()}></input>
 
         <input type="checkbox" id="rememberme" name="rememberme" value="Yes"></input>
 <label for="rememberme"> Remember Me</label>
