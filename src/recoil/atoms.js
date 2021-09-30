@@ -27,12 +27,12 @@
 
   export const username = atom({
     key:"username",
-    default:"JillianEvans"
+    default:"JillianEvans",
   })
 
   export const password = atom({
     key:"password",
-    default:"imissyoumom"
+    default:"imissyoumom",
   })
 
   export const potentialuser = atom({
@@ -43,4 +43,9 @@
   export const potentialpass = atom({
     key:"potentialpass",
     default:"",
+  })
+
+  export const correctincorrect = atom({
+    key:"correctorno",
+    default:""
   })

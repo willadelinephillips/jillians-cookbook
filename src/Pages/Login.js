@@ -1,4 +1,4 @@
-import React from "react";
+import {React, useState} from "react";
 import {
   useRecoilState,
   useRecoilValue
@@ -13,8 +13,18 @@ export function Login() {
     const user = useRecoilValue(username);
     const pass = useRecoilValue(password);
     const [hideQs, setHideQs] = useRecoilState(hideQuestions);
+    const [color, setColor] = useState();
+    const [otherColor,setOtherColor] = useState();
+
 
     function CheckCorrectness() {
+
+      if (user === userattempt) {
+        setColor('green')
+     } if (pass === passattempt) {
+       setOtherColor('green')
+     }
+
       if (user === userattempt && pass === passattempt) {
           console.log("Yeet!")
       } else if (user !== userattempt || pass !== passattempt) {
@@ -29,10 +39,10 @@ export function Login() {
         <h2>LOGIN</h2>
         <form action="/action_page.php">
           <label for="username" id="usertitle">USERNAME: </label>
-          <input type="text" id="username" name="username" onChange={(event) => setUserAttempt(event.target.value)}></input>
+          <input type="text" style={{backgroundColor: color}} id="username" name="username" onChange={(event) => setUserAttempt(event.target.value)}></input>
 
           <label for="password" id="userpass">PASSWORD: </label>
-          <input type="text" id="password" name="password" onChange={(event) => setPassAttempt(event.target.value)}></input>
+          <input type="text" style={{backgroundColor: otherColor}} id="password" name="password" onChange={(event) => setPassAttempt(event.target.value)}></input>
         </form>
 
         <input type="submit" value="Submit" onClick={() => CheckCorrectness()}></input>
@@ -40,7 +50,9 @@ export function Login() {
         <input type="checkbox" id="rememberme" name="rememberme" value="Yes"></input>
 <label for="rememberme"> Remember Me</label>
         <button onClick={() => setHideQs('revealed')}>Forgot Password?</button>
-        Tester: {userattempt} = {user}, {passattempt} = {pass}, 
+
+        <p>Tester: {userattempt} = {user}, {passattempt} = {pass},</p> 
+
         <div className="securityQuestions">
         <p id="hintsection" className={`${hideQs}`}>
           In order to sign in once your password is forgotten, you must answer your pre-written 
@@ -51,5 +63,5 @@ export function Login() {
       </div>
     );
   }
- 
+
 export default Login;
