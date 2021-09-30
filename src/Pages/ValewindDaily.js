@@ -1,11 +1,13 @@
-import React, { Component } from "react";
+import {React, useState} from "react";
 import shewasdelicious from "../img/shewasdelicious.JPG"
  
-class ValewindDaily extends Component {
-  componentDidMount() {
+function ValewindDaily() {
+  const [isShown, setIsShown] = useState(false);
+
+
     document.title = "24-year-old woman found dead in kitchen, pieces of body missing";
-  }
-  render() {
+
+
     return (
       <div className="newsArticle">
         <h4><button className="fakeLink">NEWS</button> {">"} <button className="fakeLink">CRIME AND SAFETY</button> • News</h4>
@@ -42,14 +44,30 @@ class ValewindDaily extends Component {
           bloated and full, although it's as of yet unknown what she had eaten prior to being 
           murdered. 
         </p>
-        <p>The Valewind police force is out in full looking for a potential perpetrator, but as 
+        <p 
+        onMouseEnter={() => setIsShown(true)}>
+          The Valewind police force is out in full looking for a potential perpetrator, but as 
           of yet there are no leads. Miss Evens had no known enemies, and outside of her discovery 
           there have been no unusual deaths reported. If you or someone you know has seen any 
           information that could help, please dial the local police station immediately. 
         </p>
+        {isShown && (
+        <p>
+          SHEWASDELICIOUSSHEWASDELICIOUSSHEWASDELICIOUSSHEWASDELICIOUSSHEWASDELICIOUS
+          SHEWASDELICIOUSSHEWASDELICIOUSSHEWASDELICIOUSSHEWASDELICIOUSSHEWASDELICIOUS
+          SHEWASDELICIOUSSHEWASDELICIOUSSHEWASDELICIOUSSHEWASDELICIOUSSHEWASDELICIOUS
+          SHEWASDELICIOUSSHEWASDELICIOUSSHEWASDELICIOUSSHEWASDELICIOUSSHEWASDELICIOUS
+          SHEWASDELICIOUSSHEWASDELICIOUSSHEWASDELICIOUSSHEWASDELICIOUSSHEWASDELICIOUS
+          SHEWASDELICIOUSSHEWASDELICIOUSSHEWASDELICIOUSSHEWASDELICIOUSSHEWASDELICIOUS
+          SHEWASDELICIOUSSHEWASDELICIOUSSHEWASDELICIOUSSHEWASDELICIOUSSHEWASDELICIOUS
+          SHEWASDELICIOUSSHEWASDELICIOUSSHEWASDELICIOUSSHEWASDELICIOUSSHEWASDELICIOUS
+          SHEWASDELICIOUSSHEWASDELICIOUSSHEWASDELICIOUSSHEWASDELICIOUSSHEWASDELICIOUS
+          SHEWASDELICIOUSSHEWASDELICIOUSSHEWASDELICIOUSSHEWASDELICIOUSSHEWASDELICIOUS
+
+        </p>
+      )}
       </div>
     );
   }
-}
  
 export default ValewindDaily;
