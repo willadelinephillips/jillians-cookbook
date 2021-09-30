@@ -38,14 +38,15 @@ export function Login() {
     return (
       <div className="loginPage">
         <h2>LOGIN</h2>
-        <form action="#" onSubmit="return false">
+
+        <div className="signIn">
           <label for="username" id="usertitle">USERNAME: </label>
           <input type="text" style={{backgroundColor: color}} id="username" name="username" onChange={(event) => setUserAttempt(event.target.value)}></input>
 
           <label for="password" id="userpass">PASSWORD: </label>
           <input type="text" style={{backgroundColor: otherColor}} id="password" name="password" onChange={(event) => setPassAttempt(event.target.value)}></input>
-          <button onClick={() => CheckCorrectness()}>Submit</button>
-        </form>
+          <button onClick={() => CheckCorrectness()} id="submitLogin">Submit</button>
+        </div>
 
         <input type="checkbox" id="rememberme" name="rememberme" value="Yes"></input>
 <label for="rememberme"> Remember Me</label>

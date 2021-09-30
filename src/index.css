@@ -151,6 +151,10 @@ body {
   text-align: center;
 }
 
+.loginPage #submitLogin {
+  margin-left: 1%;
+}
+
 .loginPage label {
   border-radius: 10px;
   font-weight: bold;
