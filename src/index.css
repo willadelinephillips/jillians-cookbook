@@ -178,3 +178,8 @@ body {
 .loginPage input {
   font-weight: bold;
 }
+
+#rememberme {
+  margin-left: 1%;
+  margin-right: -2%;
+}

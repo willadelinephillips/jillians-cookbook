@@ -45,10 +45,11 @@ export function Login() {
           <label for="password" id="userpass">PASSWORD: </label>
           <input type="text" style={{backgroundColor: otherColor}} id="password" name="password" onChange={(event) => setPassAttempt(event.target.value)}></input>
           <button onClick={() => CheckCorrectness()} id="submitLogin">Submit</button>
+
+          <input type="checkbox" id="rememberme" name="rememberme" value="Yes"></input>
+          <label for="rememberme"> Remember Me</label>
         </div>
 
-        <input type="checkbox" id="rememberme" name="rememberme" value="Yes"></input>
-<label for="rememberme"> Remember Me</label>
         <button className="fakeLink" onClick={() => setHideQs('revealed')}>Forgot Password?</button>
 
         <p>Tester: {userattempt} = {user}, {passattempt} = {pass},</p> 
