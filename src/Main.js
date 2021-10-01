@@ -18,9 +18,6 @@ import Aboutme from "./Pages/Aboutme";
 //CSS
 import "./index.css";
 
-//test
-import { TestDisplay } from "./test";
-
 //Recoil Paths
 import { Corruption, Recipe, Post } from './Recoil/atoms';
 
@@ -85,7 +82,6 @@ export function Main() {
             <li id="loginlink" className={
         darkness >= 100 ? 'revealed' : 'hidden'
       }><NavLink to="/login">Login</NavLink></li>
-            <TestDisplay></TestDisplay>
           </ul>
           <div className="content">
             <Switch>
