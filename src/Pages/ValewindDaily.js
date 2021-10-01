@@ -39,18 +39,18 @@ function ValewindDaily() {
         </p>
         <p>
           Although much of the information concerning the autopsy is still unknown to the public, 
-          it appears that a potential suspect attempted to stem the bleeding as it took place with
-           kitchen supplies, but continued to remove pieces of her as they did. Her stomach was also 
+          it appears that a potential suspect attempted to stem the bleeding as it took place with 
+          kitchen supplies, but continued to remove pieces of her as they did. Her stomach was also 
           bloated and full, although it's as of yet unknown what she had eaten prior to being 
           murdered. 
         </p>
         {!isShown && (
         <p 
         onMouseEnter={() => setIsShown(true)}>
-          The Valewind police force is out in full looking for a potential perpetrator, but as 
-          of yet there are no leads. Miss Evens had no known enemies, and outside of her discovery 
-          there have been no unusual deaths reported. If you or someone you know has seen any 
-          information that could help, please dial the local police station immediately. 
+          Detectives are at a total loss as to how the murder took place, as she clearly could not 
+          have done so much damage to her own body without experiencing immense pain. Doors and 
+          windows were locked, and there appears to be no sign of forced entry or misplaced decor. 
+          The only object in front of her was a laptop computer, which was attuned to her website.
         </p>
         )}
         {isShown && (
@@ -63,6 +63,12 @@ function ValewindDaily() {
       )}
       <p>
 
+      </p>
+      <p>
+          The Valewind police force is out in full looking for a potential perpetrator, but as 
+          of yet there are no leads. Miss Evens had no known enemies, and outside of her discovery 
+          there have been no unusual deaths reported. If you or someone you know has seen any 
+          information that could help, please dial the local police station immediately. 
       </p>
       </div>
     );
