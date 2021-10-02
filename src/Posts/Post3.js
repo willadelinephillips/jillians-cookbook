@@ -14,7 +14,7 @@ class Post3 extends Component {
         <h2>Post 3</h2>
         <h3>September X, 2021 By <NavLink to="/aboutme">Jillian</NavLink> 0 Comments</h3>
         <p>
-            Lorum Ipsum 3
+            Last time with the ranting to the website who can't hear me. 
         </p>
 
       </div>
