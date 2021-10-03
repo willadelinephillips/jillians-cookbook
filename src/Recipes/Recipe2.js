@@ -100,19 +100,19 @@ class Recipe2 extends Component {
           <ul className="commentSection">
 
             <li>
-              <img src={sarahjeanpfp} width="10%" alt="sarahjean"></img>
+              <img src={sarahjeanpfp} width="5%" alt="sarahjean"></img>
               <p className="username">Sarah Jean - September X, 2021 :</p>
               <p>Love this recipe, dear! So excited to see you following your dreams!</p>
             </li>
 
             <li>
-              <img src={carreypfp} width="10%" alt="carrey"></img>
+              <img src={carreypfp} width="5%" alt="carrey"></img>
               <p className="username">Carrey - September X, 2021 :</p>
               <p>Sounds delicious, can't wait to try it. I love those little decorations!</p>
             </li>
 
             <li>
-              <img src={karenpfp} width="10%" alt="karenrider"></img>
+              <img src={karenpfp} width="5%" alt="karenrider"></img>
               <p className="username">Karen Rider - September X, 2021 :</p>
               <p>Looks just like the one from that book we read last week at club. Inspiration maybe?</p>
             </li>
