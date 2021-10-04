@@ -116,6 +116,7 @@ export function Main() {
             <Route exact path="/" component={Home}/>
             </Switch>
           </div>
+          <h5>Made with Ouroboros</h5>
         </div>
     );
   }
