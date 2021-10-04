@@ -1,0 +1,33 @@
+{
+  "files": {
+    "main.css": "/jillians-cookbook/static/css/main.72c885f9.chunk.css",
+    "main.js": "/jillians-cookbook/static/js/main.ae2a5eaf.chunk.js",
+    "main.js.map": "/jillians-cookbook/static/js/main.ae2a5eaf.chunk.js.map",
+    "runtime-main.js": "/jillians-cookbook/static/js/runtime-main.4635c8a3.js",
+    "runtime-main.js.map": "/jillians-cookbook/static/js/runtime-main.4635c8a3.js.map",
+    "static/js/2.0d488012.chunk.js": "/jillians-cookbook/static/js/2.0d488012.chunk.js",
+    "static/js/2.0d488012.chunk.js.map": "/jillians-cookbook/static/js/2.0d488012.chunk.js.map",
+    "static/js/3.d700c26d.chunk.js": "/jillians-cookbook/static/js/3.d700c26d.chunk.js",
+    "static/js/3.d700c26d.chunk.js.map": "/jillians-cookbook/static/js/3.d700c26d.chunk.js.map",
+    "index.html": "/jillians-cookbook/index.html",
+    "static/css/main.72c885f9.chunk.css.map": "/jillians-cookbook/static/css/main.72c885f9.chunk.css.map",
+    "static/js/2.0d488012.chunk.js.LICENSE.txt": "/jillians-cookbook/static/js/2.0d488012.chunk.js.LICENSE.txt",
+    "static/js/3.d700c26d.chunk.js.LICENSE.txt": "/jillians-cookbook/static/js/3.d700c26d.chunk.js.LICENSE.txt",
+    "static/media/carreypfp.e5c68ce9.jpg": "/jillians-cookbook/static/media/carreypfp.e5c68ce9.jpg",
+    "static/media/hmmm.7a5f3b72.mp3": "/jillians-cookbook/static/media/hmmm.7a5f3b72.mp3",
+    "static/media/karenpfp.7a2eb44f.jpg": "/jillians-cookbook/static/media/karenpfp.7a2eb44f.jpg",
+    "static/media/laugh.5197fcf2.mp3": "/jillians-cookbook/static/media/laugh.5197fcf2.mp3",
+    "static/media/lemonylemoncake1.c83d8bbd.jpg": "/jillians-cookbook/static/media/lemonylemoncake1.c83d8bbd.jpg",
+    "static/media/lemonylemoncake2.094f5363.jpg": "/jillians-cookbook/static/media/lemonylemoncake2.094f5363.jpg",
+    "static/media/lemonylemoncake3.ed65f861.jpg": "/jillians-cookbook/static/media/lemonylemoncake3.ed65f861.jpg",
+    "static/media/lemonylemoncake4.ae497899.jpg": "/jillians-cookbook/static/media/lemonylemoncake4.ae497899.jpg",
+    "static/media/sarahjeanpfp.f0659246.jpg": "/jillians-cookbook/static/media/sarahjeanpfp.f0659246.jpg",
+    "static/media/shewasdelicious.b70d7265.JPG": "/jillians-cookbook/static/media/shewasdelicious.b70d7265.JPG"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.4635c8a3.js",
+    "static/js/2.0d488012.chunk.js",
+    "static/css/main.72c885f9.chunk.css",
+    "static/js/main.ae2a5eaf.chunk.js"
+  ]
+}
