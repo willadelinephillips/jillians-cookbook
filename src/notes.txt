@@ -29,3 +29,6 @@ Book Club: Carrey and Karen Rider (mean).
 19- HUNGRYHUNGRYHUNGRYHUNGRYHUNGRY - 90%
 20- Recipe for Jillian's body using the parts mentioned in the article - Video 3 - 95%
 Login - Ending A or B - 100%
+
+https://www.freecodecamp.org/news/deploy-a-react-app-to-github-pages/
+npm install
