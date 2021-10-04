@@ -25,9 +25,22 @@ class Post3 extends Component {
         <p>
             It started when I really got into posting the recipes. Like, way too much. When I 
             started staying inside and ordering all the groceries from home, not bothering to 
-            head to Book Club or go outside with the other human beings. 
+            head to Book Club or go outside with the other human beings. The website started... 
+            glitching out. Not your regular, everyday glitches like "things not working or 
+            working when they shouldn't be" (although there was plenty of that too). It was more 
+            like recipes posting themselves that I hadn't even written, or that I couldn't 
+            remember having written. I started losing time when I was using the website, I would 
+            sit down to write a recipe and it would go from day to night.
         </p>
-
+        <p>
+           And don't tell me I'm losing it from isolating myself and working too hard. I can 
+           tell the difference between losing time from overworking and losing days at a time 
+           for no reason at all. I already reached out to the customer support from the company 
+           who made my website, and I couldn't get ahold of anyone. I've been tempted to call 
+           some kind of tech person, but even if I knew who to call (who does personal websites, 
+           it's not the computer who's broken) I would be embarassed to have anyone in the house 
+           with the state it's in. 
+        </p>
       </div>
     );
   }
