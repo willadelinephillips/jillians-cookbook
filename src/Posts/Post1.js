@@ -18,6 +18,14 @@ class Post1 extends Component {
             is working how I want it to work. This test will never see the light of day, thank God :)
         </p>
         <p>
+            Never will I ever judge a website for being a little bit of a mess again! After much 
+            chaos, frustration, writing and reading, I gave up on making the thing myself and used 
+            a website builder called Ouroboros. Really helpful tools and stuff made it so easy to 
+            set up what I needed. I can't imagine making this from scratch! Couldn't reach anyone 
+            on the staff team about the issues I did have, but that's okay. The whole point of this 
+            thing is to be as resourceful as possible anyways, being tuff anf brave on my own!
+        </p>
+        <p>
             It's been so exciting setting everything up and writing out the first couple of recipes 
             I want to post! Sarah Jean has been so supportive and nice, especially in contrast 
             to some of the other members of the Book Club (not naming any names!). She's been 
