@@ -11,7 +11,7 @@ class Post1 extends Component {
   render() {
     return (
       <div id="post">
-        <h2>Post 1</h2>
+        <h2>Test! ♥♥♥♥♥♥</h2>
         <h3>September X, 2021 By <NavLink to="/aboutme">Jillian</NavLink> 0 Comments</h3>
         <p>
             First post! This one is just a little test run to see if the formatting on the website 

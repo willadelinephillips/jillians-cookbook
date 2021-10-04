@@ -125,7 +125,7 @@ export function Main() {
             <Route exact path="/" component={Home}/>
             </Switch>
           </div>
-          <h5>Made with Ouroboros <NavLink to="/ouroboros"><img width="1%" src={ouroboros}></img></NavLink></h5>
+          <h5>Made with Ouroboros <NavLink to="/ouroboros"><img width="1%" src={ouroboros} alt="deathinfinite"></img></NavLink></h5>
         </div>
     );
   }
