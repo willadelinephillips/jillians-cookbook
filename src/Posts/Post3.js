@@ -39,7 +39,16 @@ class Post3 extends Component {
            who made my website, and I couldn't get ahold of anyone. I've been tempted to call 
            some kind of tech person, but even if I knew who to call (who does personal websites, 
            it's not the computer who's broken) I would be embarassed to have anyone in the house 
-           with the state it's in. 
+           with the state it's in. Let's just say it's a mess. 
+        </p>
+        <p>
+           It's fine, I can do it on my own. I've handled worse than a kinda spooky website. I'm 
+           going to start tracking the time I spend on the website, and make a concerned effort 
+           to do something else at home. Maybe knit or something. Anything but write recipes and 
+           post them. I have this horrible feeling in the back of my mind that if I keep writing 
+           recipes at the rate I've been doing, something is going to happen. No idea what that 
+           something is. It's just a feeling I have. All I know about this feeling is that whatever 
+           it is that's going to happen, it's very, very bad.
         </p>
       </div>
     );
