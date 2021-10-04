@@ -11,15 +11,23 @@ import {
 } from 'recoil';
 
 // Main Paths
-import Home from "./Pages/Home";
-import Login from "./Pages/Login";
-import Aboutme from "./Pages/Aboutme";
+import {
+  Home,
+  Login,
+  Aboutme,
+  Ouroboros
+} from "./Pages/index.js"
 
 //CSS
 import "./index.css";
 
 //Recoil Paths
 import { Corruption, Recipe, Post } from './Recoil/atoms';
+
+//Image paths 
+import {
+  ouroboros,
+} from "./img/index";
 
 import {
   Recipe1,
@@ -113,10 +121,11 @@ export function Main() {
             <Route path="/Post4" component={Post4}/>
             <Route path="/Post5" component={Post5}/>
             <Route path="/shewasdelicious" component={ValewindDaily}/>
+            <Route path="/ouroboros" component={Ouroboros}/>
             <Route exact path="/" component={Home}/>
             </Switch>
           </div>
-          <h5>Made with Ouroboros</h5>
+          <h5>Made with Ouroboros <NavLink to="/ouroboros"><img width="1%" src={ouroboros}></img></NavLink></h5>
         </div>
     );
   }
