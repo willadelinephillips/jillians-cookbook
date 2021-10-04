@@ -7,6 +7,7 @@ import lemonylemoncake4 from "./lemonylemoncake4.jpg";
 import karenpfp from "./karenpfp.jpg";
 import sarahjeanpfp from "./sarahjeanpfp.jpg";
 import carreypfp from './carreypfp.jpg';
+import ouroboros from "./ouroboros.png"
 
 export {
     randomavatar,
@@ -17,5 +18,6 @@ export {
     lemonylemoncake4,
     karenpfp,
     sarahjeanpfp,
-    carreypfp
+    carreypfp,
+    ouroboros
 }
