@@ -13,7 +13,7 @@ export function Recipe9() {
       <div>
         <div id="recipe">
         <h2>Recipe Name</h2>
-        <h3>September X, 2021 By <NavLink to="/aboutme">Jillian</NavLink>. 3 Comments ↓</h3>
+        <h3>September X, 2021 By <NavLink to="/aboutme">Jillian</NavLink>. 1 Comment ↓</h3>
         <p> 
           This is some kind of intro paragraph, get people invested and interested in what you're 
           cooking. Y'know, like 'this is such a nice season to be cooking or something. I don't 

@@ -38,8 +38,11 @@ function Debug() {
         <h4>Upcoming</h4>
         <ul>
           <li><i>Alpha 0.7.0 - Recipes Section Complete</i></li>
-          <ul><i>
+          <ul><b>
             <li>Moved Debug to separate section</li>
+            <li>Created Homepage</li>
+            </b>
+            <i>
             <li>Recipe 1-5</li>
             <li>Recipe 6-10</li>
             <li>Recipe 11-15</li>
