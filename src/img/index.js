@@ -14,6 +14,9 @@ import soul from "./soul.jpg";
 import self from "./self.jpg";
 import ancient from "./ancient.jpg";
 import cauldron from "./cauldron.jpg";
+import humanmouth from "./humanmouth.jpg";
+import thingmouth from "./thingmouth.jpg";
+import sharkmouth from "./sharkmouth.jpg";
 
 export {
     randomavatar,
@@ -31,5 +34,8 @@ export {
     soul,
     self,
     ancient,
-    cauldron
+    cauldron,
+    humanmouth,
+    thingmouth,
+    sharkmouth
 }
