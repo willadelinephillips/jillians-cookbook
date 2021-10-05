@@ -22,13 +22,10 @@ class Post5 extends Component {
             But there is something we can do about the thing that's stuck in here with me.
         </p>
         <p>
-            Before it tore me out of myself and trapped me in here, I was doing research on what 
-            could be messing with my website. After looking for the insane hours that being locked 
-            inside will lend you, I think I know what it is. It can only be some kind of ancient 
-            spirit, although only God knows how it got on the Internet. I've heard it say its name 
-            to itself as it wanders, almost as if the cyberspace we're both existing in is 
-            somehow sapping its memory too. It says the name in so many languages. So many I don't 
-            recognize. λαιμαργία. Gula. Gluttony.
+            It can only be some kind of ancient spirit, although only God knows how it got on the 
+            Internet. I've heard it say its name to itself as it wanders, almost as if the cyberspace 
+            we're both existing in is somehow sapping its memory too. It says the name in so many 
+            languages. So many I don't recognize. λαιμαργία. Gula. Gluttony.
         </p>
         <p>
             Being trapped together has given us a shared consciousness. I think that it's trying 
