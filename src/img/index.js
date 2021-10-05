@@ -8,6 +8,7 @@ import karenpfp from "./karenpfp.jpg";
 import sarahjeanpfp from "./sarahjeanpfp.jpg";
 import carreypfp from './carreypfp.jpg';
 import ouroboros from "./ouroboros.png"
+import jilliansicon from "./jilliansicon.png"
 
 export {
     randomavatar,
@@ -19,5 +20,6 @@ export {
     karenpfp,
     sarahjeanpfp,
     carreypfp,
-    ouroboros
+    ouroboros,
+    jilliansicon
 }
