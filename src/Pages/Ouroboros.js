@@ -5,7 +5,7 @@ function Ouroboros() {
     return (
       <div>
         <h2>Ouroboros</h2>
-        <p>We made this website</p>
+        <p>Welcome to our product page! Thank you for visiting.</p>
         <br></br>
         <p>Yeet</p>
       </div>
