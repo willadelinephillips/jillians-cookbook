@@ -41,6 +41,7 @@ function Debug() {
           <ul><b>
             <li>Moved Debug to separate section</li>
             <li>Created Homepage</li>
+            <li>Added template to all recipes</li>
             </b>
             <i>
             <li>Recipe 1-5</li>
