@@ -31,4 +31,5 @@ Book Club: Carrey and Karen Rider (mean).
 Post 5 - Login - Ending A or B - 100%
 
 https://www.freecodecamp.org/news/deploy-a-react-app-to-github-pages/
+npm run deploy
 npm install
