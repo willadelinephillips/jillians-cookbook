@@ -39,6 +39,7 @@ function Debug() {
         <ul>
           <li><i>Alpha 0.7.0 - Recipes Section Complete</i></li>
           <ul><i>
+            <li>Moved Debug to separate section</li>
             <li>Recipe 1-5</li>
             <li>Recipe 6-10</li>
             <li>Recipe 11-15</li>

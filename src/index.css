@@ -9,20 +9,12 @@ body {
     display:flex;
     margin-left: 15%;
     margin-right: 15%;
-  }
-  h1, h2, p, ul, li {
     font-family: masqualero, sans-serif;
-  }
-  h2 {
     color:rgb(70, 49, 60);
-    font-size:xx-large;
   }
   p {
     line-height: 1.5;
     font-size: large;
-  }
-  h3 {
-    font-size:medium;
   }
   ul.header li {
     display: inline;
@@ -56,6 +48,11 @@ body {
     background-color: #b294b9;
     border-radius: 25px;
   }
+/* Homepage CSS */
+#homepage {
+  text-align: center;
+}
+
 
 /* Recipe CSS */
 
