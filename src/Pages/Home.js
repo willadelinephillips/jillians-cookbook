@@ -25,11 +25,15 @@ function Home() {
 
     return (
       <div>
-        <h2>DEBUG- Alpha 0.5.0</h2>
+        <h2>DEBUG- Alpha 0.6.0</h2>
         <p>Debug page for Jillian's Cookbook. Text is added here to see the full extent of the page. 
           Below are samples of working additions that can be controlled across the entire website.
-          
         </p>
+        <h3>Patch Notes</h3>
+        <ul>
+          <li>Alpha 1.5.0 - First Alpha Build</li>
+          <li>Alpha 1.6.0 - Posts Section Complete</li>
+        </ul>
  
         <p>Content used in this build:</p>
 
