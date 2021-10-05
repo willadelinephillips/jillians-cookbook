@@ -15,7 +15,8 @@ import {
   Home,
   Login,
   Aboutme,
-  Ouroboros
+  Ouroboros,
+  Debug
 } from "./Pages/index.js"
 
 //CSS
@@ -123,6 +124,7 @@ export function Main() {
             <Route path="/shewasdelicious" component={ValewindDaily}/>
             <Route path="/ouroboros" component={Ouroboros}/>
             <Route exact path="/" component={Home}/>
+            <Route path="/debug" component={Debug}/>
             </Switch>
           </div>
           <h5>Made with Ouroboros <NavLink to="/ouroboros"><img width="1%" src={ouroboros} alt="deathinfinite"></img></NavLink></h5>
