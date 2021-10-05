@@ -30,6 +30,9 @@ Book Club: Carrey and Karen Rider (mean).
 20- Recipe for Jillian's body using the parts mentioned in the article - Video 3 - 95%
 Post 5 - Login - Ending A or B - 100%
 
+Gluttony refers to itself as a sibling of the other sins
+Ouroboros makes websites then uploads sins onto them
+
 https://www.freecodecamp.org/news/deploy-a-react-app-to-github-pages/
 npm run deploy
 npm install
