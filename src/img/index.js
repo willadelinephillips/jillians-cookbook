@@ -22,6 +22,8 @@ import heart from "./heart.JPG";
 import meat from "./meat.jpg";
 import moremeat from "./moremeat.jpg";
 import cookedmeat from "./cookedmeat.jpg";
+import humancuts from "./humancuts.jpg";
+import skinhuman from "./skinhuman.jpg";
 
 export {
     randomavatar,
@@ -47,5 +49,7 @@ export {
     heart,
     meat,
     moremeat,
-    cookedmeat
+    cookedmeat,
+    humancuts,
+    skinhuman
 }

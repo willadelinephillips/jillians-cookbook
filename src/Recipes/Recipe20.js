@@ -72,7 +72,7 @@ function Recipe20() {
           them into empty eyesockets. Her little fingers were so delicious. She stuffed her 
           entire left hand into her mouth, and bit down. The crunch was delectable, and it used her 
           tongue to lick her lips. More bandages, more stopping the flow. Eventually, the poor 
-          little body gave up, and after several limbs and unspeakable pain, it collapsed into 
+          little body gave up, and after several limbs and unspeakable pain, she collapsed into 
           unconciousness.</i> 
         </p>
         <img width="10%" alt="IMG 5"></img>
