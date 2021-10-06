@@ -33,21 +33,25 @@ function Debug() {
         <h4>Complete</h4>
         <ul>
           <li><b>Alpha 0.5.0</b> - First Alpha Build</li>
-          <li><b>Alpha 0.6.0</b> - Posts Section Complete</li>
+          <li><b>Alpha 0.6.0</b>
+            <ul>
+              <li>Posts 1-5</li>
+            </ul>
+          </li>
+          <li><b>Alpha 0.6.25</b>
+            <ul>
+              <li>Moved Debug to separate section</li>
+              <li>Created Homepage</li>
+              <li>Added template to all recipes</li>
+              <li>Recipes 16-20</li>
+            </ul>
+          </li>
         </ul>
         <h4>Upcoming</h4>
         <ul>
           <li><i>Alpha 0.7.0 - Recipes Section Complete</i></li>
           <ul><b>
-            <li>Moved Debug to separate section</li>
-            <li>Created Homepage</li>
-            <li>Added template to all recipes</li>
-            <li>Recipe 18</li>
-            <li>Recipe 9</li>
-            <li>Recipe 19</li>
-            <li>Recipe 17</li>
-            <li>Recipe 20</li>
-            <li>Recipe 16</li>
+            <li>Fixed Debug Patch List</li>
             </b>
             <i>
             <li>Recipe 1-5</li>
