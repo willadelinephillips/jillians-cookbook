@@ -17,6 +17,11 @@ import cauldron from "./cauldron.jpg";
 import humanmouth from "./humanmouth.jpg";
 import thingmouth from "./thingmouth.jpg";
 import sharkmouth from "./sharkmouth.jpg";
+import sausage from "./sausage.jpg";
+import heart from "./heart.JPG";
+import meat from "./meat.jpg";
+import moremeat from "./moremeat.jpg";
+import cookedmeat from "./cookedmeat.jpg";
 
 export {
     randomavatar,
@@ -37,5 +42,10 @@ export {
     cauldron,
     humanmouth,
     thingmouth,
-    sharkmouth
+    sharkmouth,
+    sausage,
+    heart,
+    meat,
+    moremeat,
+    cookedmeat
 }

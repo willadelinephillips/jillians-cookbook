@@ -44,12 +44,15 @@ function Debug() {
             <li>Added template to all recipes</li>
             <li>Recipe 18</li>
             <li>Recipe 9</li>
+            <li>Recipe 19</li>
+            <li>Recipe 17</li>
             </b>
             <i>
             <li>Recipe 1-5</li>
             <li>Recipe 6-10</li>
             <li>Recipe 11-15</li>
             <li>Recipe 16-20</li>
+            <li>Do comments on posts</li>
           </i></ul>
           <li><i>Alpha 0.8.0 - Video</i></li>
           <li><i>Alpha 0.9.0 - Endgame Sequence</i></li>

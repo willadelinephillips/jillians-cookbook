@@ -4,110 +4,127 @@ import {
 } from "react-router-dom";
 import "../index.css";
 
-import { randomavatar } from "../img/index";
+import { 
+  randomavatar,
+  sausage,
+  heart,
+  meat,
+  moremeat,
+  cookedmeat } from "../img/index";
  
 function Recipe17() {
 
-    document.title = "Recipe 17";
+    document.title = "Heart with Sausage";
 
     return (
       <div>
         <div id="recipe">
-        <h2>Recipe Name</h2>
+        <h2>Heart with Sausage</h2>
         <h3>September X, 2021 By <NavLink to="/aboutme">Jillian</NavLink>. 0 Comments ↓</h3>
         <p> 
-          This is some kind of intro paragraph, get people invested and interested in what you're 
-          cooking. Y'know, like 'this is such a nice season to be cooking or something. I don't 
-          know. Maybe talk about where you got the idea for writing the recipe. It needs to take 
-          up a lot of space like the other paragraphs, so you really gotta stretch what you're 
-          putting in here. Talk about what gave you the idea to write this recipe in the first place, 
-          or talk about where you got it from if it's not exactly 100% yours. If it's one of Mom's 
-          recipes or something, make sure to put a good word in about her here. Remember, you're 
-          supposed to be coping in a healthy way, and making solid attempts to talk about her in a 
-          positive way instead of pretending she's not gone is part of the healing process.
+          I've been so hungry lately. It must be the fact that I'm cooking so much, and I haven't 
+          tried to stand on the scale in a while if I'm honest, but it's been really distracting. 
+          Especially for meat. I guess staying inside has really dropped whatever vitamins I need 
+          and meat has a lot of them, but wow did I order a lot of meat in the last online 
+          shopping spree. Ended up with a bunch of stuff I've never tried before, which is both 
+          exciting and a little unnerving considering there will be a lot of experimentation 
+          involved in cooking all this. At least meat freezes, and you'll be on this journey with 
+          me! The thought that you're reading this does comfort me a little.
         </p>
-        <img width="10%" alt="IMG 1"></img>
+        <img width="50%" src={sausage} alt="IMG 1"></img>
         <p>
-          Throw some sentimental nonsense in here. If you have absolutely no connection to the 
-          recipe on a personal level, make one up. Be like "god I remember that one time I ate this 
-          at that one place" or something. Let's be honest, no one will ever read most of this so 
-           there's no reason to write a masterpiece in these paragraphs. I wish people would read 
-           it, but I just know they'll scroll right down and scan the ingredients. Honestly, these 
-           are just little filler thingies to make the pages look more professional. I could just 
-           write a bunch of random words here and no one would care.
+          God this sausage looks so good. I was almost tempted to eat one raw (just kidding!). The 
+          smell coming off of it is intoxicating, like a perfume or something. When I smelled it, 
+          I just knew I had to cook it today. What kind of self-depriving woman would I be if I 
+          didn't give it to my hunger once and a while, especially since I have a cooking website. 
+          I don't even remember what animal this comes from. Honestly, it doesn't matter to me. It 
+          could be made of absolutely any living thing and it would smell just as good. I don't 
+          know how I know that, but I know that it's true. I know what it would feel like between 
+          my teeth, across my tongue. I wish I could have killed the thing it came from. Squeezed 
+          the life out of it with my bare hands and then ripped its meat out through its ribs. It 
+          would taste even more delicious then. More alive.
         </p>
-        <img width="10%" alt="IMG 2"></img>
+        <img width="50%" src={heart} alt="IMG 2"></img>
         <p>
-          This is where you want to talk about the actual cooking. How you did it, what little 
-          tricks you used, and what happened. Don't spend this whole paragraph whining about how 
-          hard it was or something, since Karen and the others are reading this and they'll just 
-          comment about how they wouldn't have had those problems. Sure, Karen. Sure you wouldn't 
-          have. You're just perfect, aren't you. So perfect that you're only struggle is seeing the 
-          obnoxious flaws in other flawed, annoying human beings like your fellow club members. 
-          Why can't you be perfect enough to shut up and stop shoving your snide little opinions 
-          where no one wants them or asked for them. 
+          This is what I was more interested in though. Apparently this is heart meat. I chopped 
+          this one up so you could see how beautiful it is on the inside, but you should see what 
+          it looks like whole. So beautiful. So raw. So... alive. It seems almost a shame to ruin 
+          it with seasonings and filling, but I guess that's cooking. Taking something perfectly 
+          delicious and meaty and ruining it with char and spice. See that redness on the side 
+          there? I tried it. Just a little. Touched it with my finger and tasted it. It was... 
+          sublime. I did cook the rest of it like it says to do in this recipe, but I needed to 
+          have that one little taste. Just to know what I was missing by cooking it. Salt and 
+          pepper is nice, and bacon is delicious of course, but nothing beats the flavor of the 
+          meat itself. The juicy, tender fleshiness of the body. So delicate, and yet so full of 
+          potential.
         </p>
-        <img width="10%" alt="IMG 3"></img>
+        <img width="50%" src={meat}  alt="IMG 3"></img>
         <p>
-          I guess you could describe this section as like. "Suggestions tips and ideas". I know 
-          that sounds kind of like the section before it, but hey. It's a recipe website. The 
-          website should really just be the ingredients and the instructions. Anything else added 
-          is just some worthless junk to make people think you're some sort of blogging expert and 
-          so you can claim you're one on your resume. I would put stuff like "how to cook with 
-          x ingredient" or "which brand of this is the best in my profession (what a joke) opinion". 
-          If you have absolutely no idea what to put here, just make up some ideas of how to decorate 
-          what ever it is the recipe is about. That way it looks like you had something to say.
+          I mean. Just look at it! The fat, so smooth and yet riddled with beautiful little cracks. 
+          The meat itself, a color that surpasses the most delicately crafted baked goods. Once 
+          I get into a better routine with this website, I'm going to devote it to meat. To the 
+          poetry of a raw steak, something so fresh you can hear the pulse of the frightened 
+          animal taking their last rattling breath as the knife plunges into her chest. A 
+          fluttering gasp, then nothing. Silence. An entire living thing, reduced to a pile of 
+          mouthwatering life force. We are truly blessed as a species that we are allowed the 
+          ancient rite of life consumption, taking the power of another being as your own.
         </p>
-        <img width="10%" alt="IMG 4"></img>
+        <img width="50%" src={moremeat} alt="IMG 4"></img>
         <p>
-          Storing and reheating the recipe! Storage containers picture combined with some tips 
-          about how to do really basic stuff that everyone's mom should have taught them to do when 
-          they were 12, like "don't eat leftovers that have been in the fridge for more than two 
-          weeks" or something to that idea. How it tasted when I had it reheated, which will be a 
-          half-truth depending on how good it actually tasted. If it tasted like freshly minced 
-          garbage or something, just say that it doesn't keep especially well. You can also talk 
-          about how to make whatever it is ahead of time, although sometimes that's a really 
-          terrible idea. 
+          Anyways, I didn't store the stuffed hearts because I ate them immediately, but I would 
+          imagine that they keep well for a little under a week, then need to either be eaten or 
+          frozen. I can't imagine why you wouldn't want to eat them right away, but if for some 
+          reason you're torn away from them, make sure they're in an airtight container. If 
+          you want to make them ahead of time, you want to prep the hearts and the stuffing 
+          separate then cook them together before you eat them. Don't eat the meat without 
+          cooking it though. No matter how tempting it may be.
         </p>
-        <img width="10%" alt="IMG 5"></img>
+        <img width="50%" src={cookedmeat} alt="IMG 5"></img>
         <p>
-          Finally, this is the "oh, all the occasions you'll be using this for" section. Like the 
-          reader can't figure out on their own which occasion to bake cupcakes. Sometimes I read 
-          the other cooking blog/recipe websites and I wonder if the author was completely sane 
-          writing all that they did. Maybe the trick is to just write like the reader is a small 
-          toddler incapable of rational thought. It feels like that's what they're doing sometimes. 
-          This is the reality of trying to live your dream though. You have to not just accept the 
-          parts that are beautiful and fun, but the annoying or ugly parts. That's reality.  
+          There are so many occasions on which you'll likely crave something as delicious as this. 
+          I know I just thought about how delicious it would be and wrote it down. I bothered to 
+          google it later and apparently it's a real recipe. Sometimes they use a different meat 
+          in place of the hearts (which are apparently usually beef) but I find that the hearts 
+          are essential to my version of the dish. Imagining it with regular meat would feel a 
+          little blastphemous. What's the point of eating something so meaty if you're not going 
+          to do it with hearts? There's a lot of powerful symbolism there, about devouring the 
+          life force of another creature and adding it to your own. Very empowering stuff.
         </p>
         <h3>Ingredients</h3>
-        <p>Main Recipe ingredients</p>
+        <p>Meat</p>
         <ul>
-          <li>A single ingredient</li>
-          <li>A single ingredient</li>
-          <li>A single ingredient</li>
-          <li>A single ingredient</li>
-          <li>A single ingredient</li>
+          <li>2 Hearts</li>
+          <li>5 Slices of Bacon</li>
+          <li>Salt and Pepper</li>
         </ul>
-        <p>Secondary Recipe ingredients</p>
+        <p>Stuffing</p>
         <ul>
-          <li>Another ingredient</li>
-          <li>Another ingredient</li>
-          <li>Another ingredient</li>
+          <li>2 Sausages</li>
+          <li>Croutons</li>
+        </ul>
+        <p>Braising</p>
+        <ul>
+          <li>1 Onion</li>
+          <li>2 Carrots</li>
+          <li>1 cup Apple Cider Vinegar</li>
         </ul>
         <p>Instructions</p>
-        <p>First, these are your first instructions. Preheating the oven, doing your mise en place, 
-          that sort of thing. Cutting, chopping, stirring, separating the dry and wet ingredients. 
-
+        <p>First, prepare the hearts by slicing the large veins, rinsing them in their entirity, 
+          and slicing through the chambers and heartstrings for stuffing. Salt and pepper them and 
+          then set them aside.
         </p>
-        <p>Second, these are the second set of instructions. 
+        <p>Second, prepare the stuffing by removing the skin from the sausages. Throw away the skins 
+          and place the ground meat in a bowl. Add croutons. 
         </p>
-        <p>Next, these are your third set of instructions. 
+        <p>Next, place one heart on your counter and layer on half the stuffing. Push the stuffing 
+          in roughly and harshly, stuff it until it's full enough to explode. Close it and force it 
+          into a heart shape, then wrap it in the bacon slices. Repeat with remaining heart.
         </p>
-        <p>Then, these are your fourth set of instructions. 
-        </p>
-        <p>After that, these are your fifth set of instructions. 
-        </p>
-        <p>Finally, these are your final set of ingredients.
+        <p>Finally, place hearts in baking pan. Add onion, carrots and apple cider vinegar. Cover 
+          with foil and roast for 45 minutes in an oven at 325. Add water at intervals to prevent 
+          dryness. To check doneness, stab with knife and check for slight pink juices. Remove 
+          lid and cook for additional 15 minutes uncovered to braise and cook bacon. Serve with 
+          sides or alone as a delicious, meaty meal.
         </p>
         <p id="commentSection">Comments</p>
         </div>
