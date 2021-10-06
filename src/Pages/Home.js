@@ -16,7 +16,6 @@ function Home() {
 
     return (
       <div id="homepage">
-        <NavLink to="/debug">Debug</NavLink> 
         <h1>Welcome Home!</h1>
         <h2>To my home, at least </h2>
         <p>Hi! My name is Jillian, and welcome to my website! I am a homespun, happy-go-lucky cook 
