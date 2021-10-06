@@ -8,106 +8,102 @@ import { randomavatar } from "../img/index";
  
 function Recipe20() {
 
-    document.title = "Recipe 20";
+    document.title = "SHE WAS DELICIOUS";
 
     return (
       <div>
         <div id="recipe">
-        <h2>Recipe Name</h2>
-        <h3>September X, 2021 By <NavLink to="/aboutme">Jillian</NavLink>. 0 Comments ↓</h3>
+        <h2>Jillian Anne Evans Tartare</h2>
+        <h3>September X, 2021 By <NavLink to="/aboutme">p r e y</NavLink>. 0 Comments ↓</h3>
         <p> 
-          This is some kind of intro paragraph, get people invested and interested in what you're 
-          cooking. Y'know, like 'this is such a nice season to be cooking or something. I don't 
-          know. Maybe talk about where you got the idea for writing the recipe. It needs to take 
-          up a lot of space like the other paragraphs, so you really gotta stretch what you're 
-          putting in here. Talk about what gave you the idea to write this recipe in the first place, 
-          or talk about where you got it from if it's not exactly 100% yours. If it's one of Mom's 
-          recipes or something, make sure to put a good word in about her here. Remember, you're 
-          supposed to be coping in a healthy way, and making solid attempts to talk about her in a 
-          positive way instead of pretending she's not gone is part of the healing process.
+          Her name was Jillian Anne Evans. She had so much hope, so much ambition. Her little fool, 
+          blind eyes glimmered with hope as she typed out the "About Me", the "Homepage". She made 
+          new friends, and kept in touch with her beloved father. Everything was going up from 
+          there, and her spirits were soaring. What could possibly deter our fearless herione from 
+          her goal of becoming the best and most beloved cooking blogger the world has ever known? 
+          Recipe after recipe she wrote, glowing with the thrill of all the possibilities. How 
+          could she have ever known that lurking in the darkness just beyond her fathoming was 
+          a force more ravenous than anything she could have imagined?
         </p>
         <img width="10%" alt="IMG 1"></img>
         <p>
-          Throw some sentimental nonsense in here. If you have absolutely no connection to the 
-          recipe on a personal level, make one up. Be like "god I remember that one time I ate this 
-          at that one place" or something. Let's be honest, no one will ever read most of this so 
-           there's no reason to write a masterpiece in these paragraphs. I wish people would read 
-           it, but I just know they'll scroll right down and scan the ingredients. Honestly, these 
-           are just little filler thingies to make the pages look more professional. I could just 
-           write a bunch of random words here and no one would care.
+          The weeks wore on. The stress mounted. She started losing track of time as her posting 
+          became more and more frequent. She chalked it up to being tired and pressed onward. 
+          The foolish child. Her posts became more and more erratic, more incoherant. Her friends, 
+          who had supported her at first, became concerned. They expressed their alarmed comments 
+          on her recipes (as they hadn't seen the dear girl for weeks now) but she either couldn't 
+          hear them anymore, or didn't want to. Slowly, she descended further into madness, until 
+          reality and the silent call of the website became a blurred line she couldn't discern. 
+          That was simultaneously the time when she realized she was in danger, and when it was 
+          too late.
         </p>
         <img width="10%" alt="IMG 2"></img>
         <p>
-          This is where you want to talk about the actual cooking. How you did it, what little 
-          tricks you used, and what happened. Don't spend this whole paragraph whining about how 
-          hard it was or something, since Karen and the others are reading this and they'll just 
-          comment about how they wouldn't have had those problems. Sure, Karen. Sure you wouldn't 
-          have. You're just perfect, aren't you. So perfect that you're only struggle is seeing the 
-          obnoxious flaws in other flawed, annoying human beings like your fellow club members. 
-          Why can't you be perfect enough to shut up and stop shoving your snide little opinions 
-          where no one wants them or asked for them. 
+          Then the cooking of her mind began in earnest. She experienced dark dreams, and couldn't 
+          remember falling asleep or waking up. She spent all of her time in her kitchen, and 
+          would suddenly come to conciousness in front of her laptop in the middle of the night. 
+          Or in front of her fridge with the door open. Or with a knife in her hand. She tried to 
+          make it to her door several times, and woke up in the kitchen every time. It was as if 
+          she was trapped. Eventually, she couldn't even see the kitchen anymore. It was just the 
+          website, page after page. The poor little dear couldn't even write posts anymore, she 
+          could only watch as <i>something else</i> wrote them. It whispered in her ears, ate at 
+          her memories and at her sanity. She was so delicious, and finally ready to be consumed.
         </p>
         <img width="10%" alt="IMG 3"></img>
         <p>
-          I guess you could describe this section as like. "Suggestions tips and ideas". I know 
-          that sounds kind of like the section before it, but hey. It's a recipe website. The 
-          website should really just be the ingredients and the instructions. Anything else added 
-          is just some worthless junk to make people think you're some sort of blogging expert and 
-          so you can claim you're one on your resume. I would put stuff like "how to cook with 
-          x ingredient" or "which brand of this is the best in my profession (what a joke) opinion". 
-          If you have absolutely no idea what to put here, just make up some ideas of how to decorate 
-          what ever it is the recipe is about. That way it looks like you had something to say.
+          Jillian was standing in the kitchen, completely lost to the madness. She was holding a 
+          knife in one hand, and had the other set on her laptop keyboard. But the knife was 
+          useless to the being on the website, and it told her to set it down. She did, for she 
+          had no control over her own body anymore. No, knives were just a threat to get her to 
+          behave before it had control. Now that she was obedient, it wouldn't need any tools at 
+          all to do what it wanted her to do. Not at all.
         </p>
         <img width="10%" alt="IMG 4"></img>
         <p>
-          Storing and reheating the recipe! Storage containers picture combined with some tips 
-          about how to do really basic stuff that everyone's mom should have taught them to do when 
-          they were 12, like "don't eat leftovers that have been in the fridge for more than two 
-          weeks" or something to that idea. How it tasted when I had it reheated, which will be a 
-          half-truth depending on how good it actually tasted. If it tasted like freshly minced 
-          garbage or something, just say that it doesn't keep especially well. You can also talk 
-          about how to make whatever it is ahead of time, although sometimes that's a really 
-          terrible idea. 
+          She lifted her hand to her face. Her nails had grown long after many weeks of neglect, 
+          and the ancient in the darkness had her paint them black in a test of her obedience 
+          mere days earlier. They moved towards her face and delved into the meaty softness of 
+          her <i class="doNot">eyes and carved them out. Jillian screamed, but there was no one 
+          to hear her. Her hands moved down to her mouth and she shoved them both in, chewing 
+          up the eyes. Bits of finger flesh squished under her teeth as she gnawed the meat 
+          right off the bone. She pulled her fingers out of her mouth, and realized the blood was 
+          getting too copious. This was fine, the being had accounted for this. She reached for 
+          the kitchen supplies on the counter, wrapping them around dripping fingers and stuffing 
+          them into empty eyesockets. Her little fingers were so delicious. She stuffed her 
+          entire left hand into her mouth, and bit down. The crunch was delectable, and it used her 
+          tongue to lick her lips. More bandages, more stopping the flow. Eventually, the poor 
+          little body gave up, and after several limbs and unspeakable pain, it collapsed into 
+          unconciousness.</i> 
         </p>
         <img width="10%" alt="IMG 5"></img>
         <p>
-          Finally, this is the "oh, all the occasions you'll be using this for" section. Like the 
-          reader can't figure out on their own which occasion to bake cupcakes. Sometimes I read 
-          the other cooking blog/recipe websites and I wonder if the author was completely sane 
-          writing all that they did. Maybe the trick is to just write like the reader is a small 
-          toddler incapable of rational thought. It feels like that's what they're doing sometimes. 
-          This is the reality of trying to live your dream though. You have to not just accept the 
-          parts that are beautiful and fun, but the annoying or ugly parts. That's reality.  
+          And then her miserable human body was gone. Or, well, it had lost so much blood that it 
+          refused to eat anymore. What a shame, a waste of perfectly good meat. It had tasted 
+          exactly how the being had imagined it would. So very raw, so fresh, and so very, very 
+          afraid. It would be more fun when it could devour the entire human, but that would have 
+          to wait for a physical form. For now, this amount of life force would have to suffice.
         </p>
         <h3>Ingredients</h3>
-        <p>Main Recipe ingredients</p>
+        <p>Tartare</p>
         <ul>
-          <li>A single ingredient</li>
-          <li>A single ingredient</li>
-          <li>A single ingredient</li>
-          <li>A single ingredient</li>
-          <li>A single ingredient</li>
-        </ul>
-        <p>Secondary Recipe ingredients</p>
-        <ul>
-          <li>Another ingredient</li>
-          <li>Another ingredient</li>
-          <li>Another ingredient</li>
+          <li>Her Left Eye</li>
+          <li>Her Right Eye</li>
+          <li>Her Left Leg</li>
+          <li>Her Right Leg</li>
+          <li>Her Left Arm</li>
         </ul>
         <p>Instructions</p>
-        <p>First, these are your first instructions. Preheating the oven, doing your mise en place, 
-          that sort of thing. Cutting, chopping, stirring, separating the dry and wet ingredients. 
-
+        <p>First, find a human being that is completely isolated from their peers and family. 
         </p>
-        <p>Second, these are the second set of instructions. 
+        <p>Second, wait until they are at their very weakest, their most vulnerable.
         </p>
-        <p>Next, these are your third set of instructions. 
+        <p>Next, drive them slowly mad so that they think they're just tired or overworked.
         </p>
-        <p>Then, these are your fourth set of instructions. 
+        <p>Then, wait until the madness has set in and is at a peak of disorientation.
         </p>
-        <p>After that, these are your fifth set of instructions. 
+        <p>After that, force them to devour themselves alive with their own body. 
         </p>
-        <p>Finally, these are your final set of ingredients.
+        <p>Finally, eat their soul and gain the power needed to escape the metal world of circuts.
         </p>
         <p id="commentSection">Comments</p>
         </div>

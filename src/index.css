@@ -53,7 +53,6 @@ body {
   text-align: center;
 }
 
-
 /* Recipe CSS */
 
  #recipe img {
@@ -113,6 +112,12 @@ body {
 .correctCheck {
   color:green;
   visibility: hidden;
+}
+
+/* Just Don't */
+.doNot {
+  background-color: #4c2a53;
+  color:#4c2a53;
 }
 
 /* Newspaper Decoration */

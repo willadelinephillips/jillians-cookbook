@@ -34,8 +34,8 @@ function ValewindDaily() {
           rooms were untouched and organized, but the kitchen was bathed in swaths of blood from 
           the body of Miss Evans. Pieces of her were found by officers strewn across the floor, and 
           when detectives attempted to move her for autopsy, it was noted that more than 40% of her 
-          body was completely missing. These missing pieces included both legs, both eyes, several fingers on the 
-          right hand, and her entire left arm. 
+          body was completely missing. These missing pieces included both legs, both eyes, several 
+          fingers on the right hand, and her entire left arm. 
         </p>
         <p>
           Although much of the information concerning the autopsy is still unknown to the public, 
