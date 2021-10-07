@@ -52,6 +52,7 @@ function Debug() {
           <li><i>Alpha 0.7.0 - Recipes Section Complete</i></li>
           <ul><b>
             <li>Fixed Debug Patch List</li>
+            <li>About Me Updated</li>
             </b>
             <i>
             <li>Recipe 1-5</li>
