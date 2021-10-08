@@ -3,20 +3,26 @@ import {
   useRecoilState,
   useRecoilValue
 } from 'recoil';
-import { hideQuestions, potentialpass, potentialuser, username, password, } from '../Recoil/atoms';
+import { 
+  hideQuestions, 
+  potentialpass, 
+  potentialuser, 
+  username, 
+  password, 
+  securityUser } from '../Recoil/atoms';
  
 export function Login() {
     document.title = "Login";
 
     const [passattempt, setPassAttempt] = useRecoilState(potentialpass);
     const [userattempt, setUserAttempt] = useRecoilState(potentialuser);
+    const [security, setSecurity] = useRecoilState(securityUser);
     const user = useRecoilValue(username);
     const pass = useRecoilValue(password);
     const [hideQs, setHideQs] = useRecoilState(hideQuestions);
     const [otherColor,setOtherColor] = useState();
     const [disableInput,setDisableInput] = useState();
     const [showCheck,setShowCheck] = useState();
-
 
     function CheckCorrectness() {
 
@@ -35,6 +41,12 @@ export function Login() {
           console.log("Yeet :/")
       } else {
         console.log("How. How even")
+      }
+    }
+
+    function CheckUser(x) {
+      if(x === "JillianEvans") {
+        setSecurity("revealed");
       }
     }
 
@@ -57,13 +69,17 @@ export function Login() {
 
         <button className="fakeLink" onClick={() => setHideQs('revealed')}>Forgot Password?</button>
 
-        <p>Tester: {userattempt} = {user}, {passattempt} = {pass},</p> 
-
         <div className="securityQuestions">
         <p id="hintsection" className={`${hideQs}`}>
           In order to sign in once your password is forgotten, you must answer your pre-written 
-          security questions. These should be easy to remember, but something that an ordinary 
-          person would not know about you.
+          security questions. Please input your username:
+          <br/>
+          <input type="text" onChange={(event) => CheckUser(event.target.value)}></input>
+          <br/>
+          <span id="securitySection" className={`${security}`}>
+            Question One: What is your favorite TV show?
+            <input type="text"></input>
+          </span>
         </p>
         </div>
       </div>

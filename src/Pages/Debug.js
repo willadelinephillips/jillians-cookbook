@@ -54,6 +54,7 @@ function Debug() {
             <li>Fixed Debug Patch List</li>
             <li>About Me Updated</li>
             <li>Hid Debug</li>
+            <li>Upgraded Login</li>
             </b>
             <i>
             <li>Recipe 1-5</li>
@@ -64,6 +65,14 @@ function Debug() {
           <li><i>Alpha 0.8.0 - Video</i></li>
           <li><i>Alpha 0.9.0 - Endgame Sequence</i></li>
           <li><i>Beta 0.1.0 - Closed Beta, Passcode required</i></li>
+          <li><i>Other
+              <ul>
+                <li>Ouroboros Page</li>  
+                <li>Finish About Me</li>
+                <li>Finish Homepage</li>
+                <li>Finish Login</li>
+                <li>etc</li>
+              </ul></i></li>
         </ul>
  
         <p>Content used in this build:</p>

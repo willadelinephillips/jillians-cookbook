@@ -85,12 +85,10 @@ export function Main() {
             <li id="homelink"><NavLink exact to="/">Home</NavLink></li>
             <li id="aboutlink"><NavLink to="/aboutme">About Me</NavLink></li>
             <li id="recipelink"><NavLink to={`${recipe}`}>Recipes</NavLink></li>
+            <li id="loginlink"><NavLink to="/login">Login</NavLink></li>
             <li id="postslink" className={
         darkness < 20 ? 'hidden' : 'revealed'
       }><NavLink to={`${post}`}>Posts??</NavLink></li>
-            <li id="loginlink" className={
-        darkness >= 100 ? 'revealed' : 'hidden'
-      }><NavLink to="/login">Login</NavLink></li>
       <li><NavLink to="/debug"><b id="debugnav">Debug</b></NavLink></li>
           </ul>
           <div className="content">

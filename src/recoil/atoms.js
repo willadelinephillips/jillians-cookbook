@@ -44,3 +44,7 @@
     key:"potentialpass",
     default:"",
   })
+  export const securityUser = atom({
+    key:"securityUser",
+    default:"hidden",
+  })
