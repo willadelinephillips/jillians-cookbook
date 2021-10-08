@@ -68,6 +68,7 @@ function Debug() {
           <li><i>Beta 0.1.0 - Closed Beta, Passcode required</i></li>
           <li><i>Other
               <ul>
+                <li>Photoshoot</li>
                 <li>Finish About Me</li>
                 <li>Finish Homepage</li>
                 <li>Finish Login</li>
