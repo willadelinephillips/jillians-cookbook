@@ -58,6 +58,7 @@ function Debug() {
             <li>Ouroboros Page</li>
             <li>Recipe 14</li>  
             <li>Recipe 15</li>
+            <li>Recipe 12 IN PROGRESS</li>
             </b>
             <i>
             <li>Recipe 1</li>
@@ -70,7 +71,6 @@ function Debug() {
             <li>Recipe 8</li>
             <li>Recipe 10</li>
             <li>Recipe 11</li>
-            <li>Recipe 12</li>
             <li>Recipe 13</li>
             <li>Do comments on posts</li>
           </i></ul>
