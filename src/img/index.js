@@ -28,6 +28,11 @@ import stewmeat from "./stewmeat.JPG";
 import potatostew from "./potatostew.jpg";
 import donestew from "./donestew.jpg";
 import closerstew from "./closerstew.jpg";
+import seedchallah from "./seedchallah.jpg";
+import challahdough from "./challahdough.jpg";
+import sidechallah from "./sidechallah.jpg";
+import dough from "./dough.jpg";
+import burtchallah from "./burtchallah.jpg";
 
 export {
     randomavatar,
@@ -59,5 +64,10 @@ export {
     stewmeat,
     potatostew,
     donestew,
-    closerstew
+    closerstew,
+    seedchallah,
+    challahdough,
+    sidechallah,
+    dough,
+    burtchallah
 }

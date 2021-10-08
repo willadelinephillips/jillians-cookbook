@@ -4,110 +4,115 @@ import {
 } from "react-router-dom";
 import "../index.css";
 
-import { randomavatar } from "../img/index";
+import { 
+  randomavatar,
+  seedchallah,
+  challahdough,
+  sidechallah,
+  dough,
+  burtchallah
+ } from "../img/index";
  
 function Recipe14() {
 
-    document.title = "Recipe 14";
+    document.title = "At-Home Challah";
 
     return (
       <div>
         <div id="recipe">
-        <h2>Recipe Name</h2>
+        <h2>At-Home Challah</h2>
         <h3>September X, 2021 By <NavLink to="/aboutme">Jillian</NavLink>. 0 Comments ↓</h3>
         <p> 
-          This is some kind of intro paragraph, get people invested and interested in what you're 
-          cooking. Y'know, like 'this is such a nice season to be cooking or something. I don't 
-          know. Maybe talk about where you got the idea for writing the recipe. It needs to take 
-          up a lot of space like the other paragraphs, so you really gotta stretch what you're 
-          putting in here. Talk about what gave you the idea to write this recipe in the first place, 
-          or talk about where you got it from if it's not exactly 100% yours. If it's one of Mom's 
-          recipes or something, make sure to put a good word in about her here. Remember, you're 
-          supposed to be coping in a healthy way, and making solid attempts to talk about her in a 
-          positive way instead of pretending she's not gone is part of the healing process.
+          Wow do I really need to leave the house! It's been a really long time since I stepped 
+          outside, and I think it's time I made a recipe in celebration of my isolation from 
+          society. I know I could leave anytime I wanted to, but there's just so much to do here 
+          and so little time. Plus, the delivery people can just pick up my ingredients from the 
+          store and I don't have to go. It's really helped me plan my recipes out in advance and 
+          spend more time working on the website. Not that the website really needs any more work, 
+          but it could always use more improvements! Especially now that I've decided to take this 
+          whole recipe website thing very seriously and make sure that I give everyone the best 
+          content I can!
         </p>
-        <img width="10%" alt="IMG 1"></img>
+        <img width="50%" src={seedchallah} alt="IMG 1"></img>
         <p>
-          Throw some sentimental nonsense in here. If you have absolutely no connection to the 
-          recipe on a personal level, make one up. Be like "god I remember that one time I ate this 
-          at that one place" or something. Let's be honest, no one will ever read most of this so 
-           there's no reason to write a masterpiece in these paragraphs. I wish people would read 
-           it, but I just know they'll scroll right down and scan the ingredients. Honestly, these 
-           are just little filler thingies to make the pages look more professional. I could just 
-           write a bunch of random words here and no one would care.
+          So what you're looking at today is a bread recipe from my mom's recipe book, something 
+          really old that we've had for generations. I did add the seeds as my own personal touch, 
+          and messed with the baking times until I got what I considered the perfect amount of 
+          brownness and crunch. I know that those factors are up to personal taste, and if you 
+          decide to experiment with the bake times, please let me know down below! I remember 
+          eating these wonderful little baked goodies at huge family gatherings. Someone would 
+          always bring them and the kids would devour them in their entirity before anyone else 
+          could even have a chance. I guess it's the buttery, simple goodness that really 
+          attracts young kids to these, but I promise adults will love them when given the chance 
+          to try one as well.
         </p>
-        <img width="10%" alt="IMG 2"></img>
+        <img width="40%" src={dough} alt="IMG 2"></img>
         <p>
-          This is where you want to talk about the actual cooking. How you did it, what little 
-          tricks you used, and what happened. Don't spend this whole paragraph whining about how 
-          hard it was or something, since Karen and the others are reading this and they'll just 
-          comment about how they wouldn't have had those problems. Sure, Karen. Sure you wouldn't 
-          have. You're just perfect, aren't you. So perfect that you're only struggle is seeing the 
-          obnoxious flaws in other flawed, annoying human beings like your fellow club members. 
-          Why can't you be perfect enough to shut up and stop shoving your snide little opinions 
-          where no one wants them or asked for them. 
+          Kneading dough is always something I've struggled with in the past. My mind goes in so many 
+          places at once, and I just can't sit still long enough to knead it properly. Something 
+          about recently must have really extended my patience though, because I effortlessly zoned 
+          out in the process of pressing my palms into the dough. It must have been how tired I was 
+          or the calming repetitive motion (or a combination of the two) but I don't even remember 
+          most of the kneading process. I just looked down, and it was done. Kneaded to the max. So 
+          maybe, if you're having problems kneading, be really tired? I don't know. 
         </p>
-        <img width="10%" alt="IMG 3"></img>
+        <img width="50%" src={challahdough} alt="IMG 3"></img>
         <p>
-          I guess you could describe this section as like. "Suggestions tips and ideas". I know 
-          that sounds kind of like the section before it, but hey. It's a recipe website. The 
-          website should really just be the ingredients and the instructions. Anything else added 
-          is just some worthless junk to make people think you're some sort of blogging expert and 
-          so you can claim you're one on your resume. I would put stuff like "how to cook with 
-          x ingredient" or "which brand of this is the best in my profession (what a joke) opinion". 
-          If you have absolutely no idea what to put here, just make up some ideas of how to decorate 
-          what ever it is the recipe is about. That way it looks like you had something to say.
+          I highly recommend adding whatever suits your fancy to this recipe, it's really forgiving 
+          when it comes to mix-ins. I personally really like raisins, sesame seeds, and a lot of 
+          butter on the outside, but you can add other dried fruits, nuts, and even some syrups 
+          like maple syrup and honey. Bread is like that, super malleable and easy to understand. 
+          Unlike people. People are confusing. And hard to understand. And a little scary, to be 
+          honest. Very unpredictable. That's why this break from people has been so nice. I don't 
+          have to feel this intense afraid feeling I've been feeling. Like I'm being watched, or 
+          observed. Like I have no control over my own actions. And that even if I went out there 
+          and reached out to everyone, I would feel as alone as I feel now. As trapped.
         </p>
-        <img width="10%" alt="IMG 4"></img>
+        <img width="50%" src={sidechallah} alt="IMG 4"></img>
         <p>
-          Storing and reheating the recipe! Storage containers picture combined with some tips 
-          about how to do really basic stuff that everyone's mom should have taught them to do when 
-          they were 12, like "don't eat leftovers that have been in the fridge for more than two 
-          weeks" or something to that idea. How it tasted when I had it reheated, which will be a 
-          half-truth depending on how good it actually tasted. If it tasted like freshly minced 
-          garbage or something, just say that it doesn't keep especially well. You can also talk 
-          about how to make whatever it is ahead of time, although sometimes that's a really 
-          terrible idea. 
+          But look how beautiful this challah is! Such a wonderful example of what you can do with 
+          just a little bit of dough and hard work. Storing bread is always such a hot topic, since 
+          there are so many family ways to do it. The general suggested way to store bread is under 
+          a nice cloth in a cool place, preferably on your counter in a bread box. We like to have 
+          it in a basket on the counter, covered in a checkered cloth. For some reason, it has to 
+          be checkered. Plaid doesn't work, and is somehow blastphemy. But however you want to do 
+          it will be fine, I'm sure. 
         </p>
-        <img width="10%" alt="IMG 5"></img>
+        <img width="50%" src={burtchallah} alt="IMG 5"></img>
         <p>
-          Finally, this is the "oh, all the occasions you'll be using this for" section. Like the 
-          reader can't figure out on their own which occasion to bake cupcakes. Sometimes I read 
-          the other cooking blog/recipe websites and I wonder if the author was completely sane 
-          writing all that they did. Maybe the trick is to just write like the reader is a small 
-          toddler incapable of rational thought. It feels like that's what they're doing sometimes. 
-          This is the reality of trying to live your dream though. You have to not just accept the 
-          parts that are beautiful and fun, but the annoying or ugly parts. That's reality.  
+          I even burnt a batch, as you can see here. All these gorgeous pictures aren't indicative 
+          of the time it takes me to make and test each one of these. It's hours. Countless hours. 
+          Hours where I lose track of time, and space off into nothingness. I come back to reality 
+          and it's dark outside, late at night. Sometimes, when I come back to conciousness, I'm 
+          holding a kitchen knife. No cutting board, no food to prep. Just a massive knife in my 
+          hand, hovering over the keyboard as I stand in front of my laptop. It's curious, what 
+          I must be thinking in those blank patches. Where do I go? Who do I talk to? 
         </p>
         <h3>Ingredients</h3>
-        <p>Main Recipe ingredients</p>
+        <p>For the Bread</p>
         <ul>
-          <li>A single ingredient</li>
-          <li>A single ingredient</li>
-          <li>A single ingredient</li>
-          <li>A single ingredient</li>
-          <li>A single ingredient</li>
-        </ul>
-        <p>Secondary Recipe ingredients</p>
-        <ul>
-          <li>Another ingredient</li>
-          <li>Another ingredient</li>
-          <li>Another ingredient</li>
+          <li>3 cups flour</li>
+          <li>1 packet instant yeast</li>
+          <li>1/4 cup sugar</li>
+          <li>Pinch salt</li>
+          <li>3 eggs</li>
+          <li>4 tbs butter</li>
+          <li>1/2 cup water</li>
         </ul>
         <p>Instructions</p>
-        <p>First, these are your first instructions. Preheating the oven, doing your mise en place, 
-          that sort of thing. Cutting, chopping, stirring, separating the dry and wet ingredients. 
-
+        <p>First, mix together flour, yeast, sugar, and salt.
         </p>
-        <p>Second, these are the second set of instructions. 
+        <p>Second, mix together the three eggs, butter, and the water. Gradually add flour. 
         </p>
-        <p>Next, these are your third set of instructions. 
+        <p>Next, take the dough mixture and knead until smooth then add a little more flour and cover.
         </p>
-        <p>Then, these are your fourth set of instructions. 
+        <p>Then, let rest for 2 hours in covered container in the oven without heat. Press down 
+          and let rise for another hour.
         </p>
-        <p>After that, these are your fifth set of instructions. 
+        <p>After that, braid dough and pop in the oven for 30-45 minutes at 375F.
         </p>
-        <p>Finally, these are your final set of ingredients.
+        <p>Finally, take out the loaf and sprinkle with whatever you want for toppings (mine had 
+          sesame seeds).
         </p>
         <p id="commentSection">Comments</p>
         </div>
