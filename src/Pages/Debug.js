@@ -55,14 +55,24 @@ function Debug() {
             <li>About Me Updated</li>
             <li>Hid Debug</li>
             <li>Upgraded Login</li>
-            <li>Ouroboros Page</li>  
+            <li>Ouroboros Page</li>
+            <li>Recipe 14</li>  
             <li>Recipe 15</li>
-            <li>Recipe 14</li>
             </b>
             <i>
-            <li>Recipe 1-5</li>
-            <li>Recipe 6-10</li>
-            <li>Recipe 11-15</li>
+            <li>Recipe 1</li>
+            <li>Recipe 2</li>
+            <li>Recipe 3</li>
+            <li>Recipe 4</li>
+            <li>Recipe 5</li>
+            <li>Recipe 6</li>
+            <li>Recipe 7</li>
+            <li>Recipe 8</li>
+            <li>Recipe 9</li>
+            <li>Recipe 10</li>
+            <li>Recipe 11</li>
+            <li>Recipe 12</li>
+            <li>Recipe 13</li>
             <li>Do comments on posts</li>
           </i></ul>
           <li><i>Alpha 0.8.0 - Video</i></li>
