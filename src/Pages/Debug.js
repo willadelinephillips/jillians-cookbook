@@ -56,6 +56,7 @@ function Debug() {
             <li>Hid Debug</li>
             <li>Upgraded Login</li>
             <li>Ouroboros Page</li>  
+            <li>Recipe 15</li>
             </b>
             <i>
             <li>Recipe 1-5</li>

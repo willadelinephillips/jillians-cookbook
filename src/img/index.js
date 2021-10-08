@@ -24,6 +24,10 @@ import moremeat from "./moremeat.jpg";
 import cookedmeat from "./cookedmeat.jpg";
 import humancuts from "./humancuts.jpg";
 import skinhuman from "./skinhuman.jpg";
+import stewmeat from "./stewmeat.JPG";
+import potatostew from "./potatostew.jpg";
+import donestew from "./donestew.jpg";
+import closerstew from "./closerstew.jpg";
 
 export {
     randomavatar,
@@ -51,5 +55,9 @@ export {
     moremeat,
     cookedmeat,
     humancuts,
-    skinhuman
+    skinhuman,
+    stewmeat,
+    potatostew,
+    donestew,
+    closerstew
 }
