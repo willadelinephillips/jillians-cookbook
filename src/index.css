@@ -193,3 +193,10 @@ body {
   margin-left: 1%;
   margin-right: -2%;
 }
+
+/* Ouroboros */
+#ouroboros {
+  font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+  color: rgb(2, 46, 2);
+  background-color: #a8c9b2;
+}

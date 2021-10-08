@@ -17,9 +17,11 @@ export function Login() {
     const [passattempt, setPassAttempt] = useRecoilState(potentialpass);
     const [userattempt, setUserAttempt] = useRecoilState(potentialuser);
     const [security, setSecurity] = useRecoilState(securityUser);
+    const [hideQs, setHideQs] = useRecoilState(hideQuestions);
+
     const user = useRecoilValue(username);
     const pass = useRecoilValue(password);
-    const [hideQs, setHideQs] = useRecoilState(hideQuestions);
+    
     const [otherColor,setOtherColor] = useState();
     const [disableInput,setDisableInput] = useState();
     const [showCheck,setShowCheck] = useState();

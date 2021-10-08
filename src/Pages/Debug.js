@@ -55,6 +55,7 @@ function Debug() {
             <li>About Me Updated</li>
             <li>Hid Debug</li>
             <li>Upgraded Login</li>
+            <li>Ouroboros Page</li>  
             </b>
             <i>
             <li>Recipe 1-5</li>
@@ -67,7 +68,6 @@ function Debug() {
           <li><i>Beta 0.1.0 - Closed Beta, Passcode required</i></li>
           <li><i>Other
               <ul>
-                <li>Ouroboros Page</li>  
                 <li>Finish About Me</li>
                 <li>Finish Homepage</li>
                 <li>Finish Login</li>
