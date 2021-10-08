@@ -16,15 +16,10 @@ function Recipe12() {
         <h2>{document.title}</h2>
         <h3>September X, 2021 By <NavLink to="/aboutme">Jillian</NavLink>. 0 Comments ↓</h3>
         <p> 
-          This is some kind of intro paragraph, get people invested and interested in what you're 
-          cooking. Y'know, like 'this is such a nice season to be cooking or something. I don't 
-          know. Maybe talk about where you got the idea for writing the recipe. It needs to take 
-          up a lot of space like the other paragraphs, so you really gotta stretch what you're 
-          putting in here. Talk about what gave you the idea to write this recipe in the first place, 
-          or talk about where you got it from if it's not exactly 100% yours. If it's one of Mom's 
-          recipes or something, make sure to put a good word in about her here. Remember, you're 
-          supposed to be coping in a healthy way, and making solid attempts to talk about her in a 
-          positive way instead of pretending she's not gone is part of the healing process.
+          I just needed something to spice up my recipe list, and I knew that if I was more 
+          spontaneous then the inspiration will come to me. So this time we're going to do Exciting 
+          Smoothies! No previous recipe, no basis, just my own talent shining through for everyone 
+          to see and enjoy! I can't wait!
         </p>
         <img width="10%" alt="IMG 1"></img>
         <p>

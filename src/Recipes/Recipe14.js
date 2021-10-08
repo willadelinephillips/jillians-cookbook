@@ -20,7 +20,7 @@ function Recipe14() {
     return (
       <div>
         <div id="recipe">
-        <h2>At-Home Challah</h2>
+        <h2>{document.title}</h2>
         <h3>September X, 2021 By <NavLink to="/aboutme">Jillian</NavLink>. 0 Comments ↓</h3>
         <p> 
           Wow do I really need to leave the house! It's been a really long time since I stepped 
