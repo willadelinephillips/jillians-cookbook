@@ -16,7 +16,7 @@ Book Club: Carrey and Karen Rider (mean).
 6- Risky Recipe - 25%
 7- Recipe for Video 1 - Video 1- 30%
 8- "Exotic" recipe - 35%
-9- Template Recipe - Post 2 - 40%
+//9- Template Recipe - Post 2 - 40%
 10- Mom's Recipe that doesn't work - 45%
 11- Friend's recipe miswritten - 50%
 12- Failure Recipe - 55%
