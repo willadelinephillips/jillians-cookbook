@@ -52,7 +52,9 @@ body {
 #homepage {
   text-align: center;
 }
-
+#debugnav {
+  color: rgb(151, 89, 153);
+}
 /* Recipe CSS */
 
  #recipe img {

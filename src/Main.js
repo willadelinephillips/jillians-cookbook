@@ -91,7 +91,7 @@ export function Main() {
             <li id="loginlink" className={
         darkness >= 100 ? 'revealed' : 'hidden'
       }><NavLink to="/login">Login</NavLink></li>
-      <li><NavLink to="/debug">Debug</NavLink> </li>
+      <li><NavLink to="/debug"><b id="debugnav">Debug</b></NavLink></li>
           </ul>
           <div className="content">
             <Switch>

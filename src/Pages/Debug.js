@@ -53,6 +53,7 @@ function Debug() {
           <ul><b>
             <li>Fixed Debug Patch List</li>
             <li>About Me Updated</li>
+            <li>Hid Debug</li>
             </b>
             <i>
             <li>Recipe 1-5</li>
