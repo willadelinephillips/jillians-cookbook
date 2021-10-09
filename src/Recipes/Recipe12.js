@@ -4,7 +4,14 @@ import {
 } from "react-router-dom";
 import "../index.css";
 
-import { randomavatar } from "../img/index";
+import { 
+  karenpfp,
+  smoothieingredients,
+  beforeblending,
+  smoothiefruit,
+  finishedsmoothie,
+  smoothieprofile
+ } from "../img/index";
  
 function Recipe12() {
 
@@ -21,17 +28,13 @@ function Recipe12() {
           Smoothies! No previous recipe, no basis, just my own talent shining through for everyone 
           to see and enjoy! I can't wait!
         </p>
-        <img width="10%" alt="IMG 1"></img>
+        <img width="50%" src={smoothieingredients} alt="IMG 1"></img>
         <p>
-          Throw some sentimental nonsense in here. If you have absolutely no connection to the 
-          recipe on a personal level, make one up. Be like "god I remember that one time I ate this 
-          at that one place" or something. Let's be honest, no one will ever read most of this so 
-           there's no reason to write a masterpiece in these paragraphs. I wish people would read 
-           it, but I just know they'll scroll right down and scan the ingredients. Honestly, these 
-           are just little filler thingies to make the pages look more professional. I could just 
-           write a bunch of random words here and no one would care.
+          I really just grabbed whatever I saw on the grocery store's website. Blueberries, lemons, 
+          limes, and grapefruit. They looked really good, and I was so excited when I saw all the 
+          pretty colors on the cutting board. 
         </p>
-        <img width="10%" alt="IMG 2"></img>
+        <img width="10%" src={beforeblending} alt="IMG 2"></img>
         <p>
           This is where you want to talk about the actual cooking. How you did it, what little 
           tricks you used, and what happened. Don't spend this whole paragraph whining about how 
@@ -42,7 +45,7 @@ function Recipe12() {
           Why can't you be perfect enough to shut up and stop shoving your snide little opinions 
           where no one wants them or asked for them. 
         </p>
-        <img width="10%" alt="IMG 3"></img>
+        <img width="10%" src={smoothiefruit} alt="IMG 3"></img>
         <p>
           I guess you could describe this section as like. "Suggestions tips and ideas". I know 
           that sounds kind of like the section before it, but hey. It's a recipe website. The 
@@ -53,7 +56,7 @@ function Recipe12() {
           If you have absolutely no idea what to put here, just make up some ideas of how to decorate 
           what ever it is the recipe is about. That way it looks like you had something to say.
         </p>
-        <img width="10%" alt="IMG 4"></img>
+        <img width="10%" src={finishedsmoothie} alt="IMG 4"></img>
         <p>
           Storing and reheating the recipe! Storage containers picture combined with some tips 
           about how to do really basic stuff that everyone's mom should have taught them to do when 
@@ -64,7 +67,7 @@ function Recipe12() {
           about how to make whatever it is ahead of time, although sometimes that's a really 
           terrible idea. 
         </p>
-        <img width="10%" alt="IMG 5"></img>
+        <img width="10%" src={smoothieprofile} alt="IMG 5"></img>
         <p>
           Finally, this is the "oh, all the occasions you'll be using this for" section. Like the 
           reader can't figure out on their own which occasion to bake cupcakes. Sometimes I read 
@@ -110,9 +113,11 @@ function Recipe12() {
           <ul className="commentSection">
 
             <li>
-              <img src={randomavatar}alt="random avatar"></img>
-              <p className="username">Jillian - September X, 2021 :</p>
-              <p>Commenting on here myself to see what the comments will look like!</p>
+              <img src={karenpfp} width="6%" alt="random avatar"></img>
+              <p className="username">Karen - September X, 2021 :</p>
+              <p>This is disgusting! I cannot believe you tried it before you made other people 
+                try it! Do you have any taste buds at all?
+              </p>
             </li>
           </ul>
 

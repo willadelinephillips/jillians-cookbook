@@ -33,6 +33,11 @@ import challahdough from "./challahdough.jpg";
 import sidechallah from "./sidechallah.jpg";
 import dough from "./dough.jpg";
 import burtchallah from "./burtchallah.jpg";
+import smoothieingredients from "./smoothieingredients.jpg";
+import smoothiefruit from "./smoothiefruit.jpg";
+import beforeblending from "./beforeblending.jpg";
+import finishedsmoothie from "./finishedsmoothie.jpg";
+import smoothieprofile from "./smoothieprofile.jpg";
 
 export {
     randomavatar,
@@ -69,5 +74,10 @@ export {
     challahdough,
     sidechallah,
     dough,
-    burtchallah
+    burtchallah,
+    smoothieingredients,
+    beforeblending,
+    smoothiefruit,
+    finishedsmoothie,
+    smoothieprofile
 }
