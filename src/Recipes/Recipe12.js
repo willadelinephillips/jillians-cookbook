@@ -34,7 +34,7 @@ function Recipe12() {
           limes, and grapefruit. They looked really good, and I was so excited when I saw all the 
           pretty colors on the cutting board. 
         </p>
-        <img width="10%" src={beforeblending} alt="IMG 2"></img>
+        <img width="50%" src={beforeblending} alt="IMG 2"></img>
         <p>
           This is where you want to talk about the actual cooking. How you did it, what little 
           tricks you used, and what happened. Don't spend this whole paragraph whining about how 
