@@ -80,7 +80,7 @@ function Recipe12() {
         <h3>Ingredients</h3>
         <p>Main Recipe ingredients</p>
         <ul>
-          <li>A single ingredient</li>
+          <li>Lemons</li>
           <li>A single ingredient</li>
           <li>A single ingredient</li>
           <li>A single ingredient</li>
