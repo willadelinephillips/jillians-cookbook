@@ -55,10 +55,10 @@
     default:"#46313C",
   })
   export const darknessFont = atom({
-    key:"darknessColor",
+    key:"darknessFont",
     default:"masqualero, sans-serif",
   })
   export const darknessBackground = atom({
-    key:"darknessColor",
+    key:"darknessBackground",
     default:"#e7d3e6",
   })

@@ -82,7 +82,7 @@ export function Main() {
     
     return (
       
-        <div style={{color: color},{fontFamily: font},{backgroundColor: background}}>
+        <div style={{color: color, fontFamily:font, backgroundColor:background}}>
         <Helmet>
                 <meta charSet="utf-8" />
                 <title>Jillian's Cookbook</title>
