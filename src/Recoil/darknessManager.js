@@ -106,9 +106,7 @@ export function DarknessManager() {
         default:
             setWhichRecipe("Recipe1");
       }
-    
-    console.log(whichPost);
-    console.log(whichRecipe);}
+    }
 
       return (
           <div>
