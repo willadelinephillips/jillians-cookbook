@@ -29,7 +29,8 @@ import {
   Post,
   darknessColor,
   darknessFont,
-  darknessBackground
+  darknessBackground,
+  darknessNavColor
  } from './Recoil/atoms';
 
 //Image paths 
@@ -79,6 +80,7 @@ export function Main() {
     const color = useRecoilValue(darknessColor);
     const font = useRecoilValue (darknessFont);
     const background = useRecoilValue(darknessBackground);
+    const navColor = useRecoilValue(darknessNavColor);
     
     return (
       
@@ -90,7 +92,7 @@ export function Main() {
                 <meta content="A homespun cooking website made from scratch!" property="og:description"></meta>
             </Helmet>
           <h1>Jillian's Cookbook</h1>
-          <ul className="header">
+          <ul className="header" style={{backgroundColor:navColor}}>
             <li id="homelink"><NavLink exact to="/">Home</NavLink></li>
             <li id="aboutlink"><NavLink to="/aboutme">About Me</NavLink></li>
             <li id="recipelink"><NavLink to={`${recipe}`}>Recipes</NavLink></li>

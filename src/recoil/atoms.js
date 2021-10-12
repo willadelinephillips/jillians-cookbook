@@ -62,3 +62,7 @@
     key:"darknessBackground",
     default:"#e7d3e6",
   })
+  export const darknessNavColor = atom({
+    key:"darknessNavColor",
+    default:"rgb(151, 89, 153)"
+  })
