@@ -8,7 +8,8 @@ import {
     Recipe,
     darknessColor,
     darknessFont,
-    darknessBackground
+    darknessBackground,
+    darknessNavColor
  } from './atoms';
 import React from 'react';
   
@@ -20,6 +21,7 @@ export function DarknessManager() {
     const [color, changeColor] = useRecoilState(darknessColor);
     const [font, changeFont] = useRecoilState(darknessFont);
     const [background, changeBackground] = useRecoilState(darknessBackground);
+    const [navBackground, changeNavBackground] = useRecoilState(darknessNavColor);
 
  function manageDarkness() { 
      
@@ -61,7 +63,8 @@ export function DarknessManager() {
             setWhichRecipe("Recipe11");
             changeColor("#290000");
             changeFont("sans-serif")
-            changeBackground("#453030")
+            changeBackground("#820E0E")
+            changeNavBackground("#590B0B");
         break;
         case 50:
             setWhichRecipe("Recipe12");
@@ -112,7 +115,12 @@ export function DarknessManager() {
         <button onClick={() => manageDarkness()}>
           Click to Corrupt - Corruption Percent: {darkness}%
         </button>
-        <p>color = {color} backgroundColor = {background} fontFamily = {font}</p>
+        <p>
+            color = {color} 
+            backgroundColor = {background} 
+            fontFamily = {font} 
+            navBackground = {navBackground}
+        </p>
         </div>
       );
 }
