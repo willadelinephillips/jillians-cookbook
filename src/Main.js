@@ -23,7 +23,12 @@ import {
 import "./index.css";
 
 //Recoil Paths
-import { Corruption, Recipe, Post } from './Recoil/atoms';
+import { 
+  Corruption, 
+  Recipe, 
+  Post,
+  darknessColor,
+ } from './Recoil/atoms';
 
 //Image paths 
 import {
@@ -69,11 +74,11 @@ export function Main() {
 
     const recipe = useRecoilValue(Recipe);
     const post = useRecoilValue(Post);
-    
+    const color = useRecoilValue(darknessColor);
 
     return (
       
-        <div>
+        <div style={{color: color}}>
         <Helmet>
                 <meta charSet="utf-8" />
                 <title>Jillian's Cookbook</title>

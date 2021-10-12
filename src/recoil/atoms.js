@@ -48,3 +48,9 @@
     key:"securityUser",
     default:"hidden",
   })
+
+  //Darkness Aesthetic Controls
+  export const darknessColor = atom({
+    key:"darknessColor",
+    default:"rgb(70, 49, 60)",
+  })
