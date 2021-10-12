@@ -30,33 +30,38 @@ function Recipe12() {
         </p>
         <img width="50%" src={smoothieingredients} alt="IMG 1"></img>
         <p>
-          I really just grabbed whatever I saw on the grocery store's website. Blueberries, lemons, 
-          limes, and grapefruit. They looked really good, and I was so excited when I saw all the 
-          pretty colors on the cutting board. 
+         My mom and I didn't really make smoothies, but my dad and I sure did. It was kinda our 
+         thing, making some makeshift thingy because mom wasn't home and we wanted to do something 
+         creative all on our own. Half the time they were inedible, the other half of the time 
+         they were edible enough to enjoy in front of a game of chess together. I miss that man, 
+         but he needs to learn how to live on his own. Without a nurturing force around all the time 
+         to take care of him. I knew if I stayed there I would just become Mom, and it would start 
+         to be impossible to leave. Then I would just live there with him for years, pretending 
+         that everything was fine. But that's not the kind of cute, wholesome story you want to hear, 
+         dear reader. Suffice to say, I adore smoothies, but haven't made a ton of magical ones 
+         in my past.
         </p>
         <img width="50%" src={beforeblending} alt="IMG 2"></img>
         <p>
-          This is where you want to talk about the actual cooking. How you did it, what little 
-          tricks you used, and what happened. Don't spend this whole paragraph whining about how 
-          hard it was or something, since Karen and the others are reading this and they'll just 
-          comment about how they wouldn't have had those problems. Sure, Karen. Sure you wouldn't 
-          have. You're just perfect, aren't you. So perfect that you're only struggle is seeing the 
-          obnoxious flaws in other flawed, annoying human beings like your fellow club members. 
-          Why can't you be perfect enough to shut up and stop shoving your snide little opinions 
-          where no one wants them or asked for them. 
+          I really just grabbed whatever I saw on the grocery store's website. Blueberries, lemons, 
+          limes, and grapefruit. Apple too. They looked really good, and I was so excited when I saw 
+          all the pretty colors on the cutting board. I diced and diced, and got a lovely little 
+          fruit salad going. It was as bright as I wanted it, but I know that fruit can be pretty 
+          sour so I added a little bit of sugar in the final recipe. I also added ice, because 
+          I'm pretty sure smoothies are supposed to have that. Plus it looked a little pulpy 
+          without it. Not a super duper lot pulpy. Just a lot. So I added the ice. And the sugar. 
+          And I couldn't remember if I added anything else so that's what the recipe is. I think 
+          I might have included some other test runs in the pictures on accident, but you get the 
+          drift. You get my meaning. Y'know. 
         </p>
-        <img width="10%" src={smoothiefruit} alt="IMG 3"></img>
+        <img width="50%" src={smoothiefruit} alt="IMG 3"></img>
         <p>
-          I guess you could describe this section as like. "Suggestions tips and ideas". I know 
-          that sounds kind of like the section before it, but hey. It's a recipe website. The 
-          website should really just be the ingredients and the instructions. Anything else added 
-          is just some worthless junk to make people think you're some sort of blogging expert and 
-          so you can claim you're one on your resume. I would put stuff like "how to cook with 
-          x ingredient" or "which brand of this is the best in my profession (what a joke) opinion". 
-          If you have absolutely no idea what to put here, just make up some ideas of how to decorate 
-          what ever it is the recipe is about. That way it looks like you had something to say.
+          This recipe really does well with anything added, as is the magic of smoothies. You can 
+          a different sweetness instead of the sugar, like maple syrup or honey. You can add different 
+          fruit, different berries, even veggies if you're feeling adventurous. You can add a protein 
+          powder, brown sugar, cocoa powder, even spices. It's really up to how you're feeling 
         </p>
-        <img width="10%" src={finishedsmoothie} alt="IMG 4"></img>
+        <img width="50%" src={finishedsmoothie} alt="IMG 4"></img>
         <p>
           Storing and reheating the recipe! Storage containers picture combined with some tips 
           about how to do really basic stuff that everyone's mom should have taught them to do when 
@@ -67,7 +72,7 @@ function Recipe12() {
           about how to make whatever it is ahead of time, although sometimes that's a really 
           terrible idea. 
         </p>
-        <img width="10%" src={smoothieprofile} alt="IMG 5"></img>
+        <img width="50%" src={smoothieprofile} alt="IMG 5"></img>
         <p>
           Finally, this is the "oh, all the occasions you'll be using this for" section. Like the 
           reader can't figure out on their own which occasion to bake cupcakes. Sometimes I read 
@@ -80,32 +85,18 @@ function Recipe12() {
         <h3>Ingredients</h3>
         <p>Main Recipe ingredients</p>
         <ul>
-          <li>Lemons</li>
-          <li>A single ingredient</li>
-          <li>A single ingredient</li>
-          <li>A single ingredient</li>
-          <li>A single ingredient</li>
-        </ul>
-        <p>Secondary Recipe ingredients</p>
-        <ul>
-          <li>Another ingredient</li>
-          <li>Another ingredient</li>
-          <li>Another ingredient</li>
+          <li>2 Lemons</li>
+          <li>1 Lime</li>
+          <li>1 Cup Blueberries</li>
+          <li>1 Grapefruit</li>
+          <li>4 Apples</li>
+          <li>1 Cup Ice</li>
+          <li>1 Cup Sugar</li>
         </ul>
         <p>Instructions</p>
-        <p>First, these are your first instructions. Preheating the oven, doing your mise en place, 
-          that sort of thing. Cutting, chopping, stirring, separating the dry and wet ingredients. 
-
+        <p>First, dice up all fruit needed and juice all citrus.
         </p>
-        <p>Second, these are the second set of instructions. 
-        </p>
-        <p>Next, these are your third set of instructions. 
-        </p>
-        <p>Then, these are your fourth set of instructions. 
-        </p>
-        <p>After that, these are your fifth set of instructions. 
-        </p>
-        <p>Finally, these are your final set of ingredients.
+        <p>Second, simply blend all the ingredeints in a blender and enjoy!
         </p>
         <p id="commentSection">Comments</p>
         </div>
