@@ -59,6 +59,7 @@ function Debug() {
             <li>Recipe 14</li>  
             <li>Recipe 15</li>
             <li>Recipe 12 IN PROGRESS</li>
+            <li>Color Changing on Darkness Percent</li>
             </b>
             <i>
             <li>Recipe 1</li>
