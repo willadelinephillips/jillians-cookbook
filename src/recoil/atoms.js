@@ -52,7 +52,7 @@
   //Darkness Aesthetic Controls
   export const darknessColor = atom({
     key:"darknessColor",
-    default:"rgb(70, 49, 60)",
+    default:"#46313C",
   })
   export const darknessFont = atom({
     key:"darknessColor",

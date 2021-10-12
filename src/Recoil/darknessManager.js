@@ -55,6 +55,7 @@ export function DarknessManager() {
         break;
         case 45:
             setWhichRecipe("Recipe11");
+            changeColor("#662C40");
         break;
         case 50:
             setWhichRecipe("Recipe12");
@@ -87,8 +88,10 @@ export function DarknessManager() {
         break;
         case 95:
             setWhichPost("Post5");
+            changeColor("#C41616");
         break;
         case 100:
+            //do not put anything here
         break;
         default:
             setWhichRecipe("Recipe1");
@@ -98,8 +101,11 @@ export function DarknessManager() {
     console.log(whichRecipe);}
 
       return (
+          <div>
         <button onClick={() => manageDarkness()}>
           Click to Corrupt - Corruption Percent: {darkness}%
         </button>
+        <p>color = {color} backgroundColor = fontFamily = </p>
+        </div>
       );
 }
