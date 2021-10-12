@@ -4,9 +4,11 @@ import {
   
 import { 
     Corruption,
-    darknessColor,
     Post,
     Recipe,
+    darknessColor,
+    darknessFont,
+    darknessBackground
  } from './atoms';
 import React from 'react';
   
@@ -16,6 +18,8 @@ export function DarknessManager() {
     const [whichPost,setWhichPost] = useRecoilState(Post);
     const [whichRecipe,setWhichRecipe] = useRecoilState(Recipe);
     const [color, changeColor] = useRecoilState(darknessColor);
+    const [font, changeFont] = useRecoilState(darknessFont);
+    const [background, changeBackground] = useRecoilState(darknessBackground);
 
  function manageDarkness() { 
      
@@ -55,7 +59,9 @@ export function DarknessManager() {
         break;
         case 45:
             setWhichRecipe("Recipe11");
-            changeColor("#662C40");
+            changeColor("#290000");
+            changeFont("sans-serif")
+            changeBackground("#453030")
         break;
         case 50:
             setWhichRecipe("Recipe12");
@@ -89,6 +95,7 @@ export function DarknessManager() {
         case 95:
             setWhichPost("Post5");
             changeColor("#C41616");
+            changeFont("'MedievalSharp', cursive")
         break;
         case 100:
             //do not put anything here
@@ -105,7 +112,7 @@ export function DarknessManager() {
         <button onClick={() => manageDarkness()}>
           Click to Corrupt - Corruption Percent: {darkness}%
         </button>
-        <p>color = {color} backgroundColor = fontFamily = </p>
+        <p>color = {color} backgroundColor = {background} fontFamily = {font}</p>
         </div>
       );
 }
