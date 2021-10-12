@@ -28,6 +28,8 @@ import {
   Recipe, 
   Post,
   darknessColor,
+  darknessFont,
+  darknessBackground
  } from './Recoil/atoms';
 
 //Image paths 
@@ -75,10 +77,12 @@ export function Main() {
     const recipe = useRecoilValue(Recipe);
     const post = useRecoilValue(Post);
     const color = useRecoilValue(darknessColor);
-
+    const font = useRecoilValue (darknessFont);
+    const background = useRecoilValue(darknessBackground);
+    
     return (
       
-        <div style={{color: color}}>
+        <div style={{color: color},{fontFamily: font},{backgroundColor: background}}>
         <Helmet>
                 <meta charSet="utf-8" />
                 <title>Jillian's Cookbook</title>

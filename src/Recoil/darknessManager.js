@@ -4,6 +4,7 @@ import {
   
 import { 
     Corruption,
+    darknessColor,
     Post,
     Recipe,
  } from './atoms';
@@ -14,6 +15,7 @@ export function DarknessManager() {
     const [darkness, setDarkness] = useRecoilState(Corruption);
     const [whichPost,setWhichPost] = useRecoilState(Post);
     const [whichRecipe,setWhichRecipe] = useRecoilState(Recipe);
+    const [color, changeColor] = useRecoilState(darknessColor);
 
  function manageDarkness() { 
      
