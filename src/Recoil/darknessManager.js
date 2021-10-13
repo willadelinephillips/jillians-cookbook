@@ -29,6 +29,9 @@ export function DarknessManager() {
         setDarkness((dark) => dark + 5)
     } 
 
+    console.log(whichPost);
+    console.log(whichRecipe);
+
     switch(darkness) {
         case 0: 
             setWhichRecipe("Recipe2");

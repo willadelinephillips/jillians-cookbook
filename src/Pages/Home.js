@@ -34,6 +34,11 @@ function Home() {
         <p>Sorry! This feature is currently unavailable :(</p>
         )}
         <p><NavLink to={`${post}`}>{post}</NavLink></p>
+        <h2>Cupcake Hunt</h2>
+        <p>While you're looking throgh my little recipes, go ahead and go on a cupcake hunt! At 
+          the top of the page, there's a little cupcake counter that keeps track of your collection. 
+          If you get to 20 cupcakes, there may be a special surprise in store.
+        </p>
 
       </div>
     );

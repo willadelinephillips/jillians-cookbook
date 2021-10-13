@@ -36,6 +36,7 @@ import {
 //Image paths 
 import {
   ouroboros,
+  jilliansicon
 } from "./img/index";
 
 import {
@@ -101,6 +102,7 @@ export function Main() {
         darkness < 20 ? 'hidden' : 'revealed'
       }><NavLink to={`${post}`}>Posts??</NavLink></li>
       <li><NavLink to="/debug"><b id="debugnav">Debug</b></NavLink></li>
+      <img width="2%" alt="cupcake!" src={jilliansicon}/>
           </ul>
           <div className="content">
             <Switch>
@@ -137,7 +139,7 @@ export function Main() {
             <Route path="/debug" component={Debug}/>
             </Switch>
           </div>
-          <h5>Made with Ouroboros <NavLink to="/ouroboros"><img width="1%" src={ouroboros} alt="deathinfinite"></img></NavLink></h5>
+          <h5>Made with <NavLink to="/ouroboros"><img width="1%" src={ouroboros} alt="deathinfinite"></img></NavLink>uroboros</h5>
         </div>
     );
   }
