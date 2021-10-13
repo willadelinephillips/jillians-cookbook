@@ -94,11 +94,11 @@ export function Main() {
             </Helmet>
           <h1>Jillian's Cookbook</h1>
           <ul className="header" style={{backgroundColor:navColor}}>
-            <li id="homelink"><NavLink exact to="/">Home</NavLink></li>
-            <li id="aboutlink"><NavLink to="/aboutme">About Me</NavLink></li>
-            <li id="recipelink"><NavLink to={`${recipe}`}>Recipes</NavLink></li>
-            <li id="loginlink"><NavLink to="/login">Login</NavLink></li>
-            <li id="postslink" className={
+            <li><NavLink exact to="/">Home</NavLink></li>
+            <li><NavLink to="/aboutme">About Me</NavLink></li>
+            <li><NavLink to={`${recipe}`}>Recipes</NavLink></li>
+            <li><NavLink to="/login">Login</NavLink></li>
+            <li className={
         darkness < 20 ? 'hidden' : 'revealed'
       }><NavLink to={`${post}`}>Posts??</NavLink></li>
       <li><NavLink to="/debug"><b id="debugnav">Debug</b></NavLink></li>
