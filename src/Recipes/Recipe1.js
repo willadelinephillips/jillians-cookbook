@@ -99,7 +99,7 @@ function Recipe1() {
         <ul>
           <li>Another ingredient</li>
           <li>Another ingredient</li>
-          <li>Another ingredient</li>
+          <li><AddCupcake/></li>
         </ul>
         <p>Instructions</p>
         <p>First, these are your first instructions. Preheating the oven, doing your mise en place, 
