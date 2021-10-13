@@ -56,6 +56,7 @@ ul.header img {
 }
 #debugnav {
   color: rgb(151, 89, 153);
+  cursor: default;
 }
 /* Recipe CSS */
 
@@ -93,6 +94,7 @@ ul.header img {
   visibility: hidden;
   opacity: 0;
   transition: visibility 0s 2s, opacity 2s linear;
+  cursor: default;
 }
 .revealed {
   visibility: visible;
