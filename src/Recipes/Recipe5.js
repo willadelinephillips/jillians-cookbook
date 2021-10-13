@@ -3,6 +3,9 @@ import {
   NavLink,
 } from "react-router-dom";
 import "../index.css";
+import {
+  AddCupcake
+} from "../Recoil/CupcakeAddition";
 
 import { randomavatar } from "../img/index";
  
@@ -86,7 +89,7 @@ function Recipe5() {
           <li>A single ingredient</li>
           <li>A single ingredient</li>
           <li>A single ingredient</li>
-          <li>A single ingredient</li>
+          <li><AddCupcake/></li>
         </ul>
         <p>Secondary Recipe ingredients</p>
         <ul>

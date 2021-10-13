@@ -99,7 +99,7 @@ function Recipe1() {
         <ul>
           <li>Another ingredient</li>
           <li>Another ingredient</li>
-          <li><AddCupcake/></li>
+          <li></li>
         </ul>
         <p>Instructions</p>
         <p>First, these are your first instructions. Preheating the oven, doing your mise en place, 
@@ -124,7 +124,7 @@ function Recipe1() {
             <li>
               <img src={randomavatar}alt="random avatar"></img>
               <p className="username">Jillian - September X, 2021 :</p>
-              <p>Commenting on here myself to see what the comments will look like!</p>
+              <p><AddCupcake/></p>
             </li>
           </ul>
 

@@ -3,6 +3,9 @@ import {
   NavLink,
 } from "react-router-dom";
 import "../index.css";
+import {
+  AddCupcake
+} from "../Recoil/CupcakeAddition";
 
 import { randomavatar } from "../img/index";
  
@@ -69,7 +72,7 @@ function Recipe7() {
           about how to make whatever it is ahead of time, although sometimes that's a really 
           terrible idea. 
         </p>
-        <img width="10%" alt="IMG 5"></img>
+            <AddCupcake/>
         <p>
           Finally, this is the "oh, all the occasions you'll be using this for" section. Like the 
           reader can't figure out on their own which occasion to bake cupcakes. Sometimes I read 

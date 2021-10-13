@@ -5,6 +5,7 @@ import {
 import "../index.css";
 
 import { randomavatar } from "../img/index";
+import { AddCupcake } from "../Recoil/CupcakeAddition";
  
 function Recipe8() {
 
@@ -14,7 +15,7 @@ function Recipe8() {
       <div>
         <div id="recipe">
         <h2>{document.title}</h2>
-        <h3>September X, 2021 By <NavLink to="/aboutme">Jillian</NavLink>. 0 Comments ↓</h3>
+        <h3>September X, 2021 By <NavLink to="/aboutme"><AddCupcake/></NavLink>. 0 Comments ↓</h3>
         <p> 
           This is some kind of intro paragraph, get people invested and interested in what you're 
           cooking. Y'know, like 'this is such a nice season to be cooking or something. I don't 

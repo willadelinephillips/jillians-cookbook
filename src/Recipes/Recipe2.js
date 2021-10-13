@@ -2,7 +2,9 @@ import React from "react";
 import {
   NavLink,
 } from "react-router-dom";
-
+import {
+  AddCupcake
+} from "../Recoil/CupcakeAddition"
 
 //Image Imports 
 import {
@@ -14,6 +16,7 @@ import {
   lemonylemoncake3,
   lemonylemoncake4
 } from "../img/index"
+
 //Style import
 import "../index.css";
  
@@ -115,7 +118,7 @@ function Recipe2() {
               <p className="username">Karen Rider - September X, 2021 :</p>
               <p>Looks just like the one from that book we read last week at club. Inspiration maybe?</p>
             </li>
-
+          <AddCupcake/>
           </ul>
 
       </div>

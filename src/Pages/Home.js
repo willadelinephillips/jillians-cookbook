@@ -39,7 +39,10 @@ function Home() {
         <h2>Cupcake Hunt</h2>
         <p>While you're looking throgh my little recipes, go ahead and go on a cupcake hunt! At 
           the top of the page, there's a little cupcake counter that keeps track of your collection. 
-          If you get to 20 cupcakes, there may be a special surprise in store.
+          If you get to 20 cupcakes, there may be a special surprise in store. (Hint: There are two 
+          on Recipe 1, but one on every single other recipe). To note: If you refresh the page, 
+          your cupcake progress will be deleted and your history will be lost :(. Please don't 
+          refresh the page if at all possible.
         </p>
 
       </div>

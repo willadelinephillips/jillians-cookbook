@@ -3,6 +3,9 @@ import {
   NavLink,
 } from "react-router-dom";
 import "../index.css";
+import {
+  AddCupcake
+} from "../Recoil/CupcakeAddition";
 
 import { randomavatar } from "../img/index";
  
@@ -109,7 +112,7 @@ function Recipe4() {
         </p>
         <p>Finally, these are your final set of ingredients.
         </p>
-        <p id="commentSection">Comments</p>
+        <p id="commentSection">Comments <AddCupcake/></p>
         </div>
 
           <ul className="commentSection">

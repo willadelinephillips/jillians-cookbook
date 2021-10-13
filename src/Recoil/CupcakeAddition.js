@@ -44,6 +44,10 @@ export function AddCupcake() {
 
     console.log(whichPost);
     console.log(whichRecipe);
+    console.log(color);
+    console.log(font);
+    console.log(background);
+    console.log(navBackground);
 
     switch(cupcake) {
         case 1: 
@@ -123,7 +127,7 @@ export function AddCupcake() {
 
       return (
           <div>
-        <img width="3%" src={jilliansicon} alt="cupcake" 
+        <input type="image" width="3%" src={jilliansicon} alt="cupcake" 
           onClick={() => {ManageCupcakes()}}  
           style={{visibility:seeCupcake}}/>
         </div>

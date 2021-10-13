@@ -3,6 +3,9 @@ import {
   NavLink,
 } from "react-router-dom";
 import "../index.css";
+import {
+  AddCupcake
+} from "../Recoil/CupcakeAddition";
 
 import { randomavatar } from "../img/index";
  
@@ -105,7 +108,7 @@ function Recipe6() {
         </p>
         <p>Then, these are your fourth set of instructions. 
         </p>
-        <p>After that, these are your fifth set of instructions. 
+        <p>After that, <AddCupcake/>
         </p>
         <p>Finally, these are your final set of ingredients.
         </p>

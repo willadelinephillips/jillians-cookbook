@@ -1,14 +1,10 @@
 import React from "react";
 import useSound from "use-sound";
 import {
-  useRecoilValue,
-} from 'recoil';
-import {
   NavLink,
 } from "react-router-dom";
 
 import { AddCupcake } from "../Recoil/CupcakeManager.js";
-import { Recipe, Post } from '../Recoil/atoms';
 
 import hmmm from "../Audio/hmmm.mp3";
 import laugh from "../Audio/laugh.mp3";
@@ -17,9 +13,6 @@ function Debug() {
   
   const [playhmmm] = useSound(hmmm);
   const [playlaugh] = useSound(laugh);
-
-  const recipe = useRecoilValue(Recipe);
-  const post = useRecoilValue(Post);
 
     document.title = "Debug";
 
@@ -59,7 +52,8 @@ function Debug() {
             <li>Recipe 14</li>  
             <li>Recipe 15</li>
             <li>Recipe 12 IN PROGRESS</li>
-            <li>Color Changing on Darkness Percent</li>
+            <li>Color Changing on Cupcake Amount</li>
+            <li>Cupcakes implemented! Progression tree success!</li>
             </b>
             <i>
             <li>Recipe 1</li>
@@ -95,9 +89,6 @@ function Debug() {
           <li>Recoil by Facebook</li>
           <li>React by React</li>
         </ul>
-        <br></br>
-        <p>Current Recipe: {recipe}</p>
-        <p>Current Post: {post}</p>
         <br></br>
         <NavLink to="/shewasdelicious">She was Delicious</NavLink>
         <br></br><br></br>

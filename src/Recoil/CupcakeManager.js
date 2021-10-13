@@ -29,9 +29,6 @@ export function AddCupcake() {
         addCupcake((cake) => cake + 1)
     } 
 
-    console.log(whichPost);
-    console.log(whichRecipe);
-
     switch(cupcake) {
         case 1: 
             setWhichRecipe("Recipe2");
@@ -113,12 +110,14 @@ export function AddCupcake() {
         <button onClick={() => manageCupcakes()}>
           Click to Add a Cupcake - Cupcakes: {cupcake}
         </button>
-        <p>
-            color = {color} 
-            backgroundColor = {background} 
-            fontFamily = {font} 
-            navBackground = {navBackground}
-        </p>
+        <ul>
+            <li>WhichRecipe = {whichRecipe}</li>
+            <li>WhichPost = {whichPost}</li>
+            <li>NavBackground = {navBackground}</li>
+            <li>color = {color}</li>
+            <li>backgroundColor = {background}</li>
+            <li>ontFamily = {font}</li>
+        </ul>
         </div>
       );
 }

@@ -3,6 +3,9 @@ import {
   NavLink,
 } from "react-router-dom";
 import "../index.css";
+import {
+  AddCupcake
+} from "../Recoil/CupcakeAddition"
 
 import { randomavatar } from "../img/index";
  
@@ -58,6 +61,7 @@ function Recipe3() {
           If you have absolutely no idea what to put here, just make up some ideas of how to decorate 
           what ever it is the recipe is about. That way it looks like you had something to say.
         </p>
+        <AddCupcake/>
         <img width="10%" alt="IMG 4"></img>
         <p>
           Storing and reheating the recipe! Storage containers picture combined with some tips 
