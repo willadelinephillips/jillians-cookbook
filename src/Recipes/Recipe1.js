@@ -4,11 +4,23 @@ import {
 } from "react-router-dom";
 import "../index.css";
 
-import { randomavatar } from "../img/index";
+//Cupcake
+import {
+  useRecoilState
+} from "recoil"
+import {
+  cupcakes
+} from "../Recoil/atoms"
+
+import { 
+  randomavatar,
+  jilliansicon,
+ } from "../img/index";
  
 function Recipe1() {
 
     document.title = "Recipe 1";
+    const [cupcake, addCupcake] = useRecoilState(cupcakes);
 
     return (
       <div>
@@ -57,6 +69,7 @@ function Recipe1() {
           x ingredient" or "which brand of this is the best in my profession (what a joke) opinion". 
           If you have absolutely no idea what to put here, just make up some ideas of how to decorate 
           what ever it is the recipe is about. That way it looks like you had something to say.
+          <img width="3%" src={jilliansicon} alt="cupcake" onClick={() => addCupcake(1)}/>
         </p>
         <img width="10%" alt="IMG 4"></img>
         <p>
