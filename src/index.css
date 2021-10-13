@@ -31,6 +31,10 @@ body {
     padding: 20px;
     display: inline-block;
   }
+
+ul.header img {
+    margin-bottom:-.5%;
+}
   .content {
     background-color: #FFF;
     padding: 20px;
