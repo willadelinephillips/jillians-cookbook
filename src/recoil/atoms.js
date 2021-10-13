@@ -1,10 +1,4 @@
   import { atom } from "recoil";
-
-  export const Corruption = atom({
-    key: "Corruption",
-    default: 0,
-  });
-
   export const Recipe = atom({
     key:"Recipe",
     default:"Recipe1",
@@ -70,5 +64,5 @@
   //Cupcakes
   export const cupcakes = atom({
     key:"cupcakes",
-    default:"0",
+    default:null,
   })

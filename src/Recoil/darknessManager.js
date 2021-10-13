@@ -3,108 +3,105 @@ import {
   } from 'recoil';
   
 import { 
-    Corruption,
     Post,
     Recipe,
     darknessColor,
     darknessFont,
     darknessBackground,
-    darknessNavColor
+    darknessNavColor,
+    cupcakes
  } from './atoms';
 import React from 'react';
   
 
 export function DarknessManager() {
-    const [darkness, setDarkness] = useRecoilState(Corruption);
     const [whichPost,setWhichPost] = useRecoilState(Post);
     const [whichRecipe,setWhichRecipe] = useRecoilState(Recipe);
     const [color, changeColor] = useRecoilState(darknessColor);
     const [font, changeFont] = useRecoilState(darknessFont);
     const [background, changeBackground] = useRecoilState(darknessBackground);
     const [navBackground, changeNavBackground] = useRecoilState(darknessNavColor);
+    const [cupcake, addCupcake] = useRecoilState(cupcakes);
 
- function manageDarkness() { 
+ function manageCupcakes() { 
      
-    if(darkness < 100) {
-        setDarkness((dark) => dark + 5)
+    if(cupcake < 20) {
+        addCupcake((cake) => cake + 1)
     } 
 
     console.log(whichPost);
     console.log(whichRecipe);
 
-    switch(darkness) {
-        case 0: 
+    switch(cupcake) {
+        case 1: 
             setWhichRecipe("Recipe2");
         break;
-        case 5: 
+        case 2: 
             setWhichRecipe("Recipe3");
         break;
-        case 10:
+        case 3:
             setWhichRecipe("Recipe4");
         break;
-        case 15:
+        case 4:
             setWhichRecipe("Recipe5");
             setWhichPost("Post1");
         break;
-        case 20:
+        case 5:
             setWhichRecipe("Recipe6");
         break;
-        case 25:
+        case 6:
             setWhichRecipe("Recipe7");
         break;
-        case 30:
+        case 7:
             setWhichRecipe("Recipe8");
         break;
-        case 35:
+        case 8:
             setWhichRecipe("Recipe9");
             setWhichPost("Post2");
         break;
-        case 40:
+        case 9:
             setWhichRecipe("Recipe10");
         break;
-        case 45:
+        case 10:
             setWhichRecipe("Recipe11");
             changeColor("#290000");
             changeFont("sans-serif")
             changeBackground("#820E0E")
             changeNavBackground("#590B0B");
         break;
-        case 50:
+        case 11:
             setWhichRecipe("Recipe12");
         break;
-        case 55:
+        case 12:
             setWhichRecipe("Recipe13");
             setWhichPost("Post3");
         break;
-        case 60:
+        case 13:
             setWhichRecipe("Recipe14");
         break;
-        case 65:
+        case 14:
             setWhichRecipe("Recipe15");
         break;
-        case 70:
+        case 15:
             setWhichRecipe("Recipe16");
         break;
-        case 75:
+        case 16:
             setWhichRecipe("Recipe17");
             setWhichPost("Post4");
         break;
-        case 80:
+        case 17:
             setWhichRecipe("Recipe18");
         break;
-        case 85:
+        case 18:
             setWhichRecipe("Recipe19");
         break;
-        case 90:
+        case 19:
             setWhichRecipe("Recipe20");
         break;
-        case 95:
+        case 20:
             setWhichPost("Post5");
             changeColor("#C41616");
             changeFont("'MedievalSharp', cursive")
-        break;
-        case 100:
-            //do not put anything here
         break;
         default:
             setWhichRecipe("Recipe1");
@@ -113,8 +110,8 @@ export function DarknessManager() {
 
       return (
           <div>
-        <button onClick={() => manageDarkness()}>
-          Click to Corrupt - Corruption Percent: {darkness}%
+        <button onClick={() => manageCupcakes()}>
+          Click to Add a Cupcake - Cupcakes: {cupcake}
         </button>
         <p>
             color = {color} 

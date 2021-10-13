@@ -1,18 +1,33 @@
-import React from "react";
+import {React, useState} from "react";
 import {
   NavLink,
 } from "react-router-dom";
 import {
   useRecoilValue,
+  useRecoilState
 } from 'recoil';
-import { Recipe, Post } from '../Recoil/atoms';
+import { 
+  Recipe, 
+  Post,
+  cupcakes } from '../Recoil/atoms';
 
+import useSound from "use-sound";
+import Recording_8 from "../Audio/Recording_8.mp3";
+
+import { 
+  jilliansicon,
+ } from "../img/index";
 
 function Home() {
 
     document.title = "Home";
     const recipe = useRecoilValue(Recipe);
     const post = useRecoilValue(Post);
+
+    // eslint-disable-next-line 
+    const [cupcake, addCupcake] = useRecoilState(cupcakes);
+    const [seeCupcake,unseeCupcake] = useState()
+    const [playevil] = useSound(Recording_8);
 
     return (
       <div id="homepage">
@@ -35,6 +50,9 @@ function Home() {
         )}
         <p><NavLink to={`${post}`}>{post}</NavLink></p>
         <h2>Cupcake Hunt</h2>
+        <img width="3%" src={jilliansicon} alt="cupcake" 
+          onClick={() => {addCupcake((cake) => cake + 1); unseeCupcake("hidden"); playevil()}}  
+          style={{visibility:seeCupcake}}/>
         <p>While you're looking throgh my little recipes, go ahead and go on a cupcake hunt! At 
           the top of the page, there's a little cupcake counter that keeps track of your collection. 
           If you get to 20 cupcakes, there may be a special surprise in store.

@@ -24,7 +24,6 @@ import "./index.css";
 
 //Recoil Paths
 import { 
-  Corruption, 
   Recipe, 
   Post,
   darknessColor,
@@ -75,7 +74,6 @@ import ValewindDaily from "./Pages/ValewindDaily";
  
 export function Main() {
   //Darkness Tracker
-    const darkness = useRecoilValue(Corruption);
 
     const recipe = useRecoilValue(Recipe);
     const post = useRecoilValue(Post);
@@ -101,7 +99,7 @@ export function Main() {
             <li><NavLink to={`${recipe}`}>Recipes</NavLink></li>
             <li><NavLink to="/login">Login</NavLink></li>
             <li className={
-        darkness < 20 ? 'hidden' : 'revealed'
+        cupcakeNumber < 5 ? 'hidden' : 'revealed'
       }><NavLink to={`${post}`}>Posts??</NavLink></li>
       <li><NavLink to="/debug"><b id="debugnav">Debug</b></NavLink></li>
       <li>Cupcakes: {cupcakeNumber}</li>

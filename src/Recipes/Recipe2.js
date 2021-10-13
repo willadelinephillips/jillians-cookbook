@@ -1,4 +1,4 @@
-import React, { Component } from "react";
+import React from "react";
 import {
   NavLink,
 } from "react-router-dom";
@@ -17,11 +17,10 @@ import {
 //Style import
 import "../index.css";
  
-class Recipe2 extends Component {
-  componentDidMount() {
+function Recipe2() {
+
     document.title = "Lemony Lemon Cake";
-  }
-  render() {
+
     return (
       <div>
         <div id="recipe">
@@ -122,6 +121,5 @@ class Recipe2 extends Component {
       </div>
     );
   }
-}
  
 export default Recipe2;
