@@ -1,6 +1,11 @@
+import {React, useState} from "react";
 import {
     useRecoilState,
   } from 'recoil';
+
+import { 
+  jilliansicon,
+} from "../img/index";
   
 import { 
     Post,
@@ -11,10 +16,12 @@ import {
     darknessNavColor,
     cupcakes
  } from './atoms';
-import React from 'react';
+
+import useSound from "use-sound";
+import Recording_8 from "../Audio/Recording_8.mp3";
   
 
-export function DarknessManager() {
+export function AddCupcake() {
     const [whichPost,setWhichPost] = useRecoilState(Post);
     const [whichRecipe,setWhichRecipe] = useRecoilState(Recipe);
     const [color, changeColor] = useRecoilState(darknessColor);
@@ -23,7 +30,13 @@ export function DarknessManager() {
     const [navBackground, changeNavBackground] = useRecoilState(darknessNavColor);
     const [cupcake, addCupcake] = useRecoilState(cupcakes);
 
- function manageCupcakes() { 
+    const [seeCupcake,unseeCupcake] = useState()
+    const [playevil] = useSound(Recording_8);
+
+ function ManageCupcakes() { 
+
+    playevil()
+    unseeCupcake("hidden")
      
     if(cupcake < 20) {
         addCupcake((cake) => cake + 1)
@@ -110,15 +123,9 @@ export function DarknessManager() {
 
       return (
           <div>
-        <button onClick={() => manageCupcakes()}>
-          Click to Add a Cupcake - Cupcakes: {cupcake}
-        </button>
-        <p>
-            color = {color} 
-            backgroundColor = {background} 
-            fontFamily = {font} 
-            navBackground = {navBackground}
-        </p>
+        <img width="3%" src={jilliansicon} alt="cupcake" 
+          onClick={() => {ManageCupcakes()}}  
+          style={{visibility:seeCupcake}}/>
         </div>
       );
 }

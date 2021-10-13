@@ -7,7 +7,7 @@ import {
   NavLink,
 } from "react-router-dom";
 
-import { DarknessManager } from "../Recoil/darknessManager.js";
+import { AddCupcake } from "../Recoil/CupcakeManager.js";
 import { Recipe, Post } from '../Recoil/atoms';
 
 import hmmm from "../Audio/hmmm.mp3";
@@ -101,7 +101,7 @@ function Debug() {
         <br></br>
         <NavLink to="/shewasdelicious">She was Delicious</NavLink>
         <br></br><br></br>
-        <DarknessManager></DarknessManager>
+        <AddCupcake/>
         <br></br>
         <button onClick={playhmmm}>Hmmm?</button>
         <br></br>

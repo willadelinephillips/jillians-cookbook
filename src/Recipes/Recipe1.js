@@ -1,31 +1,20 @@
-import {React, useState} from "react";
+import {React} from "react";
 import {
   NavLink,
 } from "react-router-dom";
 import "../index.css";
+import {
+  AddCupcake
+} from "../Recoil/CupcakeAddition"
 
-//Cupcake
-import {
-  useRecoilState
-} from "recoil"
-import {
-  cupcakes
-} from "../Recoil/atoms";
-import useSound from "use-sound";
-import Recording_8 from "../Audio/Recording_8.mp3";
 
 import { 
   randomavatar,
-  jilliansicon,
  } from "../img/index";
  
 function Recipe1() {
 
     document.title = "Recipe 1";
-    // eslint-disable-next-line 
-    const [cupcake, addCupcake] = useRecoilState(cupcakes);
-    const [seeCupcake,unseeCupcake] = useState()
-    const [playevil] = useSound(Recording_8);
 
     return (
       <div>
@@ -74,9 +63,7 @@ function Recipe1() {
           x ingredient" or "which brand of this is the best in my profession (what a joke) opinion". 
           If you have absolutely no idea what to put here, just make up some ideas of how to decorate 
           what ever it is the recipe is about. That way it looks like you had something to say.
-          <img width="3%" src={jilliansicon} alt="cupcake" 
-          onClick={() => {addCupcake((cake) => cake + 1); unseeCupcake("hidden"); playevil()}}  
-          style={{visibility:seeCupcake}}/>
+          <AddCupcake/>
         </p>
         <img width="10%" alt="IMG 4"></img>
         <p>
