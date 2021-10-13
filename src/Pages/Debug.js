@@ -39,21 +39,25 @@ function Debug() {
               <li>Recipes 16-20</li>
             </ul>
           </li>
+          <li><b>Alpha 0.7.0</b>
+            <ul>
+              <li>Fixed Debug Patch List</li>
+              <li>About Me Updated</li>
+              <li>Hid Debug</li>
+              <li>Upgraded Login</li>
+              <li>Ouroboros Page</li>
+              <li>Recipe 14</li>  
+              <li>Recipe 15</li>
+              <li>Color Changing on Cupcake Amount</li>
+              <li>Cupcakes implemented! Progression tree success!</li>
+            </ul>
+          </li>
         </ul>
         <h4>Upcoming</h4>
         <ul>
-          <li><i>Alpha 0.7.0 - Recipes Section Complete</i></li>
+          <li><i>Alpha 0.7.5</i></li>
           <ul><b>
-            <li>Fixed Debug Patch List</li>
-            <li>About Me Updated</li>
-            <li>Hid Debug</li>
-            <li>Upgraded Login</li>
-            <li>Ouroboros Page</li>
-            <li>Recipe 14</li>  
-            <li>Recipe 15</li>
-            <li>Recipe 12 IN PROGRESS</li>
-            <li>Color Changing on Cupcake Amount</li>
-            <li>Cupcakes implemented! Progression tree success!</li>
+          <li>Recipe 12 IN PROGRESS</li>
             </b>
             <i>
             <li>Recipe 1</li>
