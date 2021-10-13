@@ -66,3 +66,9 @@
     key:"darknessNavColor",
     default:"rgb(151, 89, 153)"
   })
+
+  //Cupcakes
+  export const cupcakes = atom({
+    key:"cupcakes",
+    default:"0",
+  })

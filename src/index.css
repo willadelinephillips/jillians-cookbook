@@ -15,9 +15,10 @@ body {
     font-size: large;
   }
   ul.header li {
-    display: inline;
+    display: inline-block;
     list-style-type: none;
-    margin: 0;
+    color: #FFF;
+    font-weight: bold;
   }
   ul.header {
     padding: 0;

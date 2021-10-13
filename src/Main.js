@@ -30,7 +30,8 @@ import {
   darknessColor,
   darknessFont,
   darknessBackground,
-  darknessNavColor
+  darknessNavColor,
+  cupcakes
  } from './Recoil/atoms';
 
 //Image paths 
@@ -82,6 +83,7 @@ export function Main() {
     const font = useRecoilValue (darknessFont);
     const background = useRecoilValue(darknessBackground);
     const navColor = useRecoilValue(darknessNavColor);
+    const cupcakeNumber = useRecoilValue(cupcakes);
     
     return (
       
@@ -102,6 +104,7 @@ export function Main() {
         darkness < 20 ? 'hidden' : 'revealed'
       }><NavLink to={`${post}`}>Posts??</NavLink></li>
       <li><NavLink to="/debug"><b id="debugnav">Debug</b></NavLink></li>
+      <li>Cupcakes: {cupcakeNumber}</li>
       <img width="2%" alt="cupcake!" src={jilliansicon}/>
           </ul>
           <div className="content">
