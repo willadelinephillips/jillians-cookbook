@@ -1,30 +1,20 @@
-import {React, useState} from "react";
+import {React} from "react";
 import {
   NavLink,
 } from "react-router-dom";
 import "../index.css";
 
-//Cupcake
-import {
-  useRecoilState
-} from "recoil"
-import {
-  cupcakes
-} from "../Recoil/atoms";
-import useSound from "use-sound";
-import Recording_8 from "../Audio/Recording_8.mp3";
 
 import { 
   randomavatar,
-  jilliansicon,
  } from "../img/index";
+
+ import {
+   AddCupcake
+ } from "../Recoil/CupcakeAddition"
  
 export function Recipe9() {
     document.title = "Recipe Template";
-    // eslint-disable-next-line 
-    const [cupcake, addCupcake] = useRecoilState(cupcakes);
-    const [seeCupcake,unseeCupcake] = useState()
-    const [playevil] = useSound(Recording_8);
 
     return (
       <div>
@@ -85,9 +75,7 @@ export function Recipe9() {
           about how to make whatever it is ahead of time, although sometimes that's a really 
           terrible idea. 
         </p>
-        <img width="2%" src={jilliansicon} alt="cupcake" 
-          onClick={() => {addCupcake((cake) => cake + 1); unseeCupcake("hidden"); playevil()}}  
-          style={{visibility:seeCupcake}}/>
+       <div style={{textAlign:"center",}}><AddCupcake/>IMG 5</div>
         <p>
           Finally, this is the "oh, all the occasions you'll be using this for" section. Like the 
           reader can't figure out on their own which occasion to bake cupcakes. Sometimes I read 
