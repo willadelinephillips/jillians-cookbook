@@ -1,6 +1,8 @@
 /* Fonts */
 @import url("https://use.typekit.net/gvm0ikq.css");
 @import url('https://fonts.googleapis.com/css2?family=MedievalSharp&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Lobster&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=IM+Fell+English+SC&display=swap');
 
 /* General CSS */
 
@@ -207,4 +209,18 @@ ul.header img {
   font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
   color: rgb(2, 46, 2);
   background-color: #a8c9b2;
+}
+
+/* Exorcism */
+#exorcism h1 {
+  color:rgb(199, 6, 6);
+  font-family: 'IM Fell English SC', serif;
+}
+#exorcism h2 {
+  color:rgb(199, 6, 6);
+  font-family: 'IM Fell English SC', serif;
+}
+#exorcism p {
+  color: rgb(151, 89, 153);
+  font-family: 'Lobster',cursive;
 }
