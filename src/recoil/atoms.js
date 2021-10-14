@@ -43,6 +43,10 @@
     key:"securityUser",
     default:"hidden",
   })
+  export const showPassword = atom({
+    key:"showPassword",
+    default:"hidden"
+  })
 
   //Darkness Aesthetic Controls
   export const darknessColor = atom({

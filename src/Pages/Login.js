@@ -8,7 +8,8 @@ import {
   potentialpass, 
   potentialuser, 
   username, 
-  password, 
+  password,
+  showPassword, 
   securityUser } from '../Recoil/atoms';
  
 export function Login() {
@@ -18,6 +19,7 @@ export function Login() {
     const [userattempt, setUserAttempt] = useRecoilState(potentialuser);
     const [security, setSecurity] = useRecoilState(securityUser);
     const [hideQs, setHideQs] = useRecoilState(hideQuestions);
+    const [showPass,setShowPass] = useRecoilState(showPassword);
 
     const user = useRecoilValue(username);
     const pass = useRecoilValue(password);
@@ -55,6 +57,7 @@ export function Login() {
     function WinCondition() {
       if (disableInput1 && disableInput2 && disableInput3 ) {
         console.log("U won")
+        setShowPass("visible")
       }
     }
 
@@ -63,54 +66,54 @@ export function Login() {
         <h2>LOGIN</h2>
 
         <div className="signIn">
-          <label for="username" id="usertitle">USERNAME: </label>
+          <label htmlFor="username" id="usertitle">USERNAME: </label>
           <input type="text" readOnly={disableInput} id="username" name="username" onChange={(event) => setUserAttempt(event.target.value)}></input>
           <b className="correctCheck" style={{ visibility:showCheck, }}>✔</b>
 
-          <label for="password" id="userpass">PASSWORD: </label>
+          <label htmlFor="password" id="userpass">PASSWORD: </label>
           <input type="text" style={{backgroundColor: otherColor}} id="password" name="password" onChange={(event) => setPassAttempt(event.target.value)}></input>
           <button onClick={() => CheckCorrectness()} id="submitLogin">Submit</button>
 
           <input type="checkbox" id="rememberme" name="rememberme" value="Yes"></input>
-          <label for="rememberme"> Remember Me</label>
+          <label htmlFor="rememberme"> Remember Me</label>
         </div>
 
         <button className="fakeLink" onClick={() => setHideQs('revealed')}>Forgot Password?</button>
 
         <div className="securityQuestions">
-        <p id="hintsection" className={`${hideQs}`}>
+        <span id="hintsection" className={`${hideQs}`}>
           In order to sign in once your password is forgotten, you must answer your pre-written 
           security questions. Please input your username:
           <br/>
           <input type="text" onChange={(event) => {
               if (event.target.value === "JillianEvans") {setSecurity("revealed");}}}></input>
           <br/>
-          <span id="securitySection" className={`${security}`}>
-            <p>Question One: What is your favorite TV show?
+          <ul id="securitySection" className={`${security}`}>
+            <li>Question One: What is your favorite TV show?
             <input type="text" name="q1" readOnly={disableInput1}
             onChange={(event) => {
               if (event.target.value === "downtonabbey")
                {setDisableInput1(true); setShowCheck1("visible")}}}></input>
             <b className="correctCheck" style={{ visibility:showCheck1, }}>✔</b>
-            </p>
-            <p>Question Two: What is your quest?
+            </li>
+            <li>Question Two: What is your quest?
             <input type="text" name="q2" readOnly={disableInput2}
             onChange={(event) => {
               if (event.target.value === "thegrail") 
                {setDisableInput2(true); setShowCheck2("visible")}}}></input>
             <b className="correctCheck" style={{ visibility:showCheck2, }}>✔</b>
-            </p>
-            <p>Question Three: What is wingspan of an unladen swallow?
+            </li>
+            <li>Question Three: What is wingspan of an unladen swallow?
             <input type="text" name="q3" readOnly={disableInput3}
             onChange={(event) => {
               if (event.target.value === "africanoreuropean")
                {setDisableInput3(true); setShowCheck3("visible")}}}></input>
             <b className="correctCheck" style={{ visibility:showCheck3, }}>✔</b>
-            </p>
+            </li>
             <button onClick={() => {WinCondition()}}>Submit</button>
-          </span>
-
-        </p>
+          </ul>
+          <p className={`${showPass}`}>Congratulations. Your password is: imissyoumom</p>
+        </span>
         </div>
       </div>
     );

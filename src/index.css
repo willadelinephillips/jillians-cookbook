@@ -198,6 +198,10 @@ ul.header img {
   margin-right: -2%;
 }
 
+#securitySection {
+  list-style-type: none;
+}
+
 /* Ouroboros */
 #ouroboros {
   font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
