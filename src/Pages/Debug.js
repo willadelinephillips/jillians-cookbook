@@ -58,6 +58,7 @@ function Debug() {
           <li><i>Alpha 0.7.5</i></li>
           <ul><b>
           <li>Recipe 12 IN PROGRESS</li>
+          <li>Login functional but not written out. Navigates to endgame</li>
             </b>
             <i>
             <li>Recipe 1</li>
@@ -94,7 +95,11 @@ function Debug() {
           <li>React by React</li>
         </ul>
         <br></br>
-        <NavLink to="/shewasdelicious">She was Delicious</NavLink>
+        <h3>Hidden Pages</h3>
+        <ul>
+          <li><NavLink to="/shewasdelicious">She was Delicious</NavLink></li>
+          <li><NavLink to="/exorcism">You cannot remove the eternal</NavLink></li>
+        </ul>
         <br></br><br></br>
         <AddCupcake/>
         <br></br>
