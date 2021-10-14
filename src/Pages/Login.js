@@ -24,12 +24,18 @@ export function Login() {
     
     const [otherColor,setOtherColor] = useState();
     const [disableInput,setDisableInput] = useState();
+    const [disableInput1,setDisableInput1] = useState();
+    const [disableInput2,setDisableInput2] = useState();
+    const [disableInput3,setDisableInput3] = useState();
     const [showCheck,setShowCheck] = useState();
+    const [showCheck1,setShowCheck1] = useState();
+    const [showCheck2,setShowCheck2] = useState();
+    const [showCheck3,setShowCheck3] = useState();
 
     function CheckCorrectness() {
 
      if (user === userattempt) {
-        setDisableInput("true")
+        setDisableInput(true)
         setShowCheck("visible")
      } 
      
@@ -49,9 +55,7 @@ export function Login() {
     function CheckUser(x) {
       if(x === "JillianEvans") {
         setSecurity("revealed");
-      } else if (x === "downtonabbey") {
-
-      }
+      } 
     }
 
     return (
@@ -82,11 +86,23 @@ export function Login() {
           <br/>
           <span id="securitySection" className={`${security}`}>
             <p>Question One: What is your favorite TV show?
-            <input type="text" name="q1"></input></p>
+            <input type="text" name="q1" readOnly={disableInput1}
+            onChange={(event) => {
+              if (event.target.value === "downtonabbey") {setDisableInput1(true); setShowCheck1("visible")}}}></input>
+            <b className="correctCheck" style={{ visibility:showCheck1, }}>✔</b>
+            </p>
             <p>Question Two: What is your quest?
-            <input type="text" name="q2"></input></p>
+            <input type="text" name="q2" readOnly={disableInput2}
+            onChange={(event) => {
+              if (event.target.value === "thegrail") {setDisableInput2(true); setShowCheck2("visible")}}}></input>
+            <b className="correctCheck" style={{ visibility:showCheck2, }}>✔</b>
+            </p>
             <p>Question Three: What is wingspan of an unladen swallow?
-            <input type="text" name="q3"></input></p>
+            <input type="text" name="q3" readOnly={disableInput3}
+            onChange={(event) => {
+              if (event.target.value === "africanoreuropean") {setDisableInput3(true); setShowCheck3("visible")}}}></input>
+            <b className="correctCheck" style={{ visibility:showCheck3, }}>✔</b>
+            </p>
             <button>Submit</button>
           </span>
 
