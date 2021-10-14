@@ -49,6 +49,8 @@ export function Login() {
     function CheckUser(x) {
       if(x === "JillianEvans") {
         setSecurity("revealed");
+      } else if (x === "downtonabbey") {
+
       }
     }
 
@@ -79,9 +81,15 @@ export function Login() {
           <input type="text" onChange={(event) => CheckUser(event.target.value)}></input>
           <br/>
           <span id="securitySection" className={`${security}`}>
-            Question One: What is your favorite TV show?
-            <input type="text"></input>
+            <p>Question One: What is your favorite TV show?
+            <input type="text" name="q1"></input></p>
+            <p>Question Two: What is your quest?
+            <input type="text" name="q2"></input></p>
+            <p>Question Three: What is wingspan of an unladen swallow?
+            <input type="text" name="q3"></input></p>
+            <button>Submit</button>
           </span>
+
         </p>
         </div>
       </div>
