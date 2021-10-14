@@ -104,6 +104,12 @@ ul.header img {
   transition: opacity 2s linear;
 }
 
+.displayNone {
+  display:none;
+}
+.displaySome {
+  display:flex;
+}
 /* Fake Link Creator */
 .fakeLink {
   background: none;
@@ -212,15 +218,26 @@ ul.header img {
 }
 
 /* Exorcism */
-#exorcism h1 {
+.exorcism h1 {
   color:rgb(199, 6, 6);
   font-family: 'IM Fell English SC', serif;
 }
-#exorcism h2 {
+.exorcism h2 {
   color:rgb(199, 6, 6);
   font-family: 'IM Fell English SC', serif;
 }
-#exorcism p {
+.exorcism p {
   color: rgb(151, 89, 153);
   font-family: 'Lobster',cursive;
+}
+.exorcism button {
+  color: rgb(151, 89, 153);
+  font-family: 'Lobster',cursive;
+}
+.exorcism article {
+  background-color: black;
+  display:flex;
+  color:rgb(199, 6, 6);
+  font-family: 'IM Fell English SC', serif;
+  text-align: center;
 }

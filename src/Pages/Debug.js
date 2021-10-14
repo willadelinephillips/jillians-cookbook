@@ -93,6 +93,8 @@ function Debug() {
           <li><a href="https://www.joshwcomeau.com/react/announcing-use-sound-react-hook/" target="_blank" rel="noreferrer">useSound</a> by Josh Comeau</li>
           <li>Recoil by Facebook</li>
           <li>React by React</li>
+          <li><a href="https://www.npmjs.com/package/react-typing-animation" target="_blank" rel="noreferrer">React Typing Animation</a> by AdamjKing3</li>
+          <li><a href="https://www.npmjs.com/package/reactjs-popup" target="_blank" rel="noreferrer">ReactJS Popup</a> by yjose</li>
         </ul>
         <br></br>
         <h3>Hidden Pages</h3>

@@ -71,3 +71,9 @@
     key:"cupcakes",
     default:null,
   })
+
+  //Endgame
+  export const theScream = atom({
+    key:"theScream",
+    default:false
+  })
