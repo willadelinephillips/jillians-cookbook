@@ -31,9 +31,6 @@ export function Login() {
     const [showCheck1,setShowCheck1] = useState();
     const [showCheck2,setShowCheck2] = useState();
     const [showCheck3,setShowCheck3] = useState();
-    const [check1,setCheck1] = useState();
-    const [check2,setCheck2] = useState();
-    const [check3,setCheck3] = useState();
 
     function CheckCorrectness() {
 
@@ -56,7 +53,7 @@ export function Login() {
     }
 
     function WinCondition() {
-      if (check1 && check2 && check3 ) {
+      if (disableInput1 && disableInput2 && disableInput3 ) {
         console.log("U won")
       }
     }
@@ -93,21 +90,21 @@ export function Login() {
             <input type="text" name="q1" readOnly={disableInput1}
             onChange={(event) => {
               if (event.target.value === "downtonabbey")
-               {setDisableInput1(true); setShowCheck1("visible"); setCheck1(true)}}}></input>
+               {setDisableInput1(true); setShowCheck1("visible")}}}></input>
             <b className="correctCheck" style={{ visibility:showCheck1, }}>✔</b>
             </p>
             <p>Question Two: What is your quest?
             <input type="text" name="q2" readOnly={disableInput2}
             onChange={(event) => {
               if (event.target.value === "thegrail") 
-               {setDisableInput2(true); setShowCheck2("visible"); setCheck2(true)}}}></input>
+               {setDisableInput2(true); setShowCheck2("visible")}}}></input>
             <b className="correctCheck" style={{ visibility:showCheck2, }}>✔</b>
             </p>
             <p>Question Three: What is wingspan of an unladen swallow?
             <input type="text" name="q3" readOnly={disableInput3}
             onChange={(event) => {
               if (event.target.value === "africanoreuropean")
-               {setDisableInput3(true); setShowCheck3("visible"); setCheck3(true)}}}></input>
+               {setDisableInput3(true); setShowCheck3("visible")}}}></input>
             <b className="correctCheck" style={{ visibility:showCheck3, }}>✔</b>
             </p>
             <button onClick={() => {WinCondition()}}>Submit</button>
