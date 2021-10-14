@@ -16,7 +16,8 @@ import {
   Login,
   Aboutme,
   Ouroboros,
-  Debug
+  Debug,
+  Exorcism
 } from "./Pages/index.js"
 
 //CSS
@@ -136,6 +137,7 @@ export function Main() {
             <Route path="/Post5" component={Post5}/>
             <Route path="/shewasdelicious" component={ValewindDaily}/>
             <Route path="/ouroboros" component={Ouroboros}/>
+            <Route path="/exorcism" component={Exorcism}/>
             <Route exact path="/" component={Home}/>
             <Route path="/debug" component={Debug}/>
             </Switch>

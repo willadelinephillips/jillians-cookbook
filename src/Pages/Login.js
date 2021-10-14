@@ -11,9 +11,17 @@ import {
   password,
   showPassword, 
   securityUser } from '../Recoil/atoms';
+
+import { useHistory } from "react-router-dom";
  
 export function Login() {
     document.title = "Login";
+
+    const history = useHistory();
+
+    const routeChange = () =>{ 
+      history.push(`exorcism`);
+    }
 
     const [passattempt, setPassAttempt] = useRecoilState(potentialpass);
     const [userattempt, setUserAttempt] = useRecoilState(potentialuser);
@@ -47,16 +55,14 @@ export function Login() {
 
       if (user === userattempt && pass === passattempt) {
           console.log("Yeet!")
+          routeChange()
       } else if (user !== userattempt || pass !== passattempt) {
           console.log("Yeet :/")
-      } else {
-        console.log("How. How even")
-      }
+      } 
     }
 
     function WinCondition() {
       if (disableInput1 && disableInput2 && disableInput3 ) {
-        console.log("U won")
         setShowPass("visible")
       }
     }

@@ -4,6 +4,7 @@ import Login from "./Login.js";
 import ValewindDaily from "./ValewindDaily.js";
 import Ouroboros from "./Ouroboros.js";
 import Debug from "./Debug.js"
+import Exorcism from "./Exorcism.js";
 
 export {
     Aboutme,
@@ -11,5 +12,6 @@ export {
     Login,
     ValewindDaily,
     Ouroboros,
-    Debug
+    Debug,
+    Exorcism
 }
