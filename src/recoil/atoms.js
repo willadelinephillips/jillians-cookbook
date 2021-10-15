@@ -77,3 +77,7 @@
     key:"theScream",
     default:false
   })
+  export const goodEnding = atom({
+    key:"goodEnding",
+    default:false
+  })

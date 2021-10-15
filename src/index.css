@@ -107,9 +107,6 @@ ul.header img {
 .displayNone {
   display:none;
 }
-.displaySome {
-  display:flex;
-}
 /* Fake Link Creator */
 .fakeLink {
   background: none;
@@ -240,4 +237,10 @@ ul.header img {
   color:rgb(199, 6, 6);
   font-family: 'IM Fell English SC', serif;
   text-align: center;
+  font-weight: bold;
+}
+.finalspeech {
+  text-indent: 2%;
+  margin-left: 5%;
+  margin-right: 5%;
 }

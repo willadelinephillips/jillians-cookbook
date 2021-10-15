@@ -31,7 +31,9 @@ import {
   darknessFont,
   darknessBackground,
   darknessNavColor,
-  cupcakes
+  cupcakes,
+  theScream,
+  goodEnding
  } from './Recoil/atoms';
 
 //Image paths 
@@ -83,6 +85,8 @@ export function Main() {
     const background = useRecoilValue(darknessBackground);
     const navColor = useRecoilValue(darknessNavColor);
     const cupcakeNumber = useRecoilValue(cupcakes);
+    const Scream = useRecoilValue(theScream);
+    const Ending = useRecoilValue(goodEnding);
     
     return (
       
@@ -93,19 +97,21 @@ export function Main() {
                 <meta content="Embed Title" property="og:title"></meta>
                 <meta content="A homespun cooking website made from scratch!" property="og:description"></meta>
             </Helmet>
-          <h1>Jillian's Cookbook</h1>
+          {!Scream && (<h1>Jillian's Cookbook</h1>)}
+          {Scream && (<h1 style={{color:"red"}} className='exorcism'>I WILL FIND AND KILL YOU</h1>)}
+          {!Scream && (
           <ul className="header" style={{backgroundColor:navColor}}>
             <li><NavLink exact to="/">Home</NavLink></li>
             <li><NavLink to="/aboutme">About Me</NavLink></li>
             <li><NavLink to={`${recipe}`}>Recipes</NavLink></li>
-            <li><NavLink to="/login">Login</NavLink></li>
+            {!Ending && (<li><NavLink to="/login">Login</NavLink></li>)}
             <li className={
         cupcakeNumber < 5 ? 'hidden' : 'revealed'
       }><NavLink to={`${post}`}>Posts??</NavLink></li>
       <li><NavLink to="/debug"><b id="debugnav">Debug</b></NavLink></li>
       <li>Cupcakes: {cupcakeNumber}</li>
       <img width="2%" alt="cupcake!" src={jilliansicon}/>
-          </ul>
+          </ul> )}
           <div className="content">
             <Switch>
             <Route path="/aboutme" component={Aboutme}/>
