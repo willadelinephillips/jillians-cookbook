@@ -5,6 +5,7 @@ import ValewindDaily from "./ValewindDaily.js";
 import Ouroboros from "./Ouroboros.js";
 import Debug from "./Debug.js"
 import Exorcism from "./Exorcism.js";
+import IndexPage from "./IndexPage.js";
 
 export {
     Aboutme,
@@ -13,5 +14,6 @@ export {
     ValewindDaily,
     Ouroboros,
     Debug,
-    Exorcism
+    Exorcism,
+    IndexPage
 }

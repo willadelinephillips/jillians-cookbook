@@ -17,7 +17,8 @@ import {
   Aboutme,
   Ouroboros,
   Debug,
-  Exorcism
+  Exorcism,
+  IndexPage
 } from "./Pages/index.js"
 
 //CSS
@@ -103,11 +104,12 @@ export function Main() {
           <ul className="header" style={{backgroundColor:navColor}}>
             <li><NavLink exact to="/">Home</NavLink></li>
             <li><NavLink to="/aboutme">About Me</NavLink></li>
-            <li><NavLink to={`${recipe}`}>Recipes</NavLink></li>
+            {Ending && (<li><NavLink to="/indexpage">Recipes and Posts</NavLink></li>)}
+            {!Ending && (<li><NavLink to={`${recipe}`}>Recipes</NavLink></li>)}
             {!Ending && (<li><NavLink to="/login">Login</NavLink></li>)}
-            <li className={
+            {!Ending && (<li className={
         cupcakeNumber < 5 ? 'hidden' : 'revealed'
-      }><NavLink to={`${post}`}>Posts??</NavLink></li>
+      }><NavLink to={`${post}`}>Posts??</NavLink></li>)}
       <li><NavLink to="/debug"><b id="debugnav">Debug</b></NavLink></li>
       <li>Cupcakes: {cupcakeNumber}</li>
       <img width="2%" alt="cupcake!" src={jilliansicon}/>
@@ -146,6 +148,7 @@ export function Main() {
             <Route path="/exorcism" component={Exorcism}/>
             <Route exact path="/" component={Home}/>
             <Route path="/debug" component={Debug}/>
+            <Route path="/indexpage" component={IndexPage}/>
             </Switch>
           </div>
           <h5>Made with <NavLink to="/ouroboros"><img width="1%" src={ouroboros} alt="deathinfinite"></img></NavLink>uroboros</h5>
