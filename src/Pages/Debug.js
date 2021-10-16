@@ -27,7 +27,7 @@ function Debug() {
 
     return (
       <div>
-        <h2>DEBUG- Alpha 0.6.0</h2>
+        <h2>DEBUG- Alpha 0.7.5</h2>
         <p>Debug page for Jillian's Cookbook. Text is added here to see the full extent of the page. 
           Below are samples of working additions that can be controlled across the entire website.
         </p>
