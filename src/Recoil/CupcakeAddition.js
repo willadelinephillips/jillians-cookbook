@@ -1,6 +1,7 @@
 import {React, useState} from "react";
 import {
     useRecoilState,
+    useRecoilValue
   } from 'recoil';
 
 import { 
@@ -14,7 +15,8 @@ import {
     darknessFont,
     darknessBackground,
     darknessNavColor,
-    cupcakes
+    cupcakes,
+    goodEnding
  } from './atoms';
 
 import useSound from "use-sound";
@@ -29,7 +31,7 @@ export function AddCupcake() {
     const [background, changeBackground] = useRecoilState(darknessBackground);
     const [navBackground, changeNavBackground] = useRecoilState(darknessNavColor);
     const [cupcake, addCupcake] = useRecoilState(cupcakes);
-
+    const end = useRecoilValue(goodEnding);
     const [seeCupcake,unseeCupcake] = useState()
     const [playevil] = useSound(Recording_8);
 
@@ -38,7 +40,7 @@ export function AddCupcake() {
     playevil()
     unseeCupcake("hidden")
      
-    if(cupcake < 20) {
+    if(cupcake < 20 && !end) {
         addCupcake((cake) => cake + 1)
     } 
 
