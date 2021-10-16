@@ -59,6 +59,7 @@ function Debug() {
           <ul><b>
           <li>Recipe 12 IN PROGRESS</li>
           <li>Login functional but not written out. Navigates to endgame</li>
+          <li>No cupcake collection on endgame</li>
             </b>
             <i>
             <li>Recipe 1</li>
