@@ -8,6 +8,7 @@ import {
 import {Helmet} from "react-helmet";
 import {
   useRecoilValue,
+  useRecoilState
 } from 'recoil';
 
 // Main Paths
@@ -35,7 +36,8 @@ import {
   cupcakes,
   theScream,
   goodEnding,
-  betaKey
+  betaKey,
+  badEnding
  } from './Recoil/atoms';
 
 //Image paths 
@@ -92,6 +94,7 @@ export function Main() {
     const Scream = useRecoilValue(theScream);
     const Ending = useRecoilValue(goodEnding);
     const key = useRecoilValue(betaKey);
+    const [badEnd,changeEnd] = useRecoilState(badEnding);
 
     const [pop, popUp] = useState(false);
 
@@ -130,9 +133,9 @@ export function Main() {
                 <meta content="Embed Title" property="og:title"></meta>
                 <meta content="A homespun cooking website made from scratch!" property="og:description"></meta>
             </Helmet>
-          {!Scream && (<h1>Jillian's Cookbook</h1>)}
+          {!Scream && !badEnd && (<h1>Jillian's Cookbook</h1>)}
           {Scream && (<h1 style={{color:"red"}} className='exorcism'>I WILL FIND AND KILL YOU</h1>)}
-          {!Scream && (
+          {!Scream && !badEnd && (
           <ul className="header" style={{backgroundColor:navColor}}>
             <li><NavLink exact to="/">Home</NavLink></li>
             <li><NavLink to="/aboutme">About Me</NavLink></li>
@@ -142,6 +145,7 @@ export function Main() {
             {!Ending && (<li className={
         cupcakeNumber < 5 ? 'hidden' : 'revealed'
       }><NavLink to={`${post}`}>Posts??</NavLink></li>)}
+      {badEnd &&( <li><NavLink to='/shewasdelicious' onClick={()=>changeEnd(true)}>shewasdelicious</NavLink></li>)}
       <li><NavLink to="/debug"><b id="debugnav">Debug</b></NavLink></li>
       <li>Cupcakes: {cupcakeNumber}</li>
       <img width="2%" alt="cupcake!" src={jilliansicon}/>

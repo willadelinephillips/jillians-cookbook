@@ -3,6 +3,13 @@ import useSound from "use-sound";
 import {
   NavLink,
 } from "react-router-dom";
+import {
+  useRecoilState
+} from "recoil";
+
+import {
+  badEnding
+} from "../Recoil/atoms"
 
 import { AddCupcake } from "../Recoil/CupcakeManager.js";
 
@@ -13,6 +20,8 @@ function Debug() {
   
   const [playhmmm] = useSound(hmmm);
   const [playlaugh] = useSound(laugh);
+
+  const [badEnd,changeEnd] = useRecoilState(badEnding);
 
     document.title = "Debug";
 
@@ -60,6 +69,8 @@ function Debug() {
           <li>Recipe 12 IN PROGRESS</li>
           <li>Login functional but not written out. Navigates to endgame</li>
           <li>No cupcake collection on endgame</li>
+          <li>Beta key added! Beta access restricted on release</li>
+          <li>Both Endings added!</li>
             </b>
             <i>
             <li>Recipe 1</li>
@@ -77,7 +88,7 @@ function Debug() {
           </i></ul>
           <li><i>Alpha 0.8.0 - Video</i></li>
           <li><i>Alpha 0.9.0 - Endgame Sequence</i></li>
-          <li><i>Beta 0.1.0 - Closed Beta, Passcode required</i></li>
+          <li><i>Beta 0.1.0 - Closed Beta</i></li>
           <li><i>Other
               <ul>
                 <li>Photoshoot</li>
@@ -100,7 +111,8 @@ function Debug() {
         <br></br>
         <h3>Hidden Pages</h3>
         <ul>
-          <li><NavLink to="/shewasdelicious">She was Delicious</NavLink></li>
+          <li><NavLink to='/shewasdelicious' onClick={()=>changeEnd(true)}>shewasdelicious</NavLink></li>
+          Bad Ending = {badEnd}
           <li><NavLink to="/exorcism">You cannot remove the eternal</NavLink></li>
         </ul>
         <br></br><br></br>

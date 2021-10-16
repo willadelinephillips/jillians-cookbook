@@ -82,6 +82,11 @@
     default:false
   })
 
+  export const badEnding = atom({
+    key:"badEnding",
+    default:false
+  })
+
   //Beta Keys
   export const betaKey = atom({
     key:"betaKey",

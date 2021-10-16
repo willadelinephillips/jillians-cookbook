@@ -1,14 +1,22 @@
 import React from "react";
 import {
+  useRecoilState
+} from "recoil"
+import {
   NavLink,
 } from "react-router-dom";
 import "../index.css";
+import {
+  badEnding
+} from "../Recoil/atoms"
 
 import { randomavatar } from "../img/index";
  
 function Recipe20() {
 
     document.title = "SHE WAS DELICIOUS";
+
+    const [badEnd,changeEnd] = useRecoilState(badEnding);
 
     return (
       <div>
@@ -112,8 +120,8 @@ function Recipe20() {
 
             <li>
               <img src={randomavatar}alt="random avatar"></img>
-              <p className="username">Jillian - September X, 2021 :</p>
-              <p>Commenting on here myself to see what the comments will look like!</p>
+              <p className="username">******** - ******* ##, 2021 :</p>
+              <p><NavLink to='/shewasdelicious' onClick={()=>changeEnd(true)}>give up{badEnd}</NavLink></p>
             </li>
           </ul>
 
