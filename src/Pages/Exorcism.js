@@ -67,6 +67,7 @@ function Exorcism() {
     trigger={<button className={`${removeButton}`}>Delete GLUTTONY</button>}
     modal
     nested
+    closeOnDocumentClick={false}
   >
     {close => (
       <div className="modal">

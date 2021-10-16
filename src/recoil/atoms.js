@@ -85,5 +85,5 @@
   //Beta Keys
   export const betaKey = atom({
     key:"betaKey",
-    default:null
+    default:"TVC973TjT9"
   })

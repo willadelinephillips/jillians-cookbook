@@ -1,5 +1,5 @@
 // Utilities 
-import React from "react";
+import {React, useEffect, useState } from "react";
 import {
   Route,
   NavLink,
@@ -34,7 +34,8 @@ import {
   darknessNavColor,
   cupcakes,
   theScream,
-  goodEnding
+  goodEnding,
+  betaKey
  } from './Recoil/atoms';
 
 //Image paths 
@@ -74,6 +75,8 @@ import {
   Post5
 } from "./Posts/index"
 import ValewindDaily from "./Pages/ValewindDaily";
+import Popup from "reactjs-popup";
+import 'reactjs-popup/dist/index.css';
 
  
 export function Main() {
@@ -88,10 +91,39 @@ export function Main() {
     const cupcakeNumber = useRecoilValue(cupcakes);
     const Scream = useRecoilValue(theScream);
     const Ending = useRecoilValue(goodEnding);
+    const key = useRecoilValue(betaKey);
+
+    const [pop, popUp] = useState(false);
+
+    useEffect(() => {
+
+      popUp(true)
+    },[]);
     
     return (
       
         <div style={{color: color, fontFamily:font, backgroundColor:background}}>
+        <Popup
+    open={pop}
+    modal
+    nested
+    closeOnDocumentClick={false}
+  >
+    {close => (
+      <div className="modal">
+        <span>
+            <h2>Welcome to the Jillian's Cookbook beta! Please input your beta key:</h2>
+        </span>
+        <div>
+        <input type="text" name="inputkey"
+            onChange={(event) => {
+              if (event.target.value === `${key}`) 
+               {close(); }}}></input>
+        </div>
+      </div>
+    )}
+  </Popup>
+
         <Helmet>
                 <meta charSet="utf-8" />
                 <title>Jillian's Cookbook</title>
