@@ -48,7 +48,7 @@ function Debug() {
               <li>Recipes 16-20</li>
             </ul>
           </li>
-          <li><b>Alpha 0.7.0</b>
+          <li><b>Alpha 0.7.0</b></li>
             <ul>
               <li>Fixed Debug Patch List</li>
               <li>About Me Updated</li>
@@ -60,17 +60,20 @@ function Debug() {
               <li>Color Changing on Cupcake Amount</li>
               <li>Cupcakes implemented! Progression tree success!</li>
             </ul>
+            <li><b>Alpha 0.7.5</b>
+            <ul>
+            <li>Both Endings added!</li>
+          <li>Login functional but not written out. Navigates to endgame</li>
+          <li>No cupcake collection on endgame</li>
+          <li>Beta key added! Beta access restricted on release</li>
+            </ul>
           </li>
         </ul>
         <h4>Upcoming</h4>
         <ul>
-          <li><i>Alpha 0.7.5</i></li>
+          <li><i>Alpha 0.8.0</i></li>
           <ul><b>
           <li>Recipe 12 IN PROGRESS</li>
-          <li>Login functional but not written out. Navigates to endgame</li>
-          <li>No cupcake collection on endgame</li>
-          <li>Beta key added! Beta access restricted on release</li>
-          <li>Both Endings added!</li>
             </b>
             <i>
             <li>Recipe 1</li>
@@ -86,15 +89,12 @@ function Debug() {
             <li>Recipe 13</li>
             <li>Do comments on posts</li>
           </i></ul>
-          <li><i>Alpha 0.8.0 - Video</i></li>
-          <li><i>Alpha 0.9.0 - Endgame Sequence</i></li>
+          <li><i>Alpha 0.9.0 - Video and Photoshoot</i></li>
           <li><i>Beta 0.1.0 - Closed Beta</i></li>
           <li><i>Other
               <ul>
-                <li>Photoshoot</li>
                 <li>Finish About Me</li>
                 <li>Finish Homepage</li>
-                <li>Finish Login</li>
                 <li>etc</li>
               </ul></i></li>
         </ul>
