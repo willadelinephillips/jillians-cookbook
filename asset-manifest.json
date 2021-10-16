@@ -1,18 +1,20 @@
 {
   "files": {
-    "main.css": "/jillians-cookbook/static/css/main.282799aa.chunk.css",
-    "main.js": "/jillians-cookbook/static/js/main.c86e5df1.chunk.js",
-    "main.js.map": "/jillians-cookbook/static/js/main.c86e5df1.chunk.js.map",
-    "runtime-main.js": "/jillians-cookbook/static/js/runtime-main.83bcb387.js",
-    "runtime-main.js.map": "/jillians-cookbook/static/js/runtime-main.83bcb387.js.map",
-    "static/js/2.2ab43ddf.chunk.js": "/jillians-cookbook/static/js/2.2ab43ddf.chunk.js",
-    "static/js/2.2ab43ddf.chunk.js.map": "/jillians-cookbook/static/js/2.2ab43ddf.chunk.js.map",
-    "static/js/3.914f7ce1.chunk.js": "/jillians-cookbook/static/js/3.914f7ce1.chunk.js",
-    "static/js/3.914f7ce1.chunk.js.map": "/jillians-cookbook/static/js/3.914f7ce1.chunk.js.map",
+    "main.css": "/jillians-cookbook/static/css/main.752dc96d.chunk.css",
+    "main.js": "/jillians-cookbook/static/js/main.8872b62f.chunk.js",
+    "main.js.map": "/jillians-cookbook/static/js/main.8872b62f.chunk.js.map",
+    "runtime-main.js": "/jillians-cookbook/static/js/runtime-main.e6e721ca.js",
+    "runtime-main.js.map": "/jillians-cookbook/static/js/runtime-main.e6e721ca.js.map",
+    "static/css/2.450bcdb5.chunk.css": "/jillians-cookbook/static/css/2.450bcdb5.chunk.css",
+    "static/js/2.92ca0a9a.chunk.js": "/jillians-cookbook/static/js/2.92ca0a9a.chunk.js",
+    "static/js/2.92ca0a9a.chunk.js.map": "/jillians-cookbook/static/js/2.92ca0a9a.chunk.js.map",
+    "static/js/3.1c17b2fb.chunk.js": "/jillians-cookbook/static/js/3.1c17b2fb.chunk.js",
+    "static/js/3.1c17b2fb.chunk.js.map": "/jillians-cookbook/static/js/3.1c17b2fb.chunk.js.map",
     "index.html": "/jillians-cookbook/index.html",
-    "static/css/main.282799aa.chunk.css.map": "/jillians-cookbook/static/css/main.282799aa.chunk.css.map",
-    "static/js/2.2ab43ddf.chunk.js.LICENSE.txt": "/jillians-cookbook/static/js/2.2ab43ddf.chunk.js.LICENSE.txt",
-    "static/js/3.914f7ce1.chunk.js.LICENSE.txt": "/jillians-cookbook/static/js/3.914f7ce1.chunk.js.LICENSE.txt",
+    "static/css/2.450bcdb5.chunk.css.map": "/jillians-cookbook/static/css/2.450bcdb5.chunk.css.map",
+    "static/css/main.752dc96d.chunk.css.map": "/jillians-cookbook/static/css/main.752dc96d.chunk.css.map",
+    "static/js/2.92ca0a9a.chunk.js.LICENSE.txt": "/jillians-cookbook/static/js/2.92ca0a9a.chunk.js.LICENSE.txt",
+    "static/js/3.1c17b2fb.chunk.js.LICENSE.txt": "/jillians-cookbook/static/js/3.1c17b2fb.chunk.js.LICENSE.txt",
     "static/media/Recording_8.da28bbf2.mp3": "/jillians-cookbook/static/media/Recording_8.da28bbf2.mp3",
     "static/media/ancient.1a82e698.jpg": "/jillians-cookbook/static/media/ancient.1a82e698.jpg",
     "static/media/beforeblending.2421799d.jpg": "/jillians-cookbook/static/media/beforeblending.2421799d.jpg",
@@ -55,9 +57,10 @@
     "static/media/thingmouth.f619590f.jpg": "/jillians-cookbook/static/media/thingmouth.f619590f.jpg"
   },
   "entrypoints": [
-    "static/js/runtime-main.83bcb387.js",
-    "static/js/2.2ab43ddf.chunk.js",
-    "static/css/main.282799aa.chunk.css",
-    "static/js/main.c86e5df1.chunk.js"
+    "static/js/runtime-main.e6e721ca.js",
+    "static/css/2.450bcdb5.chunk.css",
+    "static/js/2.92ca0a9a.chunk.js",
+    "static/css/main.752dc96d.chunk.css",
+    "static/js/main.8872b62f.chunk.js"
   ]
 }
