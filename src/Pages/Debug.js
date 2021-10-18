@@ -95,7 +95,6 @@ function Debug() {
               <ul>
                 <li>Finish About Me</li>
                 <li>Finish Homepage</li>
-                <li>etc</li>
               </ul></i></li>
         </ul>
  
